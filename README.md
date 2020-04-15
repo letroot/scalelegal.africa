@@ -1,2 +1,5 @@
 # scalelegal.africa
-Code for scalelegal.africa website
+
+Website for Scale Legal Africa, a legal firm.
+
+Made with ❤ by Cheapmedia Nigeria
