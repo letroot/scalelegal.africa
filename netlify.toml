@@ -1,3 +1,0 @@
-[context.blog]
-  command = "gatsby build"
-  publish = "public"
