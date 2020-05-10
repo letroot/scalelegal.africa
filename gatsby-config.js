@@ -1,33 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Blog :: ScaleLegal Africa`,
+    name: `ScaleLegal Africa`,
+    siteUrl: `https://blog.scalelegal.africa`,
+    description: `The ScaleLegal Africa blog. Scaling and Securing your Business with Legal Insight.`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to the ScaleLegal Africa blog: Scaling and Securing your Business with Legal Insight.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://twitter.com/scalelegal.africa`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/scalelegal.africa`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.linkedin.com/company/scalelegalafrica/`,
       },
     ],
   },
@@ -38,11 +30,18 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        mailchimp: true,
+        authorsPage: false,
         sources: {
           local: true,
           // contentful: true,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: '', // add your MC list endpoint here; see plugin repo for instructions
       },
     },
     {
