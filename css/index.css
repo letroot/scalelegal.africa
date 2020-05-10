@@ -413,7 +413,7 @@ svg:not(:root) {
 
 @media (max-width: 950px) {
   .rect {
-    padding: 25px;
+    padding: 30px;
   }
   .content p {
     width: 100% !important;
