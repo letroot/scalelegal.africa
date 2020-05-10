@@ -3,12 +3,16 @@ module.exports = {
     title: `Blog :: ScaleLegal Africa`,
     name: `ScaleLegal Africa`,
     siteUrl: `https://blog.scalelegal.africa`,
-    description: `The ScaleLegal Africa blog. Scaling and Securing your Business with Legal Insight.`,
+    description: `The ScaleLegal Africa Blog. Scaling and Securing your Business with Legal Insight.`,
     hero: {
-      heading: `Welcome to the ScaleLegal Africa blog: Scaling and Securing your Business with Legal Insight.`,
+      heading: `Welcome to the ScaleLegal Africa Blog. Scaling and Securing your Business with Legal Insight.`,
       maxWidth: 652,
     },
     social: [
+      {
+        name: `facebook`,
+        url: `https://facebook.com/ScaleLegalAfrica`,
+      },
       {
         name: `twitter`,
         url: `https://twitter.com/scalelegal.africa`,
