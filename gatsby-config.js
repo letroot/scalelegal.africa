@@ -38,12 +38,12 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: '', // add your MC list endpoint here; see plugin repo for instructions
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-mailchimp',
+    //   options: {
+    //     endpoint: '', // add your MC list endpoint here; see plugin repo for instructions
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
