@@ -1,8 +1,6 @@
 # The ScaleLegal Blog
 
-### Step 1: Starter installation
-
-### Step 2: Develop & Build
+### Develop & Build
 
 ```sh
 # Run localhost
