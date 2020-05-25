@@ -102,7 +102,7 @@ body {
 }
 
 .landing {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 23.05%, rgba(21, 62, 7, 0) 100%), url('images/cityscape-hero.jpg');
+    background: #175A80;
     top: 0;
     left: 0;
     background-size: cover;
@@ -145,7 +145,6 @@ body {
     }
 }
 
-/*  */
 @media (min-width: 1560px) {
     .container {
         width: 1370px;
@@ -175,9 +174,10 @@ a {
 
 .hero-flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     height: 100%;
+    align-items: center;
 }
 
 #header #site-title .svg-wordmark {
@@ -208,7 +208,7 @@ a {
 }
 
 
-/*
+/* 
 nav#nav-main {
   position: relative;
   margin-left: auto;
@@ -338,6 +338,7 @@ svg:not(:root) {
 
 #main {
     color: white;
+    height: 100%;
 }
 
 #hero {
@@ -366,6 +367,7 @@ svg:not(:root) {
     padding-top: 0.75em;
     font-weight: 200;
     font-size: 0.35em;
+    line-height: 28px;
 }
 
 #hero-button {
@@ -401,6 +403,7 @@ svg:not(:root) {
 
 .rect {
     display: flex;
+    flex-direction: row;
     background-color: #191c1d;
     padding: 120px;
     flex-wrap: wrap !important;
@@ -411,6 +414,7 @@ svg:not(:root) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .card p {
@@ -436,19 +440,24 @@ svg:not(:root) {
 }
 
 #dummy-image {
-    width: 18rem;
-    height: 18rem;
+    width: 270px;
+    height: 270px;
     margin-bottom: 30px;
 }
 
+.details {
+    order: 2;
+    width: 50%;
+}
+
 .content {
-    width: 40%;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 0.025em;
     line-height: 132.7%;
     color: #c2c3c3;
+    width: 40%;
 }
 
 @media (max-width: 1360px) {
@@ -458,19 +467,12 @@ svg:not(:root) {
     }
 }
 
-@media (max-width: 1051px) {
-    .card {
-        margin-top: 100px;
-    }
-}
-
 @media (max-width: 850px) {
     .rect {
         padding: 70px;
     }
     .content {
         width: 100%;
-        margin-top: 180px;
         font-size: 13px;
     }
     .content p {
@@ -494,12 +496,6 @@ svg:not(:root) {
     }
     #hero {
         padding: 12.5rem 0 1rem;
-    }
-    .hero-flex {
-        justify-content: space-around;
-    }
-    .card {
-        margin-top: 100px;
     }
 }
 
@@ -537,8 +533,8 @@ svg:not(:root) {
         justify-content: space-around;
     }
     #dummy-image {
-        width: 18rem;
-        height: 18rem;
+        width: 390px;
+        height: 390px;
         margin-bottom: 30px;
     }
     .content p {
@@ -551,8 +547,9 @@ svg:not(:root) {
         width: 450px;
         top: 320px;
     }
-    .card {
-        margin-top: 100px;
+    #hero-sideimage {
+        height: 100px !important;
+        width: 100px !important;
     }
 }
 
@@ -617,7 +614,7 @@ svg:not(:root) {
     line-height: 100%;
     padding: 15px;
     margin-bottom: 10px;
-    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #bottom-image {
@@ -665,7 +662,7 @@ svg:not(:root) {
 
 .normal-position {
     transition: all 0.4s;
-    height: 15px;
+    height: 25px;
 }
 
 #footer {
