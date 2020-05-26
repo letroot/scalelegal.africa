@@ -107,7 +107,7 @@ body {
       rgba(0, 0, 0, 0.6) 23.05%,
       rgba(21, 62, 7, 0) 100%
     ),
-    url("..assets/images/cityscape-hero.jpg");
+    url("../assets/images/cityscape-hero.jpg");
   top: 0;
   left: 0;
   background-size: cover;
