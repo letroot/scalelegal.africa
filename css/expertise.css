@@ -167,8 +167,7 @@ a {
 
 .container {
     margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
+    margin-left: 120px;
     padding-right: 15px;
 }
 
@@ -504,9 +503,6 @@ svg:not(:root) {
 }
 
 @media (max-width: 510px) {
-    .rect {
-        padding: 30px !important;
-    }
     #footer {
         padding: 80px 20px 50px 20px !important;
     }
@@ -514,11 +510,11 @@ svg:not(:root) {
         width: 100px;
         top: 600px;
     }
-    .hero-flex {
-        padding: 28px;
-    }
     .hero-title {
         font-size: 1.1em !important;
+    }
+    .hero-flex {
+        width: 70%;
     }
     #hero {
         padding: 12.5rem 0 1rem;
@@ -543,7 +539,13 @@ svg:not(:root) {
 
 @media (max-width: 950px) {
     .rect {
-        padding: 60px;
+        padding: 50px !important;
+    }
+    .container {
+        margin-left: 50px !important;
+    }
+    #footer {
+        padding: 80px 20px 50px 50px !important;
     }
     #cards {
         justify-content: space-around;
@@ -685,7 +687,7 @@ svg:not(:root) {
 }
 
 #footer {
-    padding: 80px 40px 50px 70px;
+    padding: 80px 40px 50px 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -693,7 +695,6 @@ svg:not(:root) {
 }
 
 #footer-menu {
-    padding: 0 15px;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
@@ -720,7 +721,7 @@ svg:not(:root) {
 }
 
 #footer-contact {
-    padding: 0 15px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     color: white;

@@ -102,7 +102,7 @@ body {
 }
 
 .landing {
-    background: #175A80;
+    background: #A5B3CC;
     top: 0;
     left: 0;
     background-size: cover;
@@ -207,7 +207,7 @@ a {
 }
 
 
-/*
+/* 
 nav#nav-main {
   position: relative;
   margin-left: auto;
@@ -355,6 +355,10 @@ svg:not(:root) {
     z-index: 2;
 }
 
+.hero-text {
+    width: 50%;
+}
+
 .hero-title {
     font-weight: 300;
     font-size: 1em;
@@ -407,6 +411,33 @@ svg:not(:root) {
     padding: 120px;
     flex-wrap: wrap !important;
     justify-content: space-between;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#team-title {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 104.69%;
+    padding-bottom: 1em;
+    border-bottom: 0.5px solid white;
+}
+
+#team-details {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: 23px;
+    padding-top: 0.6em;
 }
 
 .card {
@@ -467,6 +498,9 @@ svg:not(:root) {
 }
 
 @media (max-width: 850px) {
+    #footer {
+        padding: 80px 20px 50px 70px !important;
+    }
     .content {
         width: 100%;
         font-size: 13px;
@@ -493,12 +527,12 @@ svg:not(:root) {
     #hero {
         padding: 12.5rem 0 1rem;
     }
+    .team-content {
+        width: 100%;
+    }
 }
 
 @media (max-width: 510px) {
-    #footer {
-        padding: 80px 20px 50px 30px !important;
-    }
     #square-motif {
         width: 100px;
         top: 600px;
@@ -532,13 +566,13 @@ svg:not(:root) {
 
 @media (max-width: 950px) {
     .rect {
-        padding: 50px !important;
+        padding: 140px 50px 140px 50px !important;
     }
     .container {
         margin-left: 50px !important;
     }
     #footer {
-        padding: 80px 20px 50px 50px !important;
+        padding: 80px 10px 50px 50px !important;
     }
     #cards {
         justify-content: space-around;
@@ -753,4 +787,16 @@ svg:not(:root) {
 
 #street-cred a {
     color: #c6cbc9;
+}
+
+@media (max-width: 700px) {
+    .details {
+        display: none;
+    }
+}
+
+@media (min-width: 701px) {
+    #under-drop {
+        display: none;
+    }
 }
