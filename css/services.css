@@ -124,7 +124,7 @@ body {
 
 #header .container {
     position: relative;
-    height: 130px;
+    height: 120px;
 }
 
 @media (min-width: 768px) {
@@ -501,17 +501,20 @@ svg:not(:root) {
 
 @media (max-width: 510px) {
     .rect {
-        padding: 50px;
+        padding: 30px !important;
     }
     #footer {
-        padding: 80px 25px 50px 25px !important;
+        padding: 80px 20px 50px 20px !important;
     }
     #square-motif {
         width: 100px;
         top: 600px;
     }
+    .hero-flex {
+        padding: 28px;
+    }
     .hero-title {
-        font-size: 0.6em;
+        font-size: 1.1em !important;
     }
     #hero {
         padding: 12.5rem 0 1rem;
@@ -522,6 +525,15 @@ svg:not(:root) {
         padding-top: 0.75em;
         font-weight: 200;
         font-size: 0.3em;
+    }
+    #hero-sideimage {
+        display: none;
+    }
+    .hero-text {
+        width: 90% !important;
+    }
+    #street-cred {
+        margin-top: 78px !important;
     }
 }
 
