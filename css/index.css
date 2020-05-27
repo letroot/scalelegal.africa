@@ -127,15 +127,9 @@ body {
     height: 120px;
 }
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
 @media (min-width: 1020px) {
     .container {
-        width: 930px;
+        width: 80%;
     }
 }
 
@@ -264,10 +258,12 @@ nav#nav-main ul li a {
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .topnav a {
-        padding-top: 4rem;
-        padding-right: 1rem;
+        padding: 4rem 1rem;
+    }
+    .topnav {
+        margin-left: 25px;
     }
 }
 
