@@ -127,30 +127,6 @@ body {
     height: 120px;
 }
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 1020px) {
-    .container {
-        width: 930px;
-    }
-}
-
-@media (min-width: 1300px) {
-    .container {
-        width: 1130px;
-    }
-}
-
-@media (min-width: 1560px) {
-    .container {
-        width: 1370px;
-    }
-}
-
 a {
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
@@ -261,61 +237,6 @@ nav#nav-main ul li a {
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
-    .topnav a {
-        padding-top: 4rem;
-        padding-right: 1rem;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .topnav a {
-        display: none;
-    }
-    .topnav a.nav-icon {
-        float: right;
-        display: block;
-    }
-    #banner {
-        display: block;
-        position: absolute;
-        top: 2rem;
-        left: 0;
-        z-index: 10;
-    }
-    #banner svg {
-        width: 10.65rem;
-        height: 5.9rem;
-        padding: 1em;
-        background-color: transparent;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .topnav.responsive {
-        position: relative;
-    }
-    .topnav.responsive .nav-icon {
-        position: relative;
-        padding-top: 4rem;
-        padding-right: 1rem;
-        right: 0;
-        top: 0;
-    }
-    .topnav.topnav.responsive a:hover {
-        color: black;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: right;
-        padding: 0.5rem;
-    }
-    .site-img svg {
-        visibility: hidden;
-    }
-}
-
 li {
     list-style: none;
 }
@@ -338,6 +259,18 @@ svg:not(:root) {
 #main {
     color: white;
     height: 100%;
+}
+
+#nav-hrdiv {
+    background-color: transparent;
+    margin: 0 auto;
+    top: 0;
+}
+
+#nav-hr {
+    width: 94%;
+    margin: 0 auto;
+    border-bottom: 0.5px solid white;
 }
 
 #hero {
@@ -387,6 +320,11 @@ svg:not(:root) {
     margin-bottom: 7px;
 }
 
+#hero-sideimage {
+    width: 250px;
+    height: 250px;
+}
+
 #button-text {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
@@ -402,6 +340,20 @@ svg:not(:root) {
     position: absolute;
     right: 0;
     top: 180px;
+}
+
+#body-hrdiv {
+    background-color: #191c1d;
+}
+
+#body-hrdiv2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#body-hrstyle {
+    margin: 0;
+    color: white;
 }
 
 .rect {
@@ -489,117 +441,6 @@ svg:not(:root) {
     line-height: 132.7%;
     color: #c2c3c3;
     width: 40%;
-}
-
-@media (max-width: 1360px) {
-    #square-motif {
-        width: 600px;
-        top: 250px;
-    }
-}
-
-@media (max-width: 850px) {
-    #footer {
-        padding: 80px 20px 50px 70px !important;
-    }
-    .content {
-        width: 100%;
-        font-size: 13px;
-    }
-    .content p {
-        width: 100% !important;
-    }
-    #sub p {
-        width: 90% !important;
-    }
-    #bottom-image {
-        display: none !important;
-    }
-    #b-content {
-        margin-top: 0;
-    }
-    #square-motif {
-        width: 400px;
-        top: 250px;
-    }
-    .hero-title {
-        font-size: 0.8em;
-    }
-    #hero {
-        padding: 12.5rem 0 1rem;
-    }
-    .team-content {
-        width: 100%;
-    }
-}
-
-@media (max-width: 510px) {
-    #square-motif {
-        width: 100px;
-        top: 600px;
-    }
-    .hero-title {
-        font-size: 1.1em !important;
-    }
-    .hero-flex {
-        width: 70%;
-    }
-    #hero {
-        padding: 12.5rem 0 1rem;
-    }
-    .hero-subtitle {
-        letter-spacing: -0.01em;
-        font-family: 'Inter', sans-serif;
-        padding-top: 0.75em;
-        font-weight: 200;
-        font-size: 0.3em;
-    }
-    #hero-sideimage {
-        display: none;
-    }
-    .hero-text {
-        width: 90% !important;
-    }
-    #street-cred {
-        margin-top: 78px !important;
-    }
-}
-
-@media (max-width: 950px) {
-    .rect {
-        padding: 140px 50px 140px 50px !important;
-    }
-    .container {
-        margin-left: 50px !important;
-    }
-    #footer {
-        padding: 80px 10px 50px 50px !important;
-    }
-    #cards {
-        justify-content: space-around;
-    }
-    #dummy-image {
-        width: 390px;
-        height: 390px;
-        margin-bottom: 30px;
-    }
-    .content p {
-        width: 100% !important;
-    }
-    .content {
-        font-size: 13px;
-    }
-    #square-motif {
-        width: 450px;
-        top: 320px;
-    }
-    #hero-sideimage {
-        height: 150px !important;
-        width: 150px !important;
-    }
-    .hero-text {
-        width: 70%;
-    }
 }
 
 .content p {
@@ -790,6 +631,92 @@ svg:not(:root) {
     color: #c6cbc9;
 }
 
+@media (max-width: 374px) {
+    #dummy-image {
+        height: 17em !important;
+        width: 17em !important;
+    }
+    #hero {
+        padding: 6.5rem 0 1rem !important;
+    }
+    #footer-2 {
+        margin-left: 25px !important;
+    }
+    #street-cred {
+        margin-top: 58px !important;
+    }
+}
+
+@media (max-width: 510px) {
+    .rect {
+        padding: 70px 30px 70px 30px !important;
+    }
+    #footer {
+        padding: 80px 30px 50px 30px !important;
+    }
+    .container {
+        padding-left: 0 !important;
+        margin-left: 20px !important;
+    }
+    .content {
+        width: 100%;
+        font-size: 13px;
+    }
+    #square-motif {
+        display: none;
+    }
+    .hero-flex {
+        width: 90%;
+    }
+    .hero-title {
+        font-size: 0.6em !important;
+    }
+    #hero {
+        padding: 8.5rem 0 1rem;
+    }
+    .hero-subtitle {
+        letter-spacing: -0.01em;
+        font-family: "Inter", sans-serif;
+        padding-top: 0.75em;
+        font-weight: 200;
+        font-size: 0.25em;
+        width: 80% !important;
+    }
+    #hero-sideimage {
+        display: none;
+    }
+    .hero-text {
+        width: 90% !important;
+    }
+    #street-cred {
+        margin-top: 66px;
+    }
+    #dummy-image {
+        height: 19em;
+        width: 19em;
+    }
+    #cards {
+        padding: 0;
+        width: 100%;
+    }
+    #hero-button {
+        font-size: 9px;
+        border-radius: 8px;
+        height: 30px;
+        width: 140px;
+        margin-bottom: 6px;
+    }
+    
+    #button-text {
+        font-size: 9px;
+        line-height: 11px;
+        width: 60%;
+    }
+    .team-content {
+        width: 100%;
+    }
+}
+
 @media (max-width: 700px) {
     .details {
         display: none;
@@ -799,5 +726,179 @@ svg:not(:root) {
 @media (min-width: 701px) {
     #under-drop {
         display: none;
+    }
+}
+
+@media (min-width: 750px) {
+    .topnav {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+    .topnav {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .nav-icon {
+        position: relative;
+        padding-top: 4rem;
+        padding-right: 1rem;
+        right: 0;
+        top: 0;
+    }
+    .topnav.topnav.responsive a:hover {
+        color: black;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+        padding: 0.5rem;
+    }
+    .site-img svg {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav a.nav-icon {
+        float: right;
+        display: block;
+    }
+    #banner {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        left: 0;
+        z-index: 10;
+    }
+    #banner svg {
+        width: 10.65rem;
+        height: 5.9rem;
+        padding: 1em;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 850px) {
+    .content {
+        width: 100%;
+        font-size: 13px;
+    }
+    .content p {
+        width: 100% !important;
+    }
+    #sub p {
+        width: 90% !important;
+    }
+    #bottom-image {
+        display: none !important;
+    }
+    #b-content {
+        margin-top: 0;
+    }
+    #square-motif {
+        width: 400px;
+        top: 250px;
+    }
+    .hero-title {
+        font-size: 0.8em;
+    }
+    #hero {
+        padding: 12.5rem 0 1rem;
+    }
+    .hero-flex {
+        justify-content: space-around;
+    }
+    .card {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 950px) {
+    .rect {
+        padding: 70px 50px 70px 50px;
+    }
+    .container {
+        margin-left: 50px;
+    }
+    #footer {
+        padding: 80px 20px 50px 50px;
+    }
+    #cards {
+        justify-content: space-around;
+    }
+    #dummy-image {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+    .content p {
+        width: 100% !important;
+    }
+    .content {
+        font-size: 13px;
+    }
+    #square-motif {
+        width: 450px;
+        top: 320px;
+    }
+    #hero-sideimage {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .hero-text {
+        width: 70%;
+    }
+}
+@media (min-width: 1020px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .topnav a {
+        padding: 4rem 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #footer-contact {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 1051px) {
+    .card {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        width: 1130px;
+    }
+}
+
+@media (max-width: 1360px) {
+    #square-motif {
+        width: 600px;
+        top: 250px;
+    }
+}
+
+@media (min-width: 1560px) {
+    .container {
+        width: 1370px;
     }
 }
