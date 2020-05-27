@@ -368,6 +368,7 @@ svg:not(:root) {
     padding-top: 0.75em;
     font-weight: 200;
     font-size: 0.35em;
+    width: 70%;
 }
 
 #hero-button {
@@ -422,6 +423,7 @@ svg:not(:root) {
     font-size: 15px;
     margin-bottom: 20px;
     letter-spacing: 0.3px;
+    width: 70%;
 }
 
 .card button {
@@ -503,36 +505,40 @@ svg:not(:root) {
 }
 
 @media (max-width: 510px) {
+    .rect {
+        padding: 70px 30px 70px 30px !important;
+    }
+    #footer {
+        padding: 80px 30px 50px 30px !important;
+    }
     .container {
         padding-left: 0 !important;
+        margin-left: 20px !important;
     }
     .content {
         width: 100%;
         margin-top: 140px;
         font-size: 13px;
     }
-    #footer {
-        padding: 80px 20px 50px 20px !important;
-    }
     #square-motif {
-        width: 100px;
-        top: 600px;
+        display: none;
     }
     .hero-flex {
-        width: 80%;
+        width: 90%;
     }
     .hero-title {
-        font-size: 0.7em !important;
+        font-size: 0.5em !important;
     }
     #hero {
-        padding: 12.5rem 0 1rem;
+        padding: 8.5rem 0 1rem;
     }
     .hero-subtitle {
         letter-spacing: -0.01em;
         font-family: "Inter", sans-serif;
         padding-top: 0.75em;
         font-weight: 200;
-        font-size: 0.3em;
+        font-size: 0.25em;
+        width: 80% !important;
     }
     #hero-sideimage {
         display: none;
@@ -544,31 +550,60 @@ svg:not(:root) {
         margin-top: 78px !important;
     }
     #dummy-image {
-        height: 19em !important;
-        width: 19em !important;
+        height: 19em;
+        width: 19em;
     }
     #cards {
         padding: 0;
         width: 100%;
     }
+    #hero-button {
+        font-size: 9px;
+        border-radius: 8px;
+        height: 30px;
+        width: 140px;
+        margin-bottom: 6px;
+    }
+    
+    #button-text {
+        font-size: 9px;
+        line-height: 11px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 374px) {
+    #dummy-image {
+        height: 17em !important;
+        width: 17em !important;
+    }
+    #hero {
+        padding: 6.5rem 0 1rem;
+    }
+    #footer-2 {
+        margin-left: 25px !important;
+    }
+    #street-cred {
+        margin-top: 58px !important;
+    }
 }
 
 @media (max-width: 950px) {
     .rect {
-        padding: 70px 50px 70px 50px !important;
+        padding: 70px 50px 70px 50px;
     }
     .container {
-        margin-left: 50px !important;
+        margin-left: 50px;
     }
     #footer {
-        padding: 80px 20px 50px 50px !important;
+        padding: 80px 20px 50px 50px;
     }
     #cards {
         justify-content: space-around;
     }
     #dummy-image {
-        width: 320px;
-        height: 320px;
+        width: 280px;
+        height: 280px;
         margin-bottom: 30px;
     }
     .content p {
