@@ -360,6 +360,7 @@ svg:not(:root) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: min-content;
 }
 
 .card p {
@@ -394,6 +395,7 @@ svg:not(:root) {
 #image-hr {
     border-bottom: 1px solid white;
     margin-bottom: 20px;
+    width: fit-content;
 }
 
 .content {
