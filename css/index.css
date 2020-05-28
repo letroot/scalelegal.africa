@@ -102,7 +102,7 @@ body {
 }
 
 .landing {
-    background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0.6) 23.05%, rgba(21, 62, 7, 0) 100%), url("../assets/images/cityscape-hero.jpg");
+    background-image: linear-gradient(180deg, rgba(25, 28, 29, 0.42) 99.99%, rgba(21, 62, 7, 0) 100%), url("../assets/images/cityscape-hero.jpg");
     top: 0;
     left: 0;
     background-size: cover;
