@@ -154,7 +154,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    width: 60%;
 }
 
 #header #site-title .svg-wordmark {
@@ -215,6 +214,12 @@ nav#nav-main ul li a {
     overflow: hidden;
     z-index: 1030;
     margin-left: auto;
+}
+
+#nav-logo {
+    width: 10.65rem;
+    height: 5.9rem;
+    padding-bottom: 1em;
 }
 
 .topnav a {
@@ -287,6 +292,10 @@ svg:not(:root) {
 #hero .container {
     position: relative;
     z-index: 2;
+}
+
+.hero-text {
+    width: 68%;
 }
 
 .hero-title {
@@ -610,6 +619,12 @@ svg:not(:root) {
     #street-cred {
         margin-top: 58px !important;
     }
+    .hero-flex {
+        width: 100% !important;
+    }
+    .hero-subtitle {
+        width: 85% !important;
+    }
 }
 
 @media (max-width: 510px) {
@@ -645,7 +660,7 @@ svg:not(:root) {
         font-family: "Inter", sans-serif;
         padding-top: 0.75em;
         font-weight: 200;
-        font-size: 0.25em;
+        font-size: 0.25em !important;
         width: 80% !important;
     }
     #hero-sideimage {
@@ -672,7 +687,6 @@ svg:not(:root) {
         width: 140px;
         margin-bottom: 6px;
     }
-    
     #button-text {
         font-size: 9px;
         line-height: 11px;
@@ -712,8 +726,13 @@ svg:not(:root) {
         text-align: right;
         padding: 0.5rem;
     }
-    .site-img svg {
+    .site-img #nav-logo {
         visibility: hidden;
+    }
+    #bannerlogo {
+        width: 10.65rem;
+        height: 5.9rem;
+        padding: 1em;
     }
 }
 
@@ -809,7 +828,22 @@ svg:not(:root) {
         width: 150px !important;
     }
     .hero-text {
-        width: 70%;
+        width: 68%;
+    }
+    .hero-subtitle {
+        font-size: 0.3em;
+    }
+    #hero-button {
+        font-size: 10px;
+        border-radius: 8px;
+        height: 40px;
+        width: 150px;
+        margin-bottom: 8px;
+    }
+    #button-text {
+        font-size: 10px;
+        line-height: 11px;
+        width: 50%;
     }
 }
 @media (min-width: 1020px) {
