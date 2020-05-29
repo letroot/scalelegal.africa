@@ -355,7 +355,24 @@
     </div>
 
     <script>
+
+        function removeActive(name) {
+            var active_class = document.getElementsByClassName(name);
+            if(active_class.length > 0){
+                for(var i = 0; i < active_class.length; i++){
+                    active_class[i].classList.remove(name)
+                }
+            }
+        }
+
         function dropfunction(id, arrow, id2, open) {
+
+
+            if(!document.getElementById(id2).getAttribute("class").includes("show")){
+                removeActive("bold")
+                removeActive("rotate")
+                removeActive("show")
+            }
 
             document.getElementById(open).classList.toggle("bold");
             document.getElementById(arrow).classList.toggle("rotate");
