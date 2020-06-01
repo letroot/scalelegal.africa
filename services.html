@@ -1,554 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/services.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Libre+Franklin:ital,wght@0,400;0,500;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Libre+Franklin:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png" />
     <title>ScaleLegal Africa :: The African Legal Firm for Entrepreneurs</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="landing">
-      <div id="banner">
-        <a href="https://scalelegal.africa" rel="home">
-          <span class="sr-only">ScaleLegal</span>
-          <img src="assets/company-logo.svg" alt="" id="bannerlogo" />
-        </a>
-      </div>
-
-      <header id="header">
-        <div class="container">
-          <div class="header-inner">
-            <div id="site-title" class="site-img">
-              <a href="https://scalelegal.africa" rel="home">
+        <div id="banner">
+            <a href="https://scalelegal.africa" rel="home">
                 <span class="sr-only">ScaleLegal</span>
-                <img src="assets/company-logo.svg" alt="" id="nav-logo" />
-              </a>
-            </div>
-            <nav class="topnav" id="nav-main">
-              <a
-                href="javascript:void(0);"
-                class="nav-icon"
-                onclick="dropDown()"
-              >
-                <img src="assets/menu-bars.png" alt="menu" id="menu-bars" />
-              </a>
-              <a href="#about-us" class="has-mega">About</a>
+                <img src="assets/company-logo.svg" alt="" id="bannerlogo" />
+            </a>
+        </div>
 
-              <a href="#our-services" class="has-mega">Our Services</a>
+        <header id="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div id="site-title" class="site-img">
+                        <a href="https://scalelegal.africa" rel="home">
+                            <span class="sr-only">ScaleLegal</span>
+                            <img src="assets/company-logo.svg" alt="" id="nav-logo" />
+                        </a>
+                    </div>
+                    <nav class="topnav" id="nav-main">
+                        <a href="javascript:void(0);" class="nav-icon" onclick="dropDown()">
+                            <img src="assets/menu-bars.png" alt="menu" id="menu-bars" />
+                        </a>
+                        <a href="about.html" class="has-mega">About</a>
 
-              <a href="#experience" class="has-mega">Experience</a>
+                        <a href="services.html" class="has-mega">Our Services</a>
 
-              <a href="#team" class="has-mega">The Team</a>
+                        <a href="expertise.html" class="has-mega">Our Expertise</a>
 
-              <a href="https://blog.scalelegal.africa" class="has-mega">Blog</a>
-            </nav>
-          </div>
-          <!--
+                        <a href="team.html" class="has-mega">The Team</a>
+
+                        <a href="https://blog.scalelegal.africa" class="has-mega">Blog</a>
+                    </nav>
+                </div>
+                <!--
                 <button id="nav-toggle" type="button" class>
                     <i></i>
                     <i></i>
                     <span class="sr-only">Menu</span>
                  </button>
                 -->
-        </div>
-        <div id="nav-hrdiv">
-          <div id="nav-hr"></div>
-        </div>
-      </header>
-
-      <main id="main">
-        <section id="hero">
-          <div class="container hero-flex">
-            <div class="hero-text">
-              <p class="hero-title">
-                Our Services
-              </p>
-              <p class="hero-subtitle">
-                Secure and scale your business with a trusted and
-                result-oriented legal partner with a professional grasp of your
-                entrepreneurial pursuits.
-              </p>
             </div>
-
-            <div>
-              <img
-                src="assets/images/service-image.png"
-                alt=""
-                id="hero-sideimage"
-              />
+            <div id="nav-hrdiv">
+                <div id="nav-hr"></div>
             </div>
-          </div>
-        </section>
-        <!-- <img src="images/square-motif.svg" alt="" id="square-motif"> -->
-      </main>
+        </header>
+
+        <main id="main">
+            <section id="hero">
+                <div class="container hero-flex">
+                    <div class="hero-text">
+                        <p class="hero-title">
+                            Our Services
+                        </p>
+                        <p class="hero-subtitle">
+                            Secure and scale your business with a trusted and
+                            result-oriented legal partner with a professional grasp of your
+                            entrepreneurial pursuits.
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/service-image.png" alt="" id="hero-sideimage" />
+                    </div>
+                </div>
+            </section>
+            <!-- <img src="images/square-motif.svg" alt="" id="square-motif"> -->
+        </main>
     </div>
 
     <div class="rect" id="our-services">
-      <div class="content">
-        <div class="menu-items">
-          <div class="item">
-            <p id="open">Subscripton Packs</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown', 'arrow', 'under-drop', 'open')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow"
-                  class="normal-position"
-                />
-              </button>
+        <div class="content">
+            <div class="menu-items">
+                <div class="item">
+                    <p id="open">Subscripton Packs</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown', 'arrow', 'under-drop', 'open')" class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dropdown-content" id="under-drop">
+                    <p id="sub-drop">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                        labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                        mollitia tempora neque consectetur molestiae non odit odio quidem,
+                        dolores pariatur dignissimos exercitationem.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p id="open-1">Registration Services</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown-1', 'arrow-1', 'under-drop-1', 'open-1')"
+                            class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow-1" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dropdown-content" id="under-drop-1">
+                    <p id="sub-drop">
+                        We offer a wide range of registration services with government and
+                        regulatory agencies, international institutions and many more.
+                        <br />
+                        <br />
+                        <strong>
+                            Registrations, Incorporation & Post-Incorporation Filings with
+                            Corporate Affairs Commission
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Intellectual Property Rights (IPR) Registrations & Recordal
+                            Services
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Immigration Registration Services
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Registration with NOTAP, NAFDAC, and many more
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p id="open-2">Agreements & Contracts</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown-2', 'arrow-2', 'under-drop-2', 'open-2')"
+                            class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow-2" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+                <div class="dropdown-content" id="under-drop-2">
+                    <p id="sub-drop">
+                        We provide state-of-the-art advisory and drafting services to our
+                        clients to protect their rights and interests in business
+                        relationships. We handle complex and large transactions as well as
+                        simple agreements and contracts.
+                        <br />
+                        <br />
+                        <strong>
+                            Commercial Agreements & Contracts
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Joint Venture Agreement
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Partnership Agreement
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Privacy Policy
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Non-Disclosure Agreement
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Employee Contract & many more
+                        </strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>
+                            Speak to a Commercial Lawyer
+                        </strong>
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p id="open-3">Real Estate Documentation</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown-3', 'arrow-3', 'under-drop-3', 'open-3')"
+                            class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow-3" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dropdown-content" id="under-drop-3">
+                    <p id="sub-drop">
+                        Obtaining or disposing off real estate demands due diligence and
+                        proper legal documentation. We provide:
+                        <br />
+                        <br />
+                        <strong>Due Diligence & Advisory</strong>
+                        <br />
+                        <br />
+                        <strong>Services Land Purchase Agreement</strong>
+                        <br />
+                        <br />
+                        <strong>Preparation of Title Deeds</strong>
+                        <br />
+                        <br />
+                        <strong>Registration of Title Deeds</strong>
+                        </ul>
+                        <br />
+                        <br />
+                        Read more | Contact Us
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p id="open-4">Regulatory & Compliance</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown-4', 'arrow-4', 'under-drop-4', 'open-4')"
+                            class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow-4" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dropdown-content" id="under-drop-4">
+                    <p id="sub-drop">
+                        We provide a robust advisory service that helps our clients comply with government policies and
+                        regulations in their respective
+                        industries.
+                        <br>
+                        <br>
+                        Our clients can keep track of the regulatory framework in their industry and engage government
+                        and international regulators through
+                        our experienced attorneys.
+                        <br>
+                        <br>
+                        Read more | Contact Us
+                        <br>
+                        <br>
+                        <strong>Speak to a Regulatory & Compliance Lawyer</strong>
+                        <br />
+                        <br />
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p id="open-5">Partnerships, Mergers & Acquisition</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown-5', 'arrow-5', 'under-drop-5', 'open-5')"
+                            class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow-5" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dropdown-content" id="under-drop-5">
+                    <p id="sub-drop">
+                        We provide corporate legal services for clients across Africa that are willing to scale their
+                        businesses by forging the right
+                        alliances. We provide:
+                        <br />
+                        <br />
+                        <strong>Merger Schemes</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>Take Over Bids</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>Special Purpose Vehicle (SPV)</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>Legal Due Diligence</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br>
+                        <br>
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p id="open-6">Dispute Resolution Services</p>
+                    <div>
+                        <button onclick="dropfunction('my-dropdown-6', 'arrow-6', 'under-drop-6', 'open-6')"
+                            class="drop-btn">
+                            <img src="assets/arrow-right.svg" alt="arrow-down" id="arrow-6" class="normal-position" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dropdown-content" id="under-drop-6">
+                    <p id="sub-drop">
+                        We have in-depth experience in handling disputes as counsel to our esteemed clients whether in
+                        traditional litigation cases or in
+                        Alternative Dispute Resolution procedures.
+                        <br />
+                        <br />
+                        <strong>Negotiation</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>Mediation</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>Arbitration</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br />
+                        <br />
+                        <strong>Litigation (Courts)</strong>
+                        <br />
+                        Read more | Contact Us
+                        <br>
+                        <br>
+                        <strong>Speak to a Lawyer in the Dispute Resolution Department</strong>
+                    </p>
+                </div>
             </div>
-          </div>
+        </div>
 
-          <div class="dropdown-content" id="under-drop">
-            <p id="sub-drop">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-              labore consequuntur qui, aut mollitia tempora ullam! Tempore
-              mollitia tempora neque consectetur molestiae non odit odio quidem,
-              dolores pariatur dignissimos exercitationem.
-            </p>
-          </div>
-
-          <div class="item">
-            <p id="open-1">Registration Services</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown-1', 'arrow-1', 'under-drop-1', 'open-1')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow-1"
-                  class="normal-position"
-                />
-              </button>
+        <div class="details">
+            <div class="dropdown-content" id="my-dropdown">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
             </div>
-          </div>
 
-          <div class="dropdown-content" id="under-drop-1">
-            <p id="sub-drop">
-              We offer a wide range of registration services with government and
-              regulatory agencies, international institutions and many more.
-              <br />
-              <br />
-              <strong>
-                Registrations, Incorporation & Post-Incorporation Filings with
-                Corporate Affairs Commission
-              </strong>
-              <br />
-              Read more | Contact Us
-              <br />
-              <br />
-              <strong>
-                Intellectual Property Rights (IPR) Registrations & Recordal
-                Services
-              </strong>
-              <br />
-              Read more | Contact Us
-              <br />
-              <br />
-              <strong>
-                Immigration Registration Services
-              </strong>
-              <br />
-              Read more | Contact Us
-              <br />
-              <br />
-              <strong>
-                Registration with NOTAP, NAFDAC, and many more
-              </strong>
-              <br />
-              Read more | Contact Us
-              <br />
-              <br />
-            </p>
-          </div>
-
-          <div class="item">
-            <p id="open-2">Agreements & Contracts</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown-2', 'arrow-2', 'under-drop-2', 'open-2')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow-2"
-                  class="normal-position"
-                />
-              </button>
+            <div class="dropdown-content" id="my-dropdown-1">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
             </div>
-          </div>
-          <div class="dropdown-content" id="under-drop-2">
-            <p id="sub-drop">
-                We provide state-of-the-art advisory and drafting services to our
-                clients to protect their rights and interests in business
-                relationships. We handle complex and large transactions as well as
-                simple agreements and contracts.
-                <br />
-                <br />
-                <strong>
-                  Commercial Agreements & Contracts
-                </strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>
-                  Joint Venture Agreement
-                </strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>
-                  Partnership Agreement
-                </strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>
-                  Privacy Policy
-                </strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>
-                  Non-Disclosure Agreement
-                </strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>
-                  Employee Contract & many more
-                </strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>
-                  Speak to a Commercial Lawyer
-                </strong>
-              </p>
-          </div>
 
-          <div class="item">
-            <p id="open-3">Real Estate Documentation</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown-3', 'arrow-3', 'under-drop-3', 'open-3')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow-3"
-                  class="normal-position"
-                />
-              </button>
+            <div class="dropdown-content" id="my-dropdown-2">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
             </div>
-          </div>
 
-          <div class="dropdown-content" id="under-drop-3">
-            <p id="sub-drop">
-                Obtaining or disposing off real estate demands due diligence and
-                proper legal documentation. We provide:
-                <br />
-                <br />
-                <strong>Due Diligence & Advisory</strong>
-                <br />
-                <br />
-                <strong>Services Land Purchase Agreement</strong>
-                <br />
-                <br />
-                <strong>Preparation of Title Deeds</strong>
-                <br />
-                <br />
-                <strong>Registration of Title Deeds</strong>
-                </ul>
-                <br />
-                <br />
-                Read more | Contact Us
-              </p>
-          </div>
-
-          <div class="item">
-            <p id="open-4">Regulatory & Compliance</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown-4', 'arrow-4', 'under-drop-4', 'open-4')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow-4"
-                  class="normal-position"
-                />
-              </button>
+            <div class="dropdown-content" id="my-dropdown-3">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
             </div>
-          </div>
 
-          <div class="dropdown-content" id="under-drop-4">
-            <p id="sub-drop">
-                We provide a robust advisory service that helps our clients comply with government policies and regulations in their respective
-                industries.
-                <br>
-                <br>
-                Our clients can keep track of the regulatory framework in their industry and engage government and international regulators through
-                our experienced attorneys.
-                <br>
-                <br>
-                Read more | Contact Us
-                <br>
-                <br>
-                <strong>Speak to a Regulatory & Compliance Lawyer</strong>
-                <br />
-                <br />
-              </p>
-          </div>
-
-          <div class="item">
-            <p id="open-5">Partnerships, Mergers & Acquisition</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown-5', 'arrow-5', 'under-drop-5', 'open-5')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow-5"
-                  class="normal-position"
-                />
-              </button>
+            <div class="dropdown-content" id="my-dropdown-4">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
             </div>
-          </div>
 
-          <div class="dropdown-content" id="under-drop-5">
-            <p id="sub-drop">
-                We provide corporate legal services for clients across Africa that are willing to scale their businesses by forging the right
-                alliances. We provide:
-                <br />
-                <br />
-                <strong>Merger Schemes</strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>Take Over Bids</strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>Special Purpose Vehicle (SPV)</strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>Legal Due Diligence</strong>
-                <br />
-                Read more | Contact Us
-                <br>
-                <br>
-              </p>
-          </div>
-
-          <div class="item">
-            <p id="open-6">Dispute Resolution Services</p>
-            <div>
-              <button
-                onclick="dropfunction('my-dropdown-6', 'arrow-6', 'under-drop-6', 'open-6')"
-                class="drop-btn"
-              >
-                <img
-                  src="assets/arrow-right.svg"
-                  alt="arrow-down"
-                  id="arrow-6"
-                  class="normal-position"
-                />
-              </button>
+            <div class="dropdown-content" id="my-dropdown-5">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
             </div>
-          </div>
 
-          <div class="dropdown-content" id="under-drop-6">
-            <p id="sub-drop">
-                We have in-depth experience in handling disputes as counsel to our esteemed clients whether in traditional litigation cases or in
-                Alternative Dispute Resolution procedures.
-                <br />
-                <br />
-                <strong>Negotiation</strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>Mediation</strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>Arbitration</strong>
-                <br />
-                Read more | Contact Us
-                <br />
-                <br />
-                <strong>Litigation (Courts)</strong>
-                <br />
-                Read more | Contact Us
-                <br>
-                <br>
-                <strong>Speak to a Lawyer in the Dispute Resolution Department</strong>
-              </p>
-          </div>
+            <div class="dropdown-content" id="my-dropdown-6">
+                <p id="sub-drop">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                    labore consequuntur qui, aut mollitia tempora ullam! Tempore
+                    mollitia tempora neque consectetur molestiae non odit odio quidem,
+                    dolores pariatur dignissimos exercitationem.
+                </p>
+            </div>
         </div>
-      </div>
-
-      <div class="details">
-        <div class="dropdown-content" id="my-dropdown">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-
-        <div class="dropdown-content" id="my-dropdown-1">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-
-        <div class="dropdown-content" id="my-dropdown-2">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-
-        <div class="dropdown-content" id="my-dropdown-3">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-
-        <div class="dropdown-content" id="my-dropdown-4">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-
-        <div class="dropdown-content" id="my-dropdown-5">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-
-        <div class="dropdown-content" id="my-dropdown-6">
-          <p id="sub-drop">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-            labore consequuntur qui, aut mollitia tempora ullam! Tempore
-            mollitia tempora neque consectetur molestiae non odit odio quidem,
-            dolores pariatur dignissimos exercitationem.
-          </p>
-        </div>
-      </div>
     </div>
 
     <div id="footer">
-      <div id="footer-1">
-        <div id="footer-menu">
-          <a href="#">About</a>
-          <a href="#">Our Services</a>
-          <a href="#">Experience</a>
-          <a href="#">The Team</a>
-          <a href="#">Blog</a>
+        <div id="footer-1">
+            <div id="footer-menu">
+                <a href="#">About</a>
+                <a href="#">Our Services</a>
+                <a href="#">Experience</a>
+                <a href="#">The Team</a>
+                <a href="#">Blog</a>
+            </div>
+            <div id="footer-contact">
+                <div id="footer-address"></div>
+                <p>Phone: <a href="#">+234 703 843 5794</a></p>
+                <p>Email: <a href="#">info@scalelegal.africa</a></p>
+            </div>
         </div>
-        <div id="footer-contact">
-          <div id="footer-address"></div>
-          <p>Phone: <a href="#">+234 703 843 5794</a></p>
-          <p>Email: <a href="#">info@scalelegal.africa</a></p>
-        </div>
-      </div>
-      <div id="footer-2">
-        <div id="footer-social">
-          <a href="#">Facebook</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
+        <div id="footer-2">
+            <div id="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
 
-          <div id="street-cred">
-            <p>
-              Built with ❤ by
-              <a href="lagos.cheapmedia.net">Cheapmedia Nigeria</a>
-            </p>
-          </div>
+                <div id="street-cred">
+                    <p>
+                        Built with ❤ by
+                        <a href="lagos.cheapmedia.net">Cheapmedia Nigeria</a>
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <a href="#">&uarr;</a>
+        <a href="#">&uarr;</a>
     </div>
 
     <script>
-      function dropfunction(id, arrow, id2, open) {
-        document.getElementById(open).classList.toggle("bold");
-        document.getElementById(arrow).classList.toggle("rotate");
+        function dropfunction(id, arrow, id2, open) {
+            document.getElementById(open).classList.toggle("bold");
+            document.getElementById(arrow).classList.toggle("rotate");
+
+            var y = window.matchMedia("(max-width: 850px)");
+
+            if (y.matches) {
+                document.getElementById(id2).classList.toggle("show");
+                document.getElementById(id).classList.remove("show");
+            } else {
+                document.getElementById(id).classList.toggle("show");
+                document.getElementById(id2).classList.remove("show");
+            }
+        }
 
         var y = window.matchMedia("(max-width: 850px)");
+        y.addListener(dropfunction);
 
-        if (y.matches) {
-          document.getElementById(id2).classList.toggle("show");
-          document.getElementById(id).classList.remove("show");
-        } else {
-          document.getElementById(id).classList.toggle("show");
-          document.getElementById(id2).classList.remove("show");
+        function dropDown() {
+            var x = document.getElementById("nav-main");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-      }
-
-      var y = window.matchMedia("(max-width: 850px)");
-      y.addListener(dropfunction);
-
-      function dropDown() {
-        var x = document.getElementById("nav-main");
-
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
 
       // window.onclick = function(event) {
       //     if (!event.target.id.includes('arrow')) {
@@ -561,5 +504,6 @@
 
       // };
     </script>
-  </body>
+</body>
+
 </html>
