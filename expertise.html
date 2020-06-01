@@ -246,7 +246,26 @@
         exercitationem.
       </p>
     </div>
+    <script>
 
+      function removeActive(name) {
+        var active_class = document.getElementsByClassName(name);
+        if (active_class.length > 0) {
+          for (var i = 0; i < active_class.length; i++) {
+            active_class[i].classList.remove(name)
+          }
+        }
+      }
+
+      if (!document.getElementById(id2).getAttribute("class").includes("show")) {
+        removeActive("bold")
+        removeActive("rotate")
+        removeActive("show")
+      }
+
+      document.getElementById(open).classList.toggle("bold");
+      document.getElementById(arrow).classList.toggle("rotate");
+    </script>
     <div class="dropdown-content" id="my-dropdown-1">
       <p id="sub-drop">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam labore consequuntur qui, aut mollitia tempora
@@ -375,17 +394,6 @@
         x.className = "topnav";
       }
     }
-
-      // window.onclick = function(event) {
-      //     if (!event.target.id.includes('arrow')) {
-      //         document.getElementById('my-dropdown').classList.remove("show");
-      //         document.getElementById('arrow').classList.remove("rotate");
-
-      //         document.getElementById('my-dropdown-1').classList.remove("show");
-      //         document.getElementById('arrow-1').classList.remove("rotate");
-      //     }
-
-      // };
   </script>
 </body>
 
