@@ -215,6 +215,12 @@ nav#nav-main ul li a {
     margin-left: auto;
 }
 
+#nav-logo {
+    width: 10.65rem;
+    height: 5.9rem;
+    padding-bottom: 1em;
+}
+
 .topnav a {
     float: left;
     display: block;
@@ -368,7 +374,7 @@ svg:not(:root) {
 .team-content {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
 }
 
 #team-title {
@@ -387,7 +393,7 @@ svg:not(:root) {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 15px;
     line-height: 23px;
     padding-top: 0.6em;
 }
@@ -678,7 +684,7 @@ svg:not(:root) {
         font-family: "Inter", sans-serif;
         padding-top: 0.75em;
         font-weight: 200;
-        font-size: 0.25em;
+        font-size: 0.25em !important;
         width: 80% !important;
     }
     #hero-sideimage {
@@ -712,6 +718,13 @@ svg:not(:root) {
     }
     .team-content {
         width: 100%;
+    }
+    .team-details {
+        font-size: 13px;
+    }
+    #team-title {
+        font-size: 21px;
+        letter-spacing: 0.01em;
     }
 }
 
@@ -758,9 +771,6 @@ svg:not(:root) {
         display: block;
         text-align: right;
         padding: 0.5rem;
-    }
-    .site-img svg {
-        visibility: hidden;
     }
 }
 
@@ -855,7 +865,10 @@ svg:not(:root) {
         width: 150px !important;
     }
     .hero-text {
-        width: 70%;
+        width: 68%;
+    }
+    .hero-subtitle {
+        font-size: 0.3em;
     }
 }
 @media (min-width: 1020px) {

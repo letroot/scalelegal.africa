@@ -215,6 +215,12 @@ nav#nav-main ul li a {
     margin-left: auto;
 }
 
+#nav-logo {
+    width: 10.65rem;
+    height: 5.9rem;
+    padding-bottom: 1em;
+}
+
 .topnav a {
     float: left;
     display: block;
@@ -479,6 +485,11 @@ svg:not(:root) {
     border-bottom: 1px solid white;
 }
 
+.item p {
+    font-size: 0.8em;
+    align-self: flex-end !important;
+}
+
 #bottom-image {
     height: 300px;
     padding-left: 20px;
@@ -506,8 +517,13 @@ svg:not(:root) {
     transition: max-height 0.4s ease-in;
 }
 
+.bold {
+    font-weight: 500;
+    color: white;
+}
+
 #sub-drop {
-    color: #c2c3c3;
+    color: white;
     letter-spacing: 0.025em;
     font-size: 13px;
     font-family: 'Inter', sans-serif;
@@ -515,6 +531,7 @@ svg:not(:root) {
     padding-bottom: 30px;
     position: relative;
     left: 20px;
+    width: 85% !important;
 }
 
 .rotate {
@@ -651,7 +668,7 @@ svg:not(:root) {
         font-family: "Inter", sans-serif;
         padding-top: 0.75em;
         font-weight: 200;
-        font-size: 0.25em;
+        font-size: 0.25em !important;
         width: 80% !important;
     }
     #hero-sideimage {
@@ -692,21 +709,9 @@ svg:not(:root) {
     }
 }
 
-@media (min-width: 701px) {
-    #under-drop {
-        display: none;
-    }
-}
-
 @media (min-width: 750px) {
     .topnav {
         margin-right: 20px;
-    }
-}
-
-@media (min-width: 800px) {
-    .topnav {
-        margin-right: 0;
     }
 }
 
@@ -730,8 +735,13 @@ svg:not(:root) {
         text-align: right;
         padding: 0.5rem;
     }
-    .site-img svg {
+    .site-img #nav-logo {
         visibility: hidden;
+    }
+    #bannerlogo {
+        width: 10.65rem;
+        height: 5.9rem;
+        padding: 1em;
     }
 }
 
@@ -755,6 +765,22 @@ svg:not(:root) {
         height: 5.9rem;
         padding: 1em;
         background-color: transparent;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .topnav {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 850px) {
+    #under-drop {
+        display: none;
+    }
+    #sub-drop {
+        margin-top: 25px !important;
     }
 }
 
@@ -826,7 +852,10 @@ svg:not(:root) {
         width: 150px !important;
     }
     .hero-text {
-        width: 70%;
+        width: 68%;
+    }
+    .hero-subtitle {
+        font-size: 0.3em;
     }
 }
 @media (min-width: 1020px) {
