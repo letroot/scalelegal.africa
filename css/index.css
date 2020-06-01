@@ -104,17 +104,17 @@ body {
 .landing {
   background-image: linear-gradient(
       180deg,
-      rgba(25, 28, 29, 0.6) 99.99%,
+      rgba(44, 80, 93, 0.5) 99.99%,
       rgba(21, 62, 7, 0) 100%
     ),
-    url("../assets/images/background-2.jpg");
+    url(../assets/images/background-2.jpg);
   top: 0;
   left: 0;
   background-size: cover;
   background-position: top left;
   z-index: 0;
   width: 100%;
-  height: 665px;
+  height: 700px;
 }
 
 #header {
@@ -328,6 +328,8 @@ svg:not(:root) {
   outline: none;
   border: none;
   margin-bottom: 7px;
+  cursor: pointer;
+
 }
 
 #button-text {
@@ -397,12 +399,14 @@ svg:not(:root) {
   width: 110px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 #dummy-image {
   width: 18rem;
   height: 18rem;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 #image-hr {
@@ -684,12 +688,14 @@ svg:not(:root) {
     padding: 0;
     width: 100%;
   }
+
   #hero-button {
     font-size: 9px;
     border-radius: 8px;
     height: 30px;
     width: 140px;
     margin-bottom: 6px;
+    cursor: pointer;
   }
   #button-text {
     font-size: 9px;
@@ -843,6 +849,8 @@ svg:not(:root) {
     height: 40px;
     width: 150px;
     margin-bottom: 8px;
+    cursor: pointer;
+
   }
   #button-text {
     font-size: 10px;
