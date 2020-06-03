@@ -513,7 +513,7 @@ svg:not(:root) {
 }
 
 .show {
-    max-height: 200px;
+    max-height: 200vh;
     transition: max-height 0.4s ease-in;
 }
 
@@ -750,7 +750,6 @@ svg:not(:root) {
         display: none;
     }
     .topnav a.nav-icon {
-        float: right;
         display: block;
     }
     #banner {

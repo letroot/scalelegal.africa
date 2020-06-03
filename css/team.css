@@ -779,7 +779,6 @@ svg:not(:root) {
         display: none;
     }
     .topnav a.nav-icon {
-        float: right;
         display: block;
     }
     #banner {
