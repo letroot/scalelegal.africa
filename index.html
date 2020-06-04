@@ -565,10 +565,26 @@
   </div>
 
   <script>
-    function dropfunction(id, arrow) {
-      document.getElementById(id).classList.toggle("show");
-      document.getElementById(arrow).classList.toggle("rotate");
+
+    function removeActive(name) {
+    var active_class = document.getElementsByClassName(name);
+    if(active_class.length > 0){
+        for(var i = 0; i < active_class.length; i++){
+            active_class[i].classList.remove(name)
+        }
     }
+}
+
+function dropfunction(id, arrow) {
+
+    if(!document.getElementById(id).getAttribute("class").includes("show")){
+        removeActive("rotate")
+        removeActive("show")
+    }
+
+    document.getElementById(id).classList.toggle("show");
+    document.getElementById(arrow).classList.toggle("rotate");
+}
 
     function dropDown() {
       var x = document.getElementById("nav-main");

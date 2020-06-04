@@ -536,6 +536,7 @@ svg:not(:root) {
   padding-bottom: 30px;
   position: relative;
   left: 20px;
+  width: 90% !important;
 }
 
 .rotate {
