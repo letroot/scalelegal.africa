@@ -330,11 +330,10 @@ svg:not(:root) {
   border: none;
   margin-bottom: 7px;
   cursor: pointer;
-  transition: 0.3s ease-out;
 }
 
 #hero-button:hover {
-    transition: 0.3s ease-in;
+    transition: 0.2s ease-in;
     background-color: #4C6C50;;
 }
 
@@ -407,11 +406,10 @@ svg:not(:root) {
   outline: none;
   border: none;
   cursor: pointer;
-  transition: 0.3s ease-out;
 }
 
 .card button:hover {
-    transition: 0.3s ease-in;
+    transition: 0.2s ease-in;
     background-color: #4C6C50;
 }
 
@@ -624,6 +622,20 @@ svg:not(:root) {
 
 #street-cred a {
   color: #c6cbc9;
+}
+
+@media (min-width: 321px) and (max-width: 415px) {
+  .hero-subtitle {
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    padding-top: 0.75em;
+    font-weight: 200;
+    font-size: 0.25em !important;
+    width: 80% !important;
+  }
+  .hero-title {
+    font-size: 0.6em;
+  }
 }
 
 @media (max-width: 374px) {
