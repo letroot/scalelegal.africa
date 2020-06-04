@@ -142,8 +142,8 @@ a {
 }
 
 .container {
-    margin-right: auto;
     margin-left: 120px;
+    margin-right: 120px;
     padding-right: 15px;
 }
 
@@ -329,6 +329,7 @@ svg:not(:root) {
 #hero-sideimage {
     width: 250px;
     height: 250px;
+    margin-right: 60px;
 }
 
 #button-text {
@@ -502,7 +503,7 @@ svg:not(:root) {
 }
 
 .dropdown-content {
-    transition: max-height 0.4s ease-out;
+    transition: max-height 0s ease-out;
     max-height: 0;
     overflow: hidden;
 }
@@ -514,7 +515,7 @@ svg:not(:root) {
 
 .show {
     max-height: 200vh;
-    transition: max-height 0.4s ease-in;
+    transition: max-height 1s ease-in;
 }
 
 .bold {
@@ -646,6 +647,7 @@ svg:not(:root) {
     .container {
         padding-left: 0 !important;
         margin-left: 20px !important;
+        margin-right: 20px !important;
     }
     .content {
         width: 100%;
@@ -815,6 +817,13 @@ svg:not(:root) {
     .card {
         margin-top: 100px;
     }
+    .dropdown-content {
+        transition: max-height 0.3s ease-out;
+    }
+    .show {
+        max-height: 200vh;
+        transition: max-height 1s ease-in !important;
+    }
 }
 
 @media (max-width: 950px) {
@@ -823,6 +832,7 @@ svg:not(:root) {
     }
     .container {
         margin-left: 50px;
+        margin-right: 50px;
     }
     #footer {
         padding: 80px 20px 50px 50px;

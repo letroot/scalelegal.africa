@@ -329,6 +329,7 @@ svg:not(:root) {
 #hero-sideimage {
     width: 250px;
     height: 250px;
+    margin-right: 60px;
 }
 
 #button-text {
@@ -507,14 +508,14 @@ svg:not(:root) {
 }
 
 .dropdown-content {
-    transition: max-height 0.4s ease-out;
+    transition: max-height 0s ease-out;
     max-height: 0;
     overflow: hidden;
 }
 
 .show {
-    max-height: 200px;
-    transition: max-height 0.4s ease-in;
+    max-height: 200vh;
+    transition: max-height 1s ease-in;
 }
 
 .bold {
@@ -815,6 +816,13 @@ svg:not(:root) {
     }
     .card {
         margin-top: 100px;
+    }
+    .dropdown-content {
+        transition: max-height 0.3s ease-out;
+    }
+    .show {
+        max-height: 200vh;
+        transition: max-height 1s ease-in !important;
     }
 }
 
