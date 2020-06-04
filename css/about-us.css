@@ -328,6 +328,7 @@ svg:not(:root) {
 #hero-sideimage {
   width: 250px;
   height: 250px;
+  margin-right: 60px;
 }
 
 #button-text {

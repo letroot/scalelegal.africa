@@ -142,8 +142,8 @@ a {
 }
 
 .container {
-    margin-right: auto;
     margin-left: 120px;
+    margin-right: 120px;
     padding-right: 15px;
 }
 
@@ -329,6 +329,7 @@ svg:not(:root) {
 #hero-sideimage {
     width: 250px;
     height: 250px;
+    margin-right: 60px;
 }
 
 #button-text {
@@ -646,6 +647,7 @@ svg:not(:root) {
     .container {
         padding-left: 0 !important;
         margin-left: 20px !important;
+        margin-right: 20px !important;
     }
     .content {
         width: 100%;
@@ -830,6 +832,7 @@ svg:not(:root) {
     }
     .container {
         margin-left: 50px;
+        margin-right: 50px;
     }
     #footer {
         padding: 80px 20px 50px 50px;
