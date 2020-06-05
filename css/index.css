@@ -94,7 +94,7 @@ section {
 }
 
 body {
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.25;
   color: #191c1d;
@@ -303,6 +303,7 @@ svg:not(:root) {
 }
 
 .hero-title {
+  font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   font-size: 1em;
 }
