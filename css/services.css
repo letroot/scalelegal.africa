@@ -303,6 +303,10 @@ svg:not(:root) {
     font-size: 1em;
 }
 
+.dropdown-title strong {
+    font-weight: 200;
+}
+
 .hero-subtitle {
     letter-spacing: -0.01em;
     font-family: 'Inter', sans-serif;
@@ -526,7 +530,7 @@ svg:not(:root) {
 #sub-drop {
     color: white;
     letter-spacing: 0.025em;
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     padding-bottom: 30px;
