@@ -773,6 +773,9 @@ svg:not(:root) {
         text-align: right;
         padding: 0.5rem;
     }
+    .site-img #nav-logo {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -794,6 +797,11 @@ svg:not(:root) {
         height: 5.9rem;
         padding: 1em;
         background-color: transparent;
+    }
+    #bannerlogo {
+        width: 10.65rem;
+        height: 5.9rem;
+        padding: 1em;
     }
 }
 
