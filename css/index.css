@@ -94,7 +94,7 @@ section {
 }
 
 body {
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.25;
   color: #191c1d;
@@ -303,6 +303,7 @@ svg:not(:root) {
 }
 
 .hero-title {
+  font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   font-size: 1em;
 }
@@ -390,7 +391,7 @@ svg:not(:root) {
   font-size: 15px;
   margin-bottom: 20px;
   letter-spacing: 0.3px;
-  width: 70%;
+  width: 75%;
 }
 
 .card button {
@@ -493,7 +494,7 @@ svg:not(:root) {
   justify-content: space-between;
   color: #c2c3c3;
   font-family: "Fira Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 100%;
   padding: 15px;
   margin-bottom: 10px;
