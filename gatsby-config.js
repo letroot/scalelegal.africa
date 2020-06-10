@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 module.exports = {
   siteMetadata: {
     title: `Blog :: ScaleLegal Africa`,
@@ -30,10 +30,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-source-contentful',
+      resolve: "gatsby-source-contentful",
       options: {
-        spaceId: 'wgqv50t5q2wj',
-        accessToken: 'tvOm9jw4vI3glNTrcJusD5s-9vEFuYV5s9zp4DNjKzI',
+        spaceId: "wgqv50t5q2wj",
+        accessToken: "tvOm9jw4vI3glNTrcJusD5s-9vEFuYV5s9zp4DNjKzI",
       },
     },
     {
@@ -45,8 +45,8 @@ module.exports = {
         mailchimp: true,
         authorsPage: false,
         sources: {
-          local: false,
-          contentful: true,
+          local: true,
+          contentful: false,
         },
       },
     },
