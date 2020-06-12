@@ -3,7 +3,7 @@ title: 7 Critical Reasons Why Your Business Must Be Separate From You
 author: The ScaleLegal Team
 date: 2020-06-10
 hero: ./images/hero.jpg
-excerpt: Oftentimes, company registration that is the incorporation of one's business is often shrouded with complexity and lack of transparency that keeps the entrepreneur/business owner in the dark and leaves him feeling insecure about the entire process.
+excerpt: Oftentimes, company registration that is the incorporation of one's business is often shrouded with complexity and lack of transparency that keeps the entrepreneur business owner in the dark and leaves him feeling insecure about the entire process.
 ---
 
 # 7 Critical Reasons Why Your Business Must Be Separate From You
