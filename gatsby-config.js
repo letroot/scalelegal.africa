@@ -50,12 +50,14 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-mailchimp',
-    //   options: {
-    //     endpoint: '', // add your MC list endpoint here; see plugin repo for instructions
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://africa.us10.list-manage.com/subscribe/post?u=159f24f8a5fd1a9c0d7e84873&amp;id=cf31db76bb",
+        timeout: 7000,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
