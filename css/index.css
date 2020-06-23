@@ -501,6 +501,10 @@ svg:not(:root) {
   border-top: 1px solid white;
 }
 
+.item p {
+  font-size: 0.8em;
+}
+
 #bottom-image {
   height: 300px;
   padding-left: 20px;
@@ -524,7 +528,7 @@ svg:not(:root) {
 }
 
 .show {
-  max-height: 200px;
+  max-height: 200vh;
   transition: max-height 0.4s ease-in;
 }
 

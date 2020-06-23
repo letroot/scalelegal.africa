@@ -359,7 +359,7 @@
 function dropfunction(id, arrow, id2, open) {
 
 
-    if(!document.getElementById(id2).getAttribute("class").includes("show")){
+    if(!document.getElementById(id).getAttribute("class").includes("show") && !document.getElementById(id2).getAttribute("class").includes("show")){
         removeActive("bold")
         removeActive("rotate")
         removeActive("show")
