@@ -51,9 +51,9 @@ It is crucial for the company secretary to be able to navigate the industry in w
 One of the core characteristics of an ideal company secretary is the ability to carry out the mandate of the company and resolutions of the Board of Directors in a manner that matches international practice standards.
 
 #### When Can You Appoint a Company Secretary?
-A company secretary can be appointed at the following stages:<br>
+A company secretary can be appointed at the following stages:  
 
-a. During the incorporation of the company (Filing of Form CAC 1.1)<br>
+a. During the incorporation of the company (Filing of Form CAC 1.1)  
 b. Post-Incorporation
 
 ### About Scale Legal Africa
