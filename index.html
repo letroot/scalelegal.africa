@@ -71,7 +71,8 @@
           </div>
 
           <div>
-            <a href="https://forms.gle/QS81RVhTeRbT6AFu6"><button id="hero-button">GET A FREE LEGAL AUDIT</button></a>
+            <a href="https://forms.gle/QS81RVhTeRbT6AFu6"><button id="hero-button" onclick="showFormm()'>GET A FREE LEGAL AUDIT</button></a>
+             <form id="signup-form" style="display: none;"></form>
             <p id="button-text">
               Need your business to be secure and ready for growth and and scale? Click above.
             </p>
@@ -780,6 +781,9 @@
   </div>
 
   <script>
+    function showForm() {
+        document.getElementById('signup-form').style.display = 'block';
+    }
 
     function removeActive(name) {
     var active_class = document.getElementsByClassName(name);
