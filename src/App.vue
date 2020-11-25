@@ -47,11 +47,14 @@
     <div class="bg-white sm:px-20 sm:py-12">
       <h2 class="text-center archivo text-xl">Trusted by</h2>
       <div class="sm:flex sm:items-center sm:justify-around sm:mt-10">
-        <img src="./assets/img/500chow.svg" class="sm:h-16" alt="500chow">
-        <img src="./assets/img/cheapmedia.svg" class="sm:h-8" alt="cheapmedia">
+        <img src="./assets/img/500chow.svg" class="sm:h-16" alt="500chow" />
+        <img
+          src="./assets/img/cheapmedia.svg"
+          class="sm:h-8"
+          alt="cheapmedia"
+        />
       </div>
     </div>
-
   </div>
 </template>
 
