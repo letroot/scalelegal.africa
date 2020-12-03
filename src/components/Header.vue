@@ -14,7 +14,7 @@
       <a href="#" class="sm:text-xs xl:text-sm text-nav-text">Blog</a>
       <a href="#" class="sm:text-xs xl:text-sm text-nav-text"
         ><button
-          class="border border-nav-text rounded-xl py-2 px-3 focus:outline-none"
+          class="border border-nav-text rounded-xl py-2 sm:py-3 px-3 focus:outline-none"
         >
           Download book
         </button></a
