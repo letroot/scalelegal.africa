@@ -1,16 +1,23 @@
 <template>
-  <div id="app" class="bg-white archivo">
+  <div id="app" class="bg-white archivo-font">
     <Header />
 
     <div class="sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 sm:px-8">
       <div>
         <h1
-          class="sm:text-center sm:text-5xl xl:text-6xl text-nav-text sm:w-3/4 lg:w-7/12 xl:w-6/12 sm:mx-auto archivo"
+          class="sm:text-center sm:text-5xl text-nav-text
+          sm:w-3/4 sm:mx-auto archivo-font
+          lg:w-8/12 lg:text-7xl lg:font-normal lg:tracking-tight lg:leading-none
+          xl:w-8/12 xl:text-8xl xl:font-normal xl:tracking-tight xl:leading-none"
         >
           Want to Scale your Business?
         </h1>
         <h4
-          class="sm:text-center sm:text-lg font-thin text-nav-text sm:w-3/5 lg:w-5/12 xl:w-4/12 sm:mx-auto sm:mt-6 xl:mt-8 sm:leading-tight"
+          class="sm:text-center sm:text-lg
+          font-thin text-nav-text
+          sm:w-3/5 sm:mx-auto sm:mt-6 sm:leading-tight
+          lg:w-5/12 lg:mt-8 lg:text-3xl lg:font-normal inter-font
+          xl:w-1/2 xl:mt-8 xl:text-3xl xl:font-normal inter-font"
         >
           Writen by legal and business experts, this short ebook goes into
           detail on how to legally secure financing for your business.
@@ -19,25 +26,31 @@
       <div class="sm:flex sm:justify-center sm:mt-16">
         <input
           type="text"
-          class="border-2 border-nav-text rounded-lg sm:w-2/4 lg:w-5/12 xl:w-4/12 sm:py-2 sm:px-3 focus:outline-none"
+          class="border-2 border-nav-text rounded-lg sm:w-2/4 lg:w-5/12 xl:w-5/12 xl:h-16 xl:text-xl sm:py-2 sm:px-3 focus:outline-none"
           placeholder="Enter your email address"
         />
         <button
-          class="bg-nav-text sm:py-2 rounded-lg sm:px-5 sm:ml-3 focus:outline-none text-white"
+          class="bg-nav-text sm:py-2 rounded-lg sm:px-5 sm:ml-3 focus:outline-none text-white xl:px-6 xl:text-xl"
         >
           Get eBook
         </button>
       </div>
     </div>
 
-    <div class="sm:mt-32 lg:mt-24 sm:px-12">
-      <div class="sm:flex sm:bg-bg sm:shadow-xl rounded-xl sm:px-7 sm:py-8">
+    <div class="sm:mt-32 lg:mt-24 sm:px-12 xl:px-36">
+      <div class="sm:flex sm:bg-bg sm:shadow-xl rounded-xl sm:px-7 sm:py-8
+                  xl:flex">
         <div class="sm:w-5/12">
           <img src="./assets/img/slant-books.png" alt="book" />
         </div>
         <div class="sm:w-7/12">
           <p
-            class="sm:text-3xl lg:text-4xl xl:text-5xl sm:w-3/4 sm:ml-12 sm:mt-8 lg:mt-32 text-white sm:leading-tight archivo"
+            class="text-white
+            sm:text-3xl sm:w-3/4 sm:ml-12 sm:mt-8
+            sm:leading-tight
+            lg:mt-32 lg:text-4xl
+            xl:text-5xl xl:w-7/12
+            archivo-font"
           >
             The 20-page Book <br class="hidden sm:block" />
             will Transform your Business in 25 mins of Reading Time.
@@ -49,7 +62,7 @@
     <div class="sm:mt-32 lg:mt-24 sm:px-12 sm:flex">
       <div class="sm:w-7/12">
         <p
-          class="sm:text-lg lg:text-4xl xl:text-5xl sm:w-3/4 sm:mt-8 lg:mt-32 text-body-text sm:leading-tight archivo"
+          class="sm:text-lg lg:text-4xl xl:text-5xl sm:w-3/4 sm:mt-8 lg:mt-32 text-body-text sm:leading-tight archivo-font"
         >
           Copy about what the book is good for, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -75,11 +88,11 @@
     </div>
 
     <div class="sm:px-20 sm:mt-32">
-      <h2 class="text-center text-gray-text archivo text-xl uppercase">
+      <h2 class="text-center text-gray-text archivo-font text-xl uppercase">
         scalelegal is trusted by
       </h2>
       <div
-        class="sm:mt-10 text-center archivo text-body-text sm:text-xl sm:w-9/12 sm:mx-auto"
+        class="sm:mt-10 text-center archivo-font text-body-text sm:text-xl sm:w-9/12 sm:mx-auto"
       >
         <p>
           Trusted by more than 10 companies in various sectors. Our Team has
@@ -92,7 +105,7 @@
       <div class="sm:w-7/12">
         <h1 class="sm:text-3xl text-nav-text">What is Covered in the Book</h1>
         <div
-          class="sm:text-xl lg:text-4xl xl:text-5xl sm:w-10/12 sm:mt-8 lg:mt-32 text-body-text sm:leading-tight archivo"
+          class="sm:text-xl lg:text-4xl xl:text-5xl sm:w-10/12 sm:mt-8 lg:mt-32 text-body-text sm:leading-tight archivo-font"
         >
           <div class="flex sm:h-10 sm:items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" />
@@ -127,11 +140,11 @@
 
     <div class="sm:px-20 sm:mt-32">
       <h2
-        class="text-center text-nav-text archivo text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-3xl sm:w-9/12 sm:mx-auto"
       >
         Learn all you need to make your business ready to scale.
       </h2>
-      <div class="sm:mt-8 text-center archivo sm:w-9/12 sm:mx-auto">
+      <div class="sm:mt-8 text-center archivo-font sm:w-9/12 sm:mx-auto">
         <button
           class="bg-scale-green sm:py-2 rounded-lg sm:px-5 focus:outline-none text-white"
         >
@@ -142,12 +155,12 @@
 
     <div class="sm:px-20 sm:mt-32">
       <h2
-        class="text-center text-nav-text archivo text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-3xl sm:w-9/12 sm:mx-auto"
       >
         Why You Should Learn...
       </h2>
       <div
-        class="sm:mt-8 text-center archivo text-body-text sm:text-xl sm:w-9/12 sm:mx-auto"
+        class="sm:mt-8 text-center archivo-font text-body-text sm:text-xl sm:w-9/12 sm:mx-auto"
       >
         <p>
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -184,12 +197,12 @@
 
     <div class="sm:px-20 sm:mt-32">
       <h2
-        class="text-center text-nav-text archivo text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-3xl sm:w-9/12 sm:mx-auto"
       >
         What Our Clients Think
       </h2>
       <div
-        class="sm:mt-8 text-center archivo text-body-text sm:text-xl sm:w-9/12 sm:mx-auto"
+        class="sm:mt-8 text-center archivo-font text-body-text sm:text-xl sm:w-9/12 sm:mx-auto"
       >
         <p>
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -266,12 +279,12 @@
 
     <div class="sm:px-20 sm:mt-32">
       <h2
-        class="text-center text-nav-text archivo text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-3xl sm:w-9/12 sm:mx-auto"
       >
         For just NGN 500
       </h2>
-      <p class="sm:mt-8 text-center archivo text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </p>
-      <div class="sm:mt-8 text-center archivo sm:w-9/12 sm:mx-auto">
+      <p class="sm:mt-8 text-center archivo-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </p>
+      <div class="sm:mt-8 text-center archivo-font sm:w-9/12 sm:mx-auto">
         <button
           class="bg-scale-green sm:py-2 rounded-lg sm:px-5 focus:outline-none text-white"
         >
@@ -296,9 +309,13 @@ export default {
 <style src="./assets/css/tailwind.css"></style>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
-.archivo {
+.archivo-font {
   font-family: "Archivo", sans-serif;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
 }
 </style>
