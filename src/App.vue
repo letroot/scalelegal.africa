@@ -7,8 +7,7 @@
         <h1
           class="text-center text-3xl sm:text-5xl text-nav-text
           sm:w-3/4 sm:mx-auto archivo-font
-          lg:w-8/12 lg:text-7xl lg:font-normal lg:tracking-tight lg:leading-none
-          xl:w-8/12 xl:text-8xl xl:font-normal xl:tracking-tight xl:leading-none"
+          lg:w-8/12 lg:text-7xl lg:tracking-tight xl:text-8xl"
         >
           Want to Scale your Business?
         </h1>
@@ -16,8 +15,7 @@
           class="text-center text-sm sm:text-lg
           font-thin text-nav-text
           sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight
-          lg:w-5/12 lg:mt-8 lg:text-3xl lg:font-normal inter-font
-          xl:w-1/2 xl:mt-8 xl:text-3xl xl:font-normal inter-font"
+          lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
         >
           Writen by legal and business experts, this short ebook goes into
           detail on how to legally secure financing for your business.
@@ -26,7 +24,7 @@
       <div class="flex justify-center mt-8 sm:mt-16">
         <input
           type="text"
-          class="border-2 border-nav-text rounded-lg sm:w-2/4 lg:w-5/12 xl:w-5/12 xl:h-16 text-sm sm:text-base wxl:text-xl py-2 sm:py-2 px-3 focus:outline-none truncate"
+          class="border-2 border-nav-text rounded-lg sm:w-2/4 lg:w-5/12 xl:h-16 text-sm sm:text-base  py-2 sm:py-2 px-3 focus:outline-none truncate"
           placeholder="Enter your email address"
         />
         <button
@@ -37,7 +35,7 @@
       </div>
     </div>
 
-    <div class="mt-20 sm:mt-32 lg:mt-24 sm:px-12 xl:px-36">
+    <div class="mt-20 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36">
       <div
         class="flex bg-bg sm:shadow-xl sm:rounded-xl px-10 sm:px-7 py-8
                   xl:flex"
@@ -48,9 +46,9 @@
         <div class="w-6/12 sm:w-7/12">
           <p
             class="text-white text-base
-            sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:mt-8
+            sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8
             sm:leading-tight
-            lg:mt-32 lg:text-4xl
+            lg:mt-20 lg:text-4xl
             xl:text-5xl xl:w-7/12
             archivo-font"
           >
@@ -61,35 +59,35 @@
       </div>
     </div>
 
-    <div class="mt-20 sm:mt-32 lg:mt-24 sm:px-12 sm:flex px-10">
+    <div class="mt-20 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 sm:flex px-10">
       <div class="sm:w-7/12">
         <p
-          class="sm:text-lg lg:text-4xl xl:text-5xl sm:w-3/4 sm:mt-8 lg:mt-32 text-body-text sm:leading-tight archivo-font"
+          class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-5xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight archivo-font"
         >
           Copy about what the book is good for, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <div class="mt-8 sm:mt-16">
+        <div class="mt-8 sm:mt-16 text-center sm:text-left">
           <button
-            class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white"
+            class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white lg:text-lg"
           >
             Buy eBook Now
           </button>
           <button
-            class="bg-nav-text py-2 rounded-lg px-5 ml-3 focus:outline-none text-white"
+            class="bg-nav-text py-2 rounded-lg px-5 ml-3 focus:outline-none text-white lg:text-lg"
           >
             Learn More
           </button>
         </div>
       </div>
-      <div class="mt-8 sm:mt-0 sm:w-5/12">
+      <div class="mt-8 sm:mt-0 w-9/12 mx-auto sm:w-5/12">
         <img src="./assets/img/book.png" alt="book" />
       </div>
     </div>
 
-    <div class="sm:px-20 sm:mt-32 mt-16 px-10">
+    <div class="sm:px-20 lg:mt-48 lg:px-24 sm:mt-32 mt-10 px-10">
       <h2 class="text-center text-gray-text archivo-font sm:text-xl uppercase">
         scalelegal is trusted by
       </h2>
@@ -103,35 +101,37 @@
       </div>
     </div>
 
-    <div class="sm:mt-32 lg:mt-32 sm:px-12 sm:flex mt-20 px-10">
+    <div class="sm:mt-32 lg:mt-48 lg:px-24 sm:px-12 sm:flex mt-20 px-10">
       <div class="sm:w-7/12">
-        <h1 class="text-xl sm:text-3xl text-nav-text">
+        <h1
+          class="text-center sm:text-left text-xl sm:text-3xl lg:text-4xl text-nav-text"
+        >
           What is Covered in the Book
         </h1>
         <div
-          class="sm:text-xl lg:text-4xl xl:text-5xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-32 text-body-text sm:leading-tight archivo-font"
+          class="sm:text-xl lg:text-2xl xl:text-5xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
         >
-          <div class="flex sm:h-10 h-7 items-center">
+          <div class="flex sm:h-10 lg:h-12 h-7 items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" class="h-3" />
             <p class="ml-4">Quis nostrud exercitation ullamco</p>
           </div>
-          <div class="flex sm:h-10 h-7 items-center">
+          <div class="flex sm:h-10 lg:h-12 h-7 items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" class="h-3" />
             <p class="ml-4">Quis nostrud exercitation ullamco</p>
           </div>
-          <div class="flex sm:h-10 h-7 items-center">
+          <div class="flex sm:h-10 lg:h-12 h-7 items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" class="h-3" />
             <p class="ml-4">Quis nostrud exercitation ullamco</p>
           </div>
-          <div class="flex sm:h-10 h-7 items-center">
+          <div class="flex sm:h-10 lg:h-12 h-7 items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" class="h-3" />
             <p class="ml-4">Quis nostrud exercitation ullamco</p>
           </div>
-          <div class="flex sm:h-10 h-7 items-center">
+          <div class="flex sm:h-10 lg:h-12 h-7 items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" class="h-3" />
             <p class="ml-4">Quis nostrud exercitation ullamco</p>
           </div>
-          <div class="flex sm:h-10 h-7 items-center">
+          <div class="flex sm:h-10 lg:h-12 h-7 items-center">
             <img src="./assets/img/bullet.svg" alt="bullet" class="h-3" />
             <p class="ml-4">Quis nostrud exercitation ullamco</p>
           </div>
@@ -142,13 +142,15 @@
       </div>
     </div>
 
-    <div class="sm:px-20 sm:mt-32 mt-20 px-10">
+    <div class="sm:px-20 sm:mt-32 lg:mt-48 lg:px-24 mt-20 px-10">
       <h2
-        class="text-center text-nav-text archivo-font text-xl sm:text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl sm:w-9/12 sm:mx-auto"
       >
         Learn all you need to make your business ready to scale.
       </h2>
-      <div class="sm:mt-8 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto">
+      <div
+        class="sm:mt-8 lg:mt-12 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
+      >
         <button
           class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white"
         >
@@ -157,9 +159,9 @@
       </div>
     </div>
 
-    <div class="sm:px-20 sm:mt-32 mt-20 px-10">
+    <div class="sm:px-20 sm:mt-32 lg:mt-48 lg:px-24 mt-20 px-10">
       <h2
-        class="text-center text-nav-text archivo-font text-xl sm:text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl sm:w-9/12 sm:mx-auto"
       >
         Why You Should Learn...
       </h2>
@@ -211,9 +213,9 @@
       </div>
     </div>
 
-    <div class="sm:px-20 sm:mt-32 px-10 mt-20">
+    <div class="sm:px-20 sm:mt-32 lg:mt-48 lg:px-24 px-10 mt-20">
       <h2
-        class="text-center text-nav-text archivo-font text-xl sm:text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl sm:w-9/12 sm:mx-auto"
       >
         What Our Clients Think
       </h2>
@@ -227,7 +229,7 @@
       </div>
       <div class="flex flex-wrap sm:mt-16 mt-12">
         <div
-          class="rounded-md sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 xl:py-8 mx-auto bg-client-bg"
+          class="rounded-md w-2/3 sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 lg:py-10 mx-auto bg-client-bg"
         >
           <div
             class="border-2 border-profile-border rounded-full w-12 h-12 xl:w-16 xl:h-16 -mt-6 xl:-mt-16 bg-white mx-auto"
@@ -241,7 +243,7 @@
           </h3>
         </div>
         <div
-          class="rounded-md sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 xl:py-8 mx-auto bg-client-bg mt-14 sm:mt-0"
+          class="rounded-md w-2/3 sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 lg:py-10 mx-auto bg-client-bg mt-14 sm:mt-0"
         >
           <div
             class="border-2 border-profile-border rounded-full w-12 h-12 xl:w-16 xl:h-16 -mt-6 xl:-mt-16 bg-white mx-auto"
@@ -255,7 +257,7 @@
           </h3>
         </div>
         <div
-          class="rounded-md sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 xl:py-8 mx-auto bg-client-bg mt-14 sm:mt-12"
+          class="rounded-md w-2/3 sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 lg:py-10 mx-auto bg-client-bg mt-14 sm:mt-12"
         >
           <div
             class="border-2 border-profile-border rounded-full w-12 h-12 xl:w-16 xl:h-16 -mt-6 xl:-mt-16 bg-white mx-auto"
@@ -269,7 +271,7 @@
           </h3>
         </div>
         <div
-          class="rounded-md sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 xl:py-8 mx-auto bg-client-bg mt-14 sm:mt-12"
+          class="rounded-md w-2/3 sm:w-5/12 xl:w-64 shadow-xl px-4 pb-5 lg:py-10 mx-auto bg-client-bg mt-14 sm:mt-12"
         >
           <div
             class="border-2 border-profile-border rounded-full w-12 h-12 xl:w-16 xl:h-16 -mt-6 xl:-mt-16 bg-white mx-auto"
@@ -285,9 +287,9 @@
       </div>
     </div>
 
-    <div class="sm:px-20 sm:mt-32 px-10 mt-20">
+    <div class="sm:px-20 lg:mt-48 lg:px-24 sm:mt-32 px-10 mt-20">
       <h2
-        class="text-center text-nav-text archivo-font text-xl sm:text-3xl sm:w-9/12 sm:mx-auto"
+        class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-3xl sm:w-9/12 sm:mx-auto"
       >
         For just NGN 500
       </h2>
@@ -297,7 +299,9 @@
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
         et dolore magna aliqua. Ut
       </p>
-      <div class="sm:mt-8 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto">
+      <div
+        class="sm:mt-8 lg:mt-12 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
+      >
         <button
           class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white"
         >

@@ -1,9 +1,9 @@
 <template>
   <div
-    class="sm:px-10 xl:px-16 sm:py-8 sm:flex sm:items-center sm:justify-between"
+    class="sm:px-10 xl:px-16 sm:py-8 sm:flex p-4 sm:items-center sm:justify-between"
   >
     <div
-      class="flex justify-between items-center p-4 sm:w-4/12 lg:w-5/12 xl:w-6/12"
+      class="flex justify-between items-center sm:w-4/12 lg:w-5/12 xl:w-6/12"
     >
       <div class="w-6/12 sm:w-full">
         <img src="../assets/img/logo.svg" alt="logo" class="sm:h-12 xl:h-16" />
