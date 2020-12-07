@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sm:px-10 xl:px-16 sm:py-8 sm:flex p-4 sm:items-center sm:justify-between"
+    class="sm:px-10 xl:px-16 sm:py-8 sm:flex p-4 sm:items-center sm:justify-between xl:max-w-screen-2xl xl:mx-auto"
   >
     <div
       class="flex justify-between items-center sm:w-4/12 lg:w-5/12 xl:w-6/12"

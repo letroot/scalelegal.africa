@@ -11,6 +11,8 @@ module.exports = {
         "gray-text": "#888888",
         "profile-border": "#00115E",
         "client-bg": "#88B3F0",
+        "footer-bg": "#abafae",
+        "built-with": "#c6cbc9",
       },
     },
   },
