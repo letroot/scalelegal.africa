@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg-white archivo-font">
-    <CompleteOrder />
+    <Landing />
     <Footer />
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   name: "App",
   components: {
     Footer,
-    LandingPage,
+    Landing,
   },
 };
 </script>
