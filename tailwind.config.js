@@ -3,6 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontWeight: ['hover', 'focus'],
       colors: {
         bg: "#88B3F0",
         "nav-text": "#175A80",
@@ -11,7 +12,7 @@ module.exports = {
         "gray-text": "#888888",
         "profile-border": "#00115E",
         "client-bg": "#88B3F0",
-        "footer-bg": "#abafae",
+        "footer-bg": "#014165",
         "built-with": "#c6cbc9",
       },
     },
