@@ -12,8 +12,7 @@
           <h4
             class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
           >
-            Writen by legal and business experts, this short ebook goes into
-            detail on how to legally secure financing for your business.
+            Make Your Business More Profitable, More Secure and More Investible
           </h4>
         </div>
         <div class="flex justify-center mt-8 sm:mt-16">
@@ -39,8 +38,8 @@
             <p
               class="text-white text-base sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font"
             >
-              The 20-page Book <br class="hidden sm:block" />
-              will Transform your Business in 25 mins of Reading Time.
+              With this 20 minutes read, <br class="hidden sm:block" />
+              you start out with the right legal thinking to keep your business moving seamlessly and profitably.
             </p>
           </div>
         </div>
@@ -53,10 +52,11 @@
           <p
             class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-4xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight archivo-font"
           >
-            Copy about what the book is good for, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            Without questions, the legal aspect of one's business is about the most
+            important part of it, after sales and marketing itself. Ignorance of it
+            often keeps many in fear, uncertainty and insecurity. In fact, there are
+            those who have lost loads of money, missed out on more profitable deals
+            and sometimes lost businesses to this.
           </p>
           <div class="mt-8 sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
@@ -99,34 +99,38 @@
           <h1
             class="text-center sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text"
           >
-            What is Covered in the Book
+            Got questions about:
           </h1>
           <div
             class="sm:text-xl lg:text-2xl xl:text-3xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
           >
             <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">The right legal structure for your business
             </div>
             <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">The role of share ownership and structuring
             </div>
             <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">How to legally get financing for your business
             </div>
             <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">Taxes that affect your business
             </div>
             <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">Contracts that are necessary to protect your business
             </div>
             <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">The place of trademarks in your business
+            </div>
+            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+              <p class="ml-4">How to approach potential conflicts and avoid undue court cases for your business
             </div>
           </div>
         </div>
