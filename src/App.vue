@@ -8,7 +8,6 @@
 <script>
 import Footer from "./components/Footer.vue";
 import Landing from "./components/Landing.vue";
-import CompleteOrder from "./components/CompleteOrder.vue";
 
 export default {
   name: "App",
