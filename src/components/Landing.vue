@@ -16,7 +16,7 @@
         </div>
       </div>
 
-      <div class="mt-20 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36">
+      <div class="mt-14 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36">
         <div class="flex bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8">
           <div class="w-6/12 sm:w-5/12">
             <img src="../assets/img/slant-books.png" alt="book" />
@@ -25,7 +25,7 @@
             <p
               class="text-white text-sm sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font"
             >
-              With this 20 minutes read, <br class="hidden sm:block" />
+              With this 20 minutes read,
               you start out with the right legal thinking to keep your business
               moving seamlessly and profitably.
             </p>
@@ -328,7 +328,7 @@
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          For just NGN 500
+          For just NGN 1000
         </h2>
         <p
           class="sm:mt-8 mt-5 text-sm xl:text-xl text-center archivo-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
