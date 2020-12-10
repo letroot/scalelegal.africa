@@ -11,8 +11,7 @@
           <h4
             class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
           >
-            Writen by legal and business experts, this short ebook goes into
-            detail on how to legally secure financing for your business.
+            Make Your Business More Profitable, More Secure and More Investible
           </h4>
         </div>
         <div class="flex justify-center mt-8 sm:mt-16">
@@ -21,11 +20,13 @@
             class="border-2 border-nav-text rounded-lg sm:w-2/4 lg:w-5/12 xl:h-16 text-sm sm:text-base py-2 sm:py-2 px-3 focus:outline-none truncate"
             placeholder="Enter your email address"
           />
+          
           <button
             class="bg-nav-text sm:py-2 rounded-lg px-3 sm:px-5 ml-2 focus:outline-none text-white xl:px-6 xl:text-xl"
           >
-            Get eBook
+            <a href="https://paystack.com/buy/boost-your-business-profit">Get eBook</a>
           </button>
+          
         </div>
       </div>
 
@@ -36,10 +37,9 @@
           </div>
           <div class="w-6/12 sm:w-7/12">
             <p
-              class="text-white text-base sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font"
-            >
-              The 20-page Book <br class="hidden sm:block" />
-              will Transform your Business in 25 mins of Reading Time.
+              class="text-white text-base sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font">
+              With this 20 minutes read, <br class="hidden sm:block" />
+              you start out with the right legal thinking to keep your business moving seamlessly and profitably.
             </p>
           </div>
         </div>
@@ -50,18 +50,19 @@
       >
         <div class="sm:w-7/12">
           <p
-            class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-4xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight archivo-font"
-          >
-            Copy about what the book is good for, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-4xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight inter-font">
+            Without questions, the legal aspect of one's business is about the most
+            important part of it, after sales and marketing itself. Ignorance of it
+            often keeps many in fear, uncertainty and insecurity. In fact, there are
+            those who have lost loads of money, missed out on more profitable deals
+            and sometimes lost businesses to this.
           </p>
           <div class="mt-8 sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
               class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white lg:text-lg xl:text-2xl"
             >
-              Buy eBook Now
+
+              <a  href="https://paystack.com/buy/boost-your-business-profit">Buy eBook Now</a>
             </button>
             <button
               class="bg-nav-text py-2 rounded-lg px-5 ml-3 focus:outline-none text-white lg:text-lg xl:text-2xl"
@@ -98,7 +99,7 @@
           <h1
             class="text-center sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text"
           >
-            What is Covered in the Book
+            Got questions about:
           </h1>
           <div
             class="sm:text-xl lg:text-2xl xl:text-3xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
@@ -107,7 +108,7 @@
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
               <p class="ml-4">The right legal structure for your business</p>
             </div>
-            <div class="flex mt-6 leading-none items-center">
+            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
               <p class="ml-4">The role of share ownership and structuring</p>
             </div>
@@ -121,9 +122,7 @@
             </div>
             <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">
-                Contracts that are necessary to protect your business
-              </p>
+              <p class="ml-4">Contracts that are necessary to protect your business</p>
             </div>
             <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
@@ -152,7 +151,7 @@
           <button
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
-            Download book now
+            <a  href="https://paystack.com/buy/boost-your-business-profit">Download book now</a>
           </button>
         </div>
       </div>
@@ -319,7 +318,7 @@
           <button
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
-            Download book now
+            <a  href="https://paystack.com/buy/boost-your-business-profit">Download book now </a>
           </button>
         </div>
       </div>
@@ -328,7 +327,21 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 export default {};
+=======
+import Header from "./Header";
+
+export default {
+  components: {
+    Header,
+  },
+  name: "Home",
+  metaInfo: {
+    title: 'Publications :: ScalLegal Africa'
+  }   
+};
+>>>>>>> fc63571f8fddfcf3148ada9c98c5fc5f01d5562e
 </script>
 
 <style>
