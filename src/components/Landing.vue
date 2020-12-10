@@ -358,7 +358,7 @@
 export default {
   name: "Home",
   metaInfo: {
-    title: "Publications :: ScalLegal Africa",
+    title: "Publications :: ScaleLegal Africa",
   },
 };
 </script>
