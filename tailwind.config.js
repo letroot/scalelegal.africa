@@ -14,6 +14,7 @@ module.exports = {
         "client-bg": "#88B3F0",
         "footer-bg": "#014165",
         "built-with": "#c6cbc9",
+        "your-business": "#014165",
       },
     },
   },

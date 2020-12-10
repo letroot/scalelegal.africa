@@ -4,30 +4,35 @@
       <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
         <div>
           <h1
-            class="text-center text-3xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto archivo-font lg:w-8/12 lg:text-7xl lg:tracking-tight xl:text-8xl"
+            class="text-center font-semibold text-2xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto archivo-font lg:w-9/12  xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
           >
-            Want to Scale your Business?
+            Make Your Business More Profitable, Secure and Investible
           </h1>
-          <h4
+          <!-- <h4
             class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
           >
             Make Your Business More Profitable, More Secure and More Investible
-          </h4>
+          </h4> -->
         </div>
       </div>
 
       <div class="mt-14 sm:mt-20 lg:mt-36 sm:px-12 lg:px-24 xl:px-36">
         <div class="flex bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8">
-          <div class="w-6/12 sm:w-5/12">
+          <div class="relative w-6/12 sm:w-5/12">
             <img src="../assets/img/slant-books.png" alt="book" />
+            <img
+              src="../assets/img/star.svg"
+              alt="star"
+              class="absolute inset-0 h-12 sm:h-16 lg:h-20 xl:h-24"
+            />
           </div>
           <div class="w-6/12 sm:w-7/12">
             <p
-              class="text-white text-sm sm:text-2xl lg:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:mt-4 sm:leading-tight lg:mt-2 xl:text-4xl xl:mt-16 archivo-font"
+              class="text-white text-sm sm:text-2xl lg:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:mt-10 sm:leading-tight lg:mt-14 xl:text-4xl xl:mt-24 archivo-font"
             >
-              With this 20 minutes read,
-              you start out with the right legal thinking to keep your business
-              moving seamlessly and profitably.
+              With this 20 mins read, gain a result oriented & practical legal
+              guide for 
+              <span class="text-your-business">Scaling your Business.</span>
             </p>
           </div>
         </div>
@@ -38,14 +43,18 @@
       >
         <div class="sm:w-7/12">
           <p
-            class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight inter-font"
+            class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-none inter-font"
           >
-            Without questions, the legal aspect of one's business is about the
-            most important part of it, after sales and marketing itself.
-            Ignorance of it often keeps many in fear, uncertainty and
-            insecurity. In fact, there are those who have lost loads of money,
-            missed out on more profitable deals and sometimes lost businesses to
-            this.
+            The legal aspect of your business is the most important, after sales
+            and marketing itself.
+            <br />
+            <br />
+            Ignorance of this aspect has kept many business owners in
+            uncertainty and insecurity.
+            <br />
+            <br />
+            And more have lost loads of money, missed out on profitable deals
+            and sometimes lost entire businesses to this.
           </p>
           <div class="sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
@@ -56,13 +65,13 @@
               >
             </button>
             <button
-              class="bg-nav-text py-2 rounded-lg px-5 ml-3 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+              class="bg-nav-text py-2 rounded-lg px-5 ml-2 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
             >
               Learn More
             </button>
           </div>
         </div>
-        <div class="mt-8 sm:mt-0 w-9/12 mx-auto sm:w-5/12">
+        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:w-5/12">
           <img src="../assets/img/book.png" alt="book" />
         </div>
       </div>
