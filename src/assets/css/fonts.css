@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Circular Std Italic";
+  src: url("fonts/circular-std/CircularStd-MediumItalic.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("fonts/circular-std/CircularStd-Medium.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("fonts/circular-std/CircularStd-Book.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-Book.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url("fonts/circular-std/CircularStd-Bold.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Bold Italic";
+  src: url("fonts/circular-std/CircularStd-BoldItalic.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Black";
+  src: url("fonts/circular-std/CircularStd-Black.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Book Italic";
+  src: url("fonts/circular-std/CircularStd-BookItalic.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-BookItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std Black Italic";
+  src: url("fonts/circular-std/CircularStd-BlackItalic.woff2") format("woff2"),
+    url("fonts/circular-std/CircularStd-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}

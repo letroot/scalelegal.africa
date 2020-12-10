@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontWeight: ['hover', 'focus'],
+      fontWeight: ["hover", "focus"],
       colors: {
         bg: "#88B3F0",
         "nav-text": "#175A80",
@@ -15,6 +15,10 @@ module.exports = {
         "footer-bg": "#014165",
         "built-with": "#c6cbc9",
         "your-business": "#014165",
+      },
+      fontFamily: {
+        circular: ["Circular Std"],
+        "circular-book": ["Circular Std Book", "sans-serif"],
       },
     },
   },

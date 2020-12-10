@@ -4,7 +4,7 @@
       <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
         <div>
           <h1
-            class="text-center font-semibold text-2xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto archivo-font lg:w-9/12  xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
+            class="text-center font-semibold text-2xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12  xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
           >
             Make Your Business More Profitable, Secure and Investible
           </h1>
@@ -374,10 +374,6 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700&display=swap");
-
-.archivo-font {
-  font-family: "Archivo", sans-serif;
-}
 
 .inter-font {
   font-family: "Inter", sans-serif;

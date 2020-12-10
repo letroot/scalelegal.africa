@@ -34,3 +34,6 @@ export default {
   font-family: "Inter", sans-serif;
 }
 </style>
+
+<style src="./assets/css/fonts.css"></style>
+
