@@ -1,11 +1,13 @@
 <template>
   <div id="app" class="bg-white archivo-font">
+    <Header />
     <Landing />
     <Footer />
   </div>
 </template>
 
 <script>
+import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Landing from "./components/Landing.vue";
 
@@ -13,6 +15,7 @@ export default {
   name: "App",
   components: {
     Footer,
+    Header,
     Landing,
   },
 };

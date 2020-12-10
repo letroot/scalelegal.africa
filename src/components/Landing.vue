@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
         <div>
@@ -15,32 +14,20 @@
             Make Your Business More Profitable, More Secure and More Investible
           </h4>
         </div>
-        <div class="flex justify-center mt-8 sm:mt-16">
-          <input
-            type="text"
-            class="border-2 border-nav-text rounded-lg sm:w-2/4 lg:w-5/12 xl:h-16 text-sm sm:text-base py-2 sm:py-2 px-3 focus:outline-none truncate"
-            placeholder="Enter your email address"
-          />
-          
-          <button
-            class="bg-nav-text sm:py-2 rounded-lg px-3 sm:px-5 ml-2 focus:outline-none text-white xl:px-6 xl:text-xl"
-          >
-            <a href="https://paystack.com/buy/boost-your-business-profit">Get eBook</a>
-          </button>
-          
-        </div>
       </div>
 
-      <div class="mt-20 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36">
-        <div class="flex bg-bg sm:shadow-xl sm:rounded-xl px-10 sm:px-7 py-8">
+      <div class="mt-14 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36">
+        <div class="flex bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8">
           <div class="w-6/12 sm:w-5/12">
             <img src="../assets/img/slant-books.png" alt="book" />
           </div>
           <div class="w-6/12 sm:w-7/12">
             <p
-              class="text-white text-base sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font">
-              With this 20 minutes read, <br class="hidden sm:block" />
-              you start out with the right legal thinking to keep your business moving seamlessly and profitably.
+              class="text-white text-sm sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font"
+            >
+              With this 20 minutes read,
+              you start out with the right legal thinking to keep your business
+              moving seamlessly and profitably.
             </p>
           </div>
         </div>
@@ -51,22 +38,25 @@
       >
         <div class="sm:w-7/12">
           <p
-            class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-4xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight inter-font">
-            Without questions, the legal aspect of one's business is about the most
-            important part of it, after sales and marketing itself. Ignorance of it
-            often keeps many in fear, uncertainty and insecurity. In fact, there are
-            those who have lost loads of money, missed out on more profitable deals
-            and sometimes lost businesses to this.
+            class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-4xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight inter-font"
+          >
+            Without questions, the legal aspect of one's business is about the
+            most important part of it, after sales and marketing itself.
+            Ignorance of it often keeps many in fear, uncertainty and
+            insecurity. In fact, there are those who have lost loads of money,
+            missed out on more profitable deals and sometimes lost businesses to
+            this.
           </p>
-          <div class="mt-8 sm:mt-16 xl:mt-20 text-center sm:text-left">
+          <div class="sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
-              class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white lg:text-lg xl:text-2xl"
+              class="bg-scale-green py-2 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-lg xl:text-2xl"
             >
-
-              <a  href="https://paystack.com/buy/boost-your-business-profit">Buy eBook Now</a>
+              <a href="https://paystack.com/buy/boost-your-business-profit"
+                >Buy eBook Now</a
+              >
             </button>
             <button
-              class="bg-nav-text py-2 rounded-lg px-5 ml-3 focus:outline-none text-white lg:text-lg xl:text-2xl"
+              class="bg-nav-text py-2 rounded-lg px-5 ml-3 mt-8 sm:mt-0 focus:outline-none text-white lg:text-lg xl:text-2xl"
             >
               Learn More
             </button>
@@ -105,33 +95,66 @@
           <div
             class="sm:text-xl lg:text-2xl xl:text-3xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
           >
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+            <div class="flex leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
               <p class="ml-4">The right legal structure for your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
               <p class="ml-4">The role of share ownership and structuring</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
               <p class="ml-4">How to legally get financing for your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
               <p class="ml-4">Taxes that affect your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Contracts that are necessary to protect your business</p>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">
+                Contracts that are necessary to protect your business
+              </p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
               <p class="ml-4">The place of trademarks in your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
-              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">How to approach potential conflicts and avoid undue court cases for your business</p>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">
+                How to approach potential conflicts and avoid undue court cases
+                for your business
+              </p>
             </div>
           </div>
         </div>
@@ -152,7 +175,9 @@
           <button
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
-            <a  href="https://paystack.com/buy/boost-your-business-profit">Download book now</a>
+            <a href="https://paystack.com/buy/boost-your-business-profit"
+              >Download book now</a
+            >
           </button>
         </div>
       </div>
@@ -224,7 +249,7 @@
         </div>
       </div>
 
-      <div class="sm:px-20 sm:mt-32 lg:mt-48 lg:px-24 xl:px-36 px-10 mt-20">
+      <!-- <div class="sm:px-20 sm:mt-32 lg:mt-48 lg:px-24 xl:px-36 px-10 mt-20">
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
@@ -297,13 +322,13 @@
             </h3>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="sm:px-20 lg:mt-48 lg:px-24 xl:px-36 sm:mt-32 px-10 mt-20">
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          For just NGN 500
+          For just NGN 1000
         </h2>
         <p
           class="sm:mt-8 mt-5 text-sm xl:text-xl text-center archivo-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
@@ -319,7 +344,9 @@
           <button
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
-            <a  href="https://paystack.com/buy/boost-your-business-profit">Download book now </a>
+            <a href="https://paystack.com/buy/boost-your-business-profit"
+              >Download book now
+            </a>
           </button>
         </div>
       </div>
@@ -328,16 +355,11 @@
 </template>
 
 <script>
-import Header from "./Header";
-
 export default {
-  components: {
-    Header,
-  },
   name: "Home",
   metaInfo: {
-    title: 'Publications :: ScalLegal Africa'
-  }   
+    title: "Publications :: ScalLegal Africa",
+  },
 };
 </script>
 
