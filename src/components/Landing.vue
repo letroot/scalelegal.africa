@@ -16,14 +16,14 @@
         </div>
       </div>
 
-      <div class="mt-14 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36">
+      <div class="mt-14 sm:mt-20 lg:mt-36 sm:px-12 lg:px-24 xl:px-36">
         <div class="flex bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8">
           <div class="w-6/12 sm:w-5/12">
             <img src="../assets/img/slant-books.png" alt="book" />
           </div>
           <div class="w-6/12 sm:w-7/12">
             <p
-              class="text-white text-sm sm:text-3xl sm:w-3/4 ml-5 sm:ml-12 lg:ml-32 mt-3 sm:mt-8 sm:leading-tight lg:mt-20 lg:text-4xl xl:text-5xl archivo-font"
+              class="text-white text-sm sm:text-2xl lg:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:mt-4 sm:leading-tight lg:mt-2 xl:text-4xl xl:mt-16 archivo-font"
             >
               With this 20 minutes read,
               you start out with the right legal thinking to keep your business
@@ -38,7 +38,7 @@
       >
         <div class="sm:w-7/12">
           <p
-            class="text-center sm:text-left sm:text-lg lg:text-2xl xl:text-4xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight inter-font"
+            class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-tight inter-font"
           >
             Without questions, the legal aspect of one's business is about the
             most important part of it, after sales and marketing itself.
@@ -49,14 +49,14 @@
           </p>
           <div class="sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
-              class="bg-scale-green py-2 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-lg xl:text-2xl"
+              class="bg-scale-green py-2 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
             >
               <a href="https://paystack.com/buy/boost-your-business-profit"
                 >Buy eBook Now</a
               >
             </button>
             <button
-              class="bg-nav-text py-2 rounded-lg px-5 ml-3 mt-8 sm:mt-0 focus:outline-none text-white lg:text-lg xl:text-2xl"
+              class="bg-nav-text py-2 rounded-lg px-5 ml-3 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
             >
               Learn More
             </button>
@@ -93,7 +93,7 @@
             Got questions about:
           </h1>
           <div
-            class="sm:text-xl lg:text-2xl xl:text-3xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
+            class="sm:text-lg lg:text-xl xl:text-2xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
           >
             <div class="flex leading-none">
               <img
@@ -358,7 +358,7 @@
 export default {
   name: "Home",
   metaInfo: {
-    title: "Publications :: ScalLegal Africa",
+    title: "Publications :: ScaleLegal Africa",
   },
 };
 </script>

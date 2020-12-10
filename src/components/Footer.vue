@@ -5,11 +5,31 @@
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div class="flex flex-wrap text-white text-sm">
         <div class="w-1/2 lg:w-3/12 lg:order-1">
-          <a href="#" class="block h-7 hover:font-semibold">About</a>
-          <a href="#" class="block h-7 hover:font-semibold">Our Services</a>
-          <a href="#" class="block h-7 hover:font-semibold">Experience</a>
-          <a href="#" class="block h-7 hover:font-semibold">The Team</a>
-          <a href="#" class="block h-7 hover:font-semibold">Blog</a>
+          <a
+            href="https://scalelegal.africa/about"
+            class="block h-7 hover:font-semibold"
+            >About</a
+          >
+          <a
+            href="https://scalelegal.africa/services"
+            class="block h-7 hover:font-semibold"
+            >Our Services</a
+          >
+          <a
+            href="https://scalelegal.africa/expertise"
+            class="block h-7 hover:font-semibold"
+            >Experience</a
+          >
+          <a
+            href="https://scalelegal.africa/team"
+            class="block h-7 hover:font-semibold"
+            >The Team</a
+          >
+          <a
+            href="https://blog.scalelegal.africa/"
+            class="block h-7 hover:font-semibold"
+            >Blog</a
+          >
         </div>
 
         <div class="w-1/2 lg:w-3/12 lg:order-3 flex justify-between">

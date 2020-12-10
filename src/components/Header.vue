@@ -23,21 +23,23 @@
       class="sm:w-8/12 lg:w-7/12 xl:w-7/12 sm:flex sm:flex-row sm:justify-between sm:items-center p-4 sm:p-0 flex flex-col text-right"
       :class="{ hidden: !isopen, flex: isopen }"
     >
-      <a href="#" class="sm:text-xs xl:text-base xl:leading-none text-nav-text"
+      <a
+        href="https://scalelegal.africa/services"
+        class="sm:text-xs xl:text-base xl:leading-none text-nav-text"
         >Our Services</a
       >
       <a
-        href="#"
+        href="https://scalelegal.africa/expertise"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         >Expertise</a
       >
       <a
-        href="#"
+        href="https://scalelegal.africa/team"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         >The Team</a
       >
       <a
-        href="#"
+        href="https://blog.scalelegal.africa/"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         >Blog</a
       >
