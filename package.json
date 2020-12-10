@@ -12,7 +12,8 @@
     "core-js": "^3.6.5",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-meta": "^2.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -38,7 +39,7 @@
     "rules": {}
   },
   "engines": {
-  	"node": ">=0.12"
+    "node": ">=0.12"
   },
   "browserslist": [
     "> 1%",
