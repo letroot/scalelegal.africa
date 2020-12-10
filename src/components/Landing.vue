@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
         <div>
@@ -104,29 +103,35 @@
           <div
             class="sm:text-xl lg:text-2xl xl:text-3xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
           >
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+            <div class="flex leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">The right legal structure for your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+            <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">The role of share ownership and structuring</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+            <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">How to legally get financing for your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+            <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">Taxes that affect your business</p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+            <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">
+                Contracts that are necessary to protect your business
+              </p>
             </div>
-            <div class="flex sm:h-10 lg:h-12 xl:h-14 h-7 items-center">
+            <div class="flex mt-6 leading-none items-center">
               <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
-              <p class="ml-4">Quis nostrud exercitation ullamco</p>
+              <p class="ml-4">The place of trademarks in your business</p>
+            </div>
+            <div class="flex mt-6 leading-none items-center">
+              <img src="../assets/img/bullet.svg" alt="bullet" class="h-3" />
+              <p class="ml-4">How to approach potential conflicts and avoid undue court cases for your business</p>
             </div>
           </div>
         </div>
@@ -323,13 +328,7 @@
 </template>
 
 <script>
-import Header from "./Header";
-
-export default {
-  components: {
-    Header,
-  },
-};
+export default {};
 </script>
 
 <style>
