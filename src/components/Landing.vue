@@ -109,12 +109,12 @@
       >
         <div class="sm:w-7/12">
           <h1
-            class="text-center sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text"
+            class="text-center font-semibold sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text"
           >
-            Got questions about:
+            What this <br class="hidden sm:block"> Book Covers
           </h1>
           <div
-            class="sm:text-lg lg:text-xl xl:text-2xl sm:w-10/12 mt-6 sm:mt-8 lg:mt-16 text-body-text sm:leading-tight archivo-font"
+            class="sm:text-lg lg:text-xl xl:text-2xl sm:w-10/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight archivo-font"
           >
             <div class="flex leading-none">
               <img
@@ -177,6 +177,11 @@
                 for your business
               </p>
             </div>
+            <div class="mt-6 leading-none">
+              <p class="">
+                and much more...
+              </p>
+            </div>
           </div>
         </div>
         <div class="sm:w-5/12 mt-12 sm:mt-24 w-2/3 mx-auto">
@@ -225,8 +230,8 @@
               alt="growth"
               class="sm:h-32 xl:h-48 h-48"
             />
-            <h2 class="text-lg sm:text-xl xl:text-3xl xl:mt-5 text-center">
-              Secure Biz
+            <h2 class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center">
+              More Profit
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
@@ -241,8 +246,8 @@
               alt="growth"
               class="sm:h-32 h-48 xl:h-48"
             />
-            <h2 class="text-lg sm:text-xl xl:text-3xl xl:mt-5 text-center">
-              Secure Biz
+            <h2 class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center">
+              Less Losses 
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
@@ -257,8 +262,8 @@
               alt="growth"
               class="sm:h-32 h-48 xl:h-48"
             />
-            <h2 class="text-lg sm:text-xl xl:text-3xl xl:mt-5 text-center">
-              Secure Biz
+            <h2 class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center">
+              More Strategic
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
@@ -354,10 +359,9 @@
         <p
           class="sm:mt-8 mt-5 text-sm xl:text-xl text-center archivo-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
         >
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore
+          Don't miss the chance to change the prospect of your  
           <br class="hidden xl:block" />
-          et dolore magna aliqua. Ut
+          business permanently for the price of
         </p>
         <div
           class="sm:mt-8 lg:mt-12 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
@@ -366,7 +370,7 @@
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
             <a href="https://paystack.com/buy/boost-your-business-profit"
-              >Download book now
+              >I want to read the book
             </a>
           </button>
         </div>
