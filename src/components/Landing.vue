@@ -87,7 +87,7 @@
         </div>
       </div>
 
-      <div class="sm:px-20 lg:mt-48 lg:px-24 xl:px-36 sm:mt-32 mt-10 px-10">
+      <!-- <div class="sm:px-20 lg:mt-48 lg:px-24 xl:px-36 sm:mt-32 mt-10 px-10">
         <h2
           class="text-center text-gray-text archivo-font sm:text-xl xl:text-2xl uppercase"
         >
@@ -101,7 +101,7 @@
             over 10 years experience in corporate legal contexts.
           </p>
         </div>
-      </div>
+      </div> -->
 
       <div
         ref="bookcovers"
