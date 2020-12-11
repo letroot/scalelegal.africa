@@ -18,7 +18,7 @@
 
       <div class="mt-14 sm:mt-20 lg:mt-36 sm:px-12 lg:px-24 xl:px-36">
         <div
-          class="flex flex-col sm:flex-row bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8"
+          class="flex items-center flex-col sm:flex-row bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8"
         >
           <div class="relative mx-auto w-10/12 sm:w-5/12">
             <img src="../assets/img/slant-books.png" alt="book" />
@@ -30,7 +30,7 @@
           </div>
           <div class="w-10/12 mx-auto sm:w-7/12">
             <p
-              class="text-white text-center sm:text-left text-base sm:text-2xl lg:text-3xl sm:w-3/4 sm:ml-12 mt-3 sm:leading-tight xl:text-4xl xl:mt-16 inter-font"
+              class="text-white text-center sm:text-left text-base sm:text-2xl lg:text-3xl sm:w-3/4 sm:ml-12 mt-3 sm:mt-0 sm:leading-tight xl:text-4xl inter-font"
             >
               Within this 20 mins read, you will get practical understanding of
               how to approach the legal aspects of your business in a result
