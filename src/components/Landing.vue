@@ -4,7 +4,7 @@
       <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
         <div>
           <h1
-            class="text-center font-semibold text-2xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12  xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
+            class="text-center font-semibold text-2xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12 xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
           >
             Make Your Business More Profitable, Secure and Investible
           </h1>
@@ -28,11 +28,11 @@
           </div>
           <div class="w-6/12 sm:w-7/12">
             <p
-              class="text-white text-sm sm:text-2xl lg:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:mt-10 sm:leading-tight lg:mt-14 xl:text-4xl xl:mt-24 archivo-font"
+              class="text-white text-sm sm:text-2xl lg:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:leading-tight xl:text-4xl xl:mt-16 archivo-font"
             >
-              With this 20 mins read, gain a result oriented & practical legal
-              guide for 
-              <span class="text-your-business">Scaling your Business.</span>
+              Within this 20 mins read, you will get practical understanding of
+              how to approach the legal aspects of your business in a result
+              oriented and profitable way.
             </p>
           </div>
         </div>
@@ -45,16 +45,26 @@
           <p
             class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-none inter-font"
           >
-            The legal aspect of your business is the most important, after sales
-            and marketing itself.
+            Many business owner approach the legal aspect of their business with
+            uncertainty and fear. They often imagine the law working against
+            their business.
             <br />
             <br />
-            Ignorance of this aspect has kept many business owners in
-            uncertainty and insecurity.
+            But this is far from the truth.
             <br />
             <br />
-            And more have lost loads of money, missed out on profitable deals
-            and sometimes lost entire businesses to this.
+            In this book, you will see the way to take advantage of the
+            available legal processes and provisions that saves your business
+            from losses and extra costs while making your business more
+            profitable, secure and investible.
+            <br />
+            <br />
+            You would see things you have been missing out on, because of
+            certain provisions and aspects of the law you are unaware of.
+            <br />
+            <br />
+            We are excited because we know your business will take a far more
+            profitable path after reading this book.
           </p>
           <div class="sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
@@ -65,6 +75,7 @@
               >
             </button>
             <button
+              @click="scrollMeTo('bookcovers')"
               class="bg-nav-text py-2 rounded-lg px-5 ml-2 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
             >
               Learn More
@@ -93,6 +104,7 @@
       </div>
 
       <div
+        ref="bookcovers"
         class="sm:mt-32 lg:mt-48 lg:px-24 xl:px-36 sm:px-12 sm:flex mt-20 px-10"
       >
         <div class="sm:w-7/12">
@@ -368,6 +380,14 @@ export default {
   name: "Home",
   metaInfo: {
     title: "Publications :: ScaleLegal Africa",
+  },
+  methods: {
+    scrollMeTo(refName) {
+      var element = this.$refs[refName];
+      var top = element.offsetTop;
+
+      window.scrollTo(0, top);
+    },
   },
 };
 </script>
