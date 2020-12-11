@@ -117,7 +117,7 @@
             Book Covers
           </h1>
           <div
-            class="sm:text-lg lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight inter-font"
+            class="sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight inter-font"
           >
             <div class="flex leading-none">
               <img
