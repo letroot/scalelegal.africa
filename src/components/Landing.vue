@@ -76,7 +76,7 @@
             </button>
             <button
               @click="scrollMeTo('bookcovers')"
-              class="bg-nav-text py-2 rounded-lg px-5 ml-2 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+              class="bg-nav-text py-2 rounded-lg px-5 ml-2 xl:ml-8 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
             >
               Learn More
             </button>
@@ -111,7 +111,8 @@
           <h1
             class="text-center font-semibold sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text"
           >
-            What this <br class="hidden sm:block"> Book Covers
+            What this <br class="hidden sm:block" />
+            Book Covers
           </h1>
           <div
             class="sm:text-lg lg:text-xl xl:text-2xl sm:w-10/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight archivo-font"
@@ -178,9 +179,7 @@
               </p>
             </div>
             <div class="mt-6 leading-none">
-              <p class="">
-                and much more...
-              </p>
+              <p class="">and much more...</p>
             </div>
           </div>
         </div>
@@ -193,7 +192,8 @@
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          Learn all you need to make your business ready to scale.
+          Get this book and begin your step by step journey to turning your
+          business into a more secure and profitable one
         </h2>
         <div
           class="sm:mt-8 lg:mt-12 xl:mt-16 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
@@ -212,64 +212,73 @@
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          Why You Should Learn...
+          Why You Should Read this
         </h2>
         <div
           class="sm:mt-8 mt-5 text-center archivo-font text-body-text sm:w-9/12 sm:mx-auto"
         >
-          <p class="sm:text-base text-sm xl:text-xl">
+          <!-- <p class="sm:text-base text-sm xl:text-xl">
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             <br class="hidden xl:block" />
             labore et dolore magna aliqua. Ut
-          </p>
+          </p> -->
         </div>
         <div class="flex flex-col sm:flex-row mt-8 xl:mt-20 sm:mt-12">
-          <div class="sm:w-1/3 flex flex-col px-2 xl:px-6">
+          <div class="sm:w-1/3 flex flex-col px-2 lg:px-6 xl:px-8">
             <img
               src="../assets/img/growth.svg"
               alt="growth"
               class="sm:h-32 xl:h-48 h-48"
             />
-            <h2 class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center">
+            <h2
+              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
+            >
               More Profit
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
             >
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut
+              It’s a fact that those who understand the legal side of business
+              usually make more profit by taking advantage of provisions of the
+              law that allow them do more.
             </p>
           </div>
-          <div class="sm:w-1/3 flex flex-col px-2 xl:px-6 mt-10 sm:mt-0">
+          <div class="sm:w-1/3 flex flex-col px-2 lg:px-6 xl:px-8 mt-10 sm:mt-0">
             <img
               src="../assets/img/growth.svg"
               alt="growth"
               class="sm:h-32 h-48 xl:h-48"
             />
-            <h2 class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center">
-              Less Losses 
+            <h2
+              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
+            >
+              Less Losses
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
             >
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut
+              Whenever you’re ignorant of the major aspects of business you are
+              likely to find yourself making mistakes that can be fatal to the
+              business
             </p>
           </div>
-          <div class="sm:w-1/3 flex flex-col px-2 xl:px-6 mt-10 sm:mt-0">
+          <div class="sm:w-1/3 flex flex-col px-2 lg:px-6 xl:px-8 mt-10 sm:mt-0">
             <img
               src="../assets/img/growth.svg"
               alt="growth"
               class="sm:h-32 h-48 xl:h-48"
             />
-            <h2 class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center">
+            <h2
+              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
+            >
               More Strategic
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
             >
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut
+              With the understanding of the different aspects of the law and how
+              it affects your business, you are able to frame a better strategy
+              to grow your business and scale it
             </p>
           </div>
         </div>
@@ -354,14 +363,14 @@
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          For just NGN 1000
+          For just NGN 1,000
         </h2>
         <p
           class="sm:mt-8 mt-5 text-sm xl:text-xl text-center archivo-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
         >
-          Don't miss the chance to change the prospect of your  
+          Don't miss the chance to change the prospect of your
           <br class="hidden xl:block" />
-          business permanently for the price of
+          business permanently for the price of your lunch
         </p>
         <div
           class="sm:mt-8 lg:mt-12 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
