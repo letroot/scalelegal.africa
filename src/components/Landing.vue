@@ -4,7 +4,7 @@
       <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
         <div>
           <h1
-            class="text-center font-semibold text-2xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12 xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
+            class="text-center font-semibold text-3xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12 xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
           >
             Make Your Business More Profitable, Secure and Investible
           </h1>
@@ -17,18 +17,20 @@
       </div>
 
       <div class="mt-14 sm:mt-20 lg:mt-36 sm:px-12 lg:px-24 xl:px-36">
-        <div class="flex bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8">
-          <div class="relative w-6/12 sm:w-5/12">
+        <div
+          class="flex flex-col sm:flex-row bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8"
+        >
+          <div class="relative mx-auto w-10/12 sm:w-5/12">
             <img src="../assets/img/slant-books.png" alt="book" />
             <img
               src="../assets/img/star.svg"
               alt="star"
-              class="absolute inset-0 h-12 sm:h-16 lg:h-20 xl:h-24"
+              class="absolute inset-0 h-16 sm:h-16 lg:h-20 xl:h-24"
             />
           </div>
-          <div class="w-6/12 sm:w-7/12">
+          <div class="w-10/12 mx-auto sm:w-7/12">
             <p
-              class="text-white text-sm sm:text-2xl lg:text-3xl sm:w-3/4 ml-5 sm:ml-12 mt-3 sm:leading-tight xl:text-4xl xl:mt-16 archivo-font"
+              class="text-white text-center sm:text-left text-base sm:text-2xl lg:text-3xl sm:w-3/4 sm:ml-12 mt-3 sm:leading-tight xl:text-4xl xl:mt-16 inter-font"
             >
               Within this 20 mins read, you will get practical understanding of
               how to approach the legal aspects of your business in a result
@@ -43,7 +45,7 @@
       >
         <div class="sm:w-7/12">
           <p
-            class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-3/4 sm:mt-8 lg:mt-10 text-body-text sm:leading-none inter-font"
+            class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text sm:leading-none inter-font"
           >
             Many business owner approach the legal aspect of their business with
             uncertainty and fear. They often imagine the law working against
@@ -115,7 +117,7 @@
             Book Covers
           </h1>
           <div
-            class="sm:text-lg lg:text-xl xl:text-2xl sm:w-10/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight archivo-font"
+            class="sm:text-lg lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight inter-font"
           >
             <div class="flex leading-none">
               <img
@@ -208,7 +210,7 @@
         </div>
       </div>
 
-      <div class="sm:px-20 sm:mt-32 lg:mt-48 lg:px-24 xl:px-36 mt-20 px-10">
+      <div class="sm:px-14 sm:mt-32 lg:mt-48 lg:px-24 xl:px-36 mt-20 px-10">
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
@@ -224,7 +226,7 @@
           </p> -->
         </div>
         <div class="flex flex-col sm:flex-row mt-8 xl:mt-20 sm:mt-12">
-          <div class="sm:w-1/3 flex flex-col px-2 lg:px-6 xl:px-8">
+          <div class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8">
             <img
               src="../assets/img/growth.svg"
               alt="growth"
@@ -236,14 +238,16 @@
               More Profit
             </h2>
             <p
-              class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
+              class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg inter-font"
             >
               It’s a fact that those who understand the legal side of business
               usually make more profit by taking advantage of provisions of the
               law that allow them do more.
             </p>
           </div>
-          <div class="sm:w-1/3 flex flex-col px-2 lg:px-6 xl:px-8 mt-10 sm:mt-0">
+          <div
+            class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8 mt-10 sm:mt-0"
+          >
             <img
               src="../assets/img/growth.svg"
               alt="growth"
@@ -255,14 +259,16 @@
               Less Losses
             </h2>
             <p
-              class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
+              class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg inter-font"
             >
               Whenever you’re ignorant of the major aspects of business you are
               likely to find yourself making mistakes that can be fatal to the
               business
             </p>
           </div>
-          <div class="sm:w-1/3 flex flex-col px-2 lg:px-6 xl:px-8 mt-10 sm:mt-0">
+          <div
+            class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8 mt-10 sm:mt-0"
+          >
             <img
               src="../assets/img/growth.svg"
               alt="growth"
@@ -274,7 +280,7 @@
               More Strategic
             </h2>
             <p
-              class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg"
+              class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg inter-font"
             >
               With the understanding of the different aspects of the law and how
               it affects your business, you are able to frame a better strategy
@@ -359,14 +365,14 @@
         </div>
       </div> -->
 
-      <div class="sm:px-20 lg:mt-48 lg:px-24 xl:px-36 sm:mt-32 px-10 mt-20">
+      <div class="sm:px-20 lg:mt-24 lg:px-24 xl:px-36 px-10 mt-20">
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
           For just NGN 1,000
         </h2>
         <p
-          class="sm:mt-8 mt-5 text-sm xl:text-xl text-center archivo-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
+          class="sm:mt-8 mt-5 text-sm xl:text-xl text-center inter-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
         >
           Don't miss the chance to change the prospect of your
           <br class="hidden xl:block" />

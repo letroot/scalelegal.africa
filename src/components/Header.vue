@@ -20,7 +20,7 @@
     </div>
 
     <div
-      class="sm:w-8/12 lg:w-7/12 xl:w-7/12 sm:flex sm:flex-row sm:justify-between sm:items-center p-4 sm:p-0 flex flex-col text-right"
+      class="w-11/12 bg-white absolute sm:relative sm:w-8/12 lg:w-7/12 xl:w-7/12 sm:flex sm:flex-row sm:justify-between sm:items-center p-4 sm:p-0 flex flex-col text-right"
       :class="{ hidden: !isopen, flex: isopen }"
     >
       <a

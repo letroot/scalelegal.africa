@@ -18,7 +18,7 @@
           <a
             href="https://scalelegal.africa/expertise"
             class="block h-7 hover:font-semibold"
-            >Experience</a
+            >Expertise</a
           >
           <a
             href="https://scalelegal.africa/team"
@@ -40,7 +40,7 @@
             <a href="#" class="block h-7 hover:font-semibold">Twitter</a>
           </div>
           <div>
-            <a href="#" class="block">↑</a>
+            <a href="#" @click="scrollToTop" class="block">↑</a>
           </div>
         </div>
 
@@ -65,7 +65,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
+};
 </script>
 
 <style>
