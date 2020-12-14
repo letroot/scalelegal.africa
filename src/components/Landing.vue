@@ -376,7 +376,7 @@
         >
           Don't miss the chance to change the prospect of your
           <br class="hidden xl:block" />
-          business permanently for the price of your lunch
+          business permanently for the price of a movie ticket.
         </p>
         <div
           class="sm:mt-8 lg:mt-12 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
