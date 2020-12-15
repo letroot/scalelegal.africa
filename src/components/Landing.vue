@@ -369,7 +369,7 @@
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          For just NGN 3,000
+          For just NGN 1,500
         </h2>
         <p
           class="sm:mt-8 mt-5 text-sm xl:text-xl text-center inter-font text-body-text sm:text-lg sm:w-9/12 sm:mx-auto leading-tight"
