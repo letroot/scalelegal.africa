@@ -44,7 +44,7 @@
         >Blog</a
       >
       <a
-        href="#"
+        href="https://paystack.com/buy/boost-your-business-profit"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         ><button
           class="border border-nav-text rounded-xl py-2 sm:py-3 px-3 focus:outline-none"
