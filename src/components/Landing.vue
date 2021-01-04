@@ -6,13 +6,13 @@
           <h1
             class="text-center font-semibold text-3xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12 xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
           >
-            Make Your Business More Profitable, Secure and Investible
+            Want to make your Business more Profitable than it is now?
           </h1>
-          <!-- <h4
+          <h4
             class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
           >
-            Make Your Business More Profitable, More Secure and More Investible
-          </h4> -->
+            You need this book!
+          </h4>
         </div>
       </div>
 
@@ -39,6 +39,25 @@
           </div>
         </div>
       </div>
+
+      <!-- START OF CTA BUTTONS -->
+
+      <div class="mx:auto sm:mt-16 xl:mt-20 text-center sm:text-left">
+        <button
+          class="bg-scale-green py-2 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+        >
+          <a href="https://paystack.com/buy/boost-your-business-profit"
+            >Buy eBook Now</a
+          >
+        </button>
+        <button
+          @click="scrollMeTo('bookcovers')"
+          class="bg-nav-text py-2 rounded-lg px-5 ml-2 xl:ml-8 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+        >
+          Learn More
+        </button>
+      </div>
+      <!-- END OF CTA BUTTONS -->
 
       <div
         class="mt-20 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36 sm:flex px-10"
