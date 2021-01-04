@@ -13,10 +13,22 @@
           >
             You need this book!
           </h4>
+          <h4
+            class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
+          >
+            The legal aspect of your business can unlock goldmines of profit or
+            cause untold hardships depending on the knowledge you utilise to
+            your advantage.
+            <br>
+            <br>
+            Many successful businesses have been built by taking
+            advantage of the privileges afforded them by the Law which others
+            have neglected.
+          </h4>
         </div>
       </div>
 
-      <div class="mt-14 sm:mt-20 lg:mt-36 sm:px-12 lg:px-24 xl:px-36">
+      <div class="mt-12 sm:mt-20 lg:mt-36 sm:px-12 lg:px-24 xl:px-36">
         <div
           class="flex items-center flex-col sm:flex-row bg-bg sm:shadow-xl sm:rounded-xl px-6 sm:px-7 py-8"
         >
@@ -32,9 +44,9 @@
             <p
               class="text-white text-center sm:text-left text-base sm:text-2xl lg:text-3xl sm:w-3/4 sm:ml-12 mt-3 sm:mt-0 sm:leading-tight xl:text-4xl inter-font"
             >
-              Within this 20 mins read, you will get practical understanding of
-              how to approach the legal aspects of your business in a result
-              oriented and profitable way.
+              This book is designed to give you the exact same results that they
+              get in just 28 colourful pages and within 20 minutes of reading
+              time.
             </p>
           </div>
         </div>
@@ -66,26 +78,37 @@
           <p
             class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text sm:leading-none inter-font"
           >
-            Many business owner approach the legal aspect of their business with
-            uncertainty and fear. They often imagine the law working against
-            their business.
+            In this book, the legal aspect of your business has been explained
+            in such a way that you will uncover the legal steps that make
+            certain businesses more profitable than others. This is why we have
+            made this book very affordable for all who seek one thing only:
+            RESULTS. Many business owners approach the legal aspect of their
+            business with uncertainty and fear. They often imagine the law
+            working against their business.
             <br />
             <br />
             But this is far from the truth.
             <br />
             <br />
-            In this book, you will see the way to take advantage of the
-            available legal processes and provisions that saves your business
-            from losses and extra costs while making your business more
-            profitable, secure and investible.
+            Many business owners shy away from the LAw thinking it is just
+            expensive and adds nothing to their business, but this is not true
+            at all. The provisions of the Law are meant to give your business
+            certain benefits.
             <br />
             <br />
-            You would see things you have been missing out on, because of
-            certain provisions and aspects of the law you are unaware of.
+            You will only miss out of this benefit due to ignorance of what they
+            are and how to take advantage of them. This book clearly explains
+            the different aspects of the law and then the benefits that you can
+            gain from them through appropriate steps which eventually end up in
+            more profit for you as a business.
             <br />
             <br />
-            We are excited because we know your business will take a far more
-            profitable path after reading this book.
+            There should be no room of guesswork or unnecessary mistakes in this
+            aspect of your business, since it can be very costly.
+            <br />
+            <br />
+            Set your business on a more secure, more profitable and more
+            successful path now.
           </p>
           <div class="sm:mt-16 xl:mt-20 text-center sm:text-left">
             <button
@@ -144,40 +167,9 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">The right legal structure for your business</p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">The role of share ownership and structuring</p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">How to legally get financing for your business</p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">Taxes that affect your business</p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
               <p class="ml-4">
-                Contracts that are necessary to protect your business
+                Choosing the most profitable legal structure specific to your
+                business.
               </p>
             </div>
             <div class="flex mt-6 leading-none">
@@ -186,7 +178,10 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">The place of trademarks in your business</p>
+              <p class="ml-4">
+                Mastering share ownership and structuring to give your business
+                financing and hiring advantages.
+              </p>
             </div>
             <div class="flex mt-6 leading-none">
               <img
@@ -195,8 +190,50 @@
                 class="mt-1 h-2 sm:h-3"
               />
               <p class="ml-4">
-                How to approach potential conflicts and avoid undue court cases
-                for your business
+                Getting financing for your business whilst protecting your
+                interest.
+              </p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">
+                Handling taxes to ensure business growth and profit.
+              </p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">
+                Contracts that are necessary to protect and scale your business.
+              </p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">
+                The role of trademarks in preserving and increasing your
+                business’ profit.
+              </p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">
+                Securing your business from or during potential conflicts and
+                court cases.
               </p>
             </div>
             <div class="mt-6 leading-none">
@@ -213,8 +250,8 @@
         <h2
           class="text-center text-nav-text archivo-font text-xl sm:text-3xl lg:text-4xl xl:text-5xl sm:w-9/12 sm:mx-auto"
         >
-          Get this book and begin your step by step journey to turning your
-          business into a more secure and profitable one
+          Get ALL these and more at the very cheap price of NGN1500 and your
+          business will thank you for it forever.
         </h2>
         <div
           class="sm:mt-8 lg:mt-12 xl:mt-16 mt-5 text-center archivo-font sm:w-9/12 sm:mx-auto"
@@ -238,11 +275,14 @@
         <div
           class="sm:mt-8 mt-5 text-center archivo-font text-body-text sm:w-9/12 sm:mx-auto"
         >
-          <!-- <p class="sm:text-base text-sm xl:text-xl">
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          <p class="sm:text-base text-sm xl:text-xl">
+            Our books are not written just to give information. They are
+            designed <br class="hidden xl:block" />
+            to be practical and very result-oriented.
             <br class="hidden xl:block" />
-            labore et dolore magna aliqua. Ut
-          </p> -->
+
+            Here are the results we are certain you will get:
+          </p>
         </div>
         <div class="flex flex-col sm:flex-row mt-8 xl:mt-20 sm:mt-12">
           <div class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8">
@@ -259,9 +299,9 @@
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg inter-font"
             >
-              It’s a fact that those who understand the legal side of business
-              usually make more profit by taking advantage of provisions of the
-              law that allow them do more.
+              Our books are not written just to give information. They are
+              designed to be practical and very result-oriented. <br />
+              Here are the results we are certain you will get.
             </p>
           </div>
           <div
@@ -275,14 +315,14 @@
             <h2
               class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
             >
-              Less Losses
+              Fewer Losses
             </h2>
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg inter-font"
             >
-              Whenever you’re ignorant of the major aspects of business you are
-              likely to find yourself making mistakes that can be fatal to the
-              business
+              Costly mistakes and terrible losses, which may sometimes be
+              irreversible, have been made due ignorance of simple processes
+              that should have even made the business more money.
             </p>
           </div>
           <div
@@ -301,9 +341,9 @@
             <p
               class="text-body-text text-center mt-3 leading-tight text-sm xl:text-lg inter-font"
             >
-              With the understanding of the different aspects of the law and how
-              it affects your business, you are able to frame a better strategy
-              to grow your business and scale it
+              This book takes into account the different stages of growth of
+              your business and allows you to plan into the next phase in a
+              legal and secure and scalable manner.
             </p>
           </div>
         </div>
