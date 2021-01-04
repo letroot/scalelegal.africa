@@ -54,9 +54,9 @@
 
       <!-- START OF CTA BUTTONS -->
 
-      <div class="mx:auto sm:mt-16 xl:mt-20 text-center sm:text-left">
+      <div class="mx:auto sm:mt-16 xl:mt-20 text-center sm:text-center">
         <button
-          class="bg-scale-green py-2 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+          class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
         >
           <a href="https://paystack.com/buy/boost-your-business-profit"
             >Buy eBook Now</a
@@ -64,7 +64,7 @@
         </button>
         <button
           @click="scrollMeTo('bookcovers')"
-          class="bg-nav-text py-2 rounded-lg px-5 ml-2 xl:ml-8 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+          class="bg-nav-text py-4 rounded-lg px-6 ml-8 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
         >
           Learn More
         </button>
@@ -72,7 +72,7 @@
       <!-- END OF CTA BUTTONS -->
 
       <div
-        class="mt-20 sm:mt-32 lg:mt-48 sm:px-12 lg:px-24 xl:px-36 sm:flex px-10"
+        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex px-10"
       >
         <div class="sm:w-7/12">
           <p
