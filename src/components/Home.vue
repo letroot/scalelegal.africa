@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="sm:px-10 xl:px-16 sm:py-8 sm:flex p-4 sm:items-center sm:justify-between xl:max-w-screen-2xl xl:mx-auto bg-nav-text"
+      class="sm:px-10 xl:px-16 sm:py-8 sm:flex p-4 sm:items-center sm:justify-between xl:mx-auto bg-nav-text"
     >
       <div
         class="flex justify-between items-center sm:w-4/12 lg:w-5/12 xl:w-6/12"
@@ -60,7 +60,74 @@
         >
       </div>
     </div>
-    <hr class="border-white w-11/12 mx-auto">
+    <div class="bg-nav-text px-7">
+      <hr class="hidden sm:block" />
+    </div>
+    <div
+      class="px-10 sm:px-20 lg:px-28 xl:px-36 py-16 sm:py-24 lg:py-32 xl:py-44 bg-nav-text text-white"
+    >
+      <h1 class="text-3xl lg:text-5xl xl:text-6xl libre font-light">
+        Our Knowledge
+      </h1>
+      <p class="mt-5 sm:mt-8 inter-font sm:text-xl lg:text-2xl xl:text-3xl">
+        Secure and scale your business with a <br />
+        trusted and result-oriented legal <br />
+        information packs.
+      </p>
+    </div>
+
+    <div
+      class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-52 lg:px-20 px-10 sm:px-16"
+    >
+      <div class=" flex flex-col sm:flex-row justify-center sm:items-end">
+        <div class="sm:w-6/12 mt-10 sm:mt-0">
+          <img src="../assets/img/checklist.png" alt="" />
+        </div>
+        <div class="sm:w-6/12 lg:mb-24 mb-16">
+          <h1
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+          >
+            Ensure that <br />
+            your business can <br />
+            guarantee long <br />
+            term business <br />
+            security & growth
+          </h1>
+          <button
+            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+          >
+            DOWNLOAD FOR FREE
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col sm:flex-row justify-center sm:items-end sm:mt-5"
+      >
+        <div class="sm:w-6/12 mt-10 sm:mt-0">
+          <img src="../assets/img/book-cover.png" alt="" />
+        </div>
+        <div class="sm:w-6/12 lg:mb-24 mb-16">
+          <h1
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+          >
+            Want to make <br />
+            your Business <br />
+            <span class="font-bold"
+              >more <br />
+              Profitable</span
+            >
+            <br />
+            than it is now?
+          </h1>
+          <button
+            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+          >
+            I WANT TO BUY IT NOW
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
