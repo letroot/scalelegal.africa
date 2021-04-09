@@ -20,6 +20,9 @@ module.exports = {
         circular: ["Circular Std"],
         "circular-book": ["Circular Std Book", "sans-serif"],
       },
+      spacing: {
+        "100": "30rem",
+      },
     },
   },
   variants: {

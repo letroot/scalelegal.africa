@@ -1,30 +1,36 @@
 <template>
   <div>
+    <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
-      <div class="pt-14 sm:pt-20 lg:pt-24 xl:pt-32 sm:pb-6 px-10 sm:px-8">
-        <div>
+      <div
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex flex-col sm:flex-row justify-between"
+      >
+        <div class="sm:w-6/12">
           <h1
-            class="text-center font-semibold text-3xl sm:text-5xl text-nav-text sm:w-3/4 sm:mx-auto circular-book lg:w-9/12 xl:w-8/12 lg:text-6xl lg:tracking-tight xl:text-7xl"
+            class="font-medium text-3xl sm:text-4xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-7xl uppercase libre"
           >
-            Want to make your Business more Profitable than it is now?
+            Want to make <br />
+            your Business <br />
+            <span class="font-bold"
+              >more <br />
+              Profitable</span
+            >
+            <br />
+            than it is now?
           </h1>
-          <h4
-            class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
+          <p
+            class="text-xl text-nav-text mt-4 sm:mt-6 sm:leading-tight lg:mt-10 lg:text-3xl libre"
           >
-            You need this book!
-          </h4>
-          <h4
-            class="text-center text-sm sm:text-lg font-light text-nav-text sm:w-3/5 sm:mx-auto mt-4 sm:mt-6 sm:leading-tight lg:w-7/12 lg:mt-10 lg:text-3xl lg:font-normal inter-font"
+            Then you need this book!
+          </p>
+          <button
+            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
           >
-            The legal aspect of your business can unlock goldmines of profit or
-            cause untold hardships depending on the knowledge you utilise to
-            your advantage.
-            <br>
-            <br>
-            Many successful businesses have been built by taking
-            advantage of the privileges afforded them by the Law which others
-            have neglected.
-          </h4>
+            I WANT TO BUY IT NOW
+          </button>
+        </div>
+        <div class="sm:w-5/12 mt-10 sm:mt-0">
+          <img src="../assets/img/book-cover.png" alt="" />
         </div>
       </div>
 
@@ -54,14 +60,18 @@
 
       <!-- START OF CTA BUTTONS -->
 
-      <div class="mx:auto sm:mt-16 xl:mt-20 text-center sm:text-center">
+      <div
+        class="mx:auto sm:mt-16 xl:mt-20 text-center sm:text-center flex justify-center"
+      >
         <button
           class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
+          @click="showmodal"
         >
-          <a href="https://paystack.com/buy/boost-your-business-profit"
-            >Buy eBook Now</a
-          >
+          Buy eBook Now
         </button>
+        <div class="">
+          <modal v-show="isModalVisible" @close="closeModal" />
+        </div>
         <button
           @click="scrollMeTo('bookcovers')"
           class="bg-nav-text py-4 rounded-lg px-6 ml-8 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
@@ -71,9 +81,7 @@
       </div>
       <!-- END OF CTA BUTTONS -->
 
-      <div
-        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex px-10"
-      >
+      <div class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex px-10">
         <div class="sm:w-7/12">
           <p
             class="text-center sm:text-left sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text sm:leading-none inter-font"
@@ -454,8 +462,19 @@
 </template>
 
 <script>
+import Modal from "./Modal.vue";
+import Header from "./Header.vue";
 export default {
   name: "Home",
+  components: {
+    Modal,
+    Header,
+  },
+  data() {
+    return {
+      isModalVisible: false,
+    };
+  },
   metaInfo: {
     title: "Publications :: ScaleLegal Africa",
   },
@@ -465,6 +484,12 @@ export default {
       var top = element.offsetTop;
 
       window.scrollTo(0, top);
+    },
+    showmodal() {
+      this.isModalVisible = true;
+    },
+    closeModal() {
+      this.isModalVisible = false;
     },
   },
 };
