@@ -123,7 +123,7 @@
               class="bg-scale-green py-2 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl"
             >
               <a href="https://paystack.com/buy/boost-your-business-profit"
-                >Buy eBook Now</a
+                >Download it now</a
               >
             </button>
             <button
@@ -268,7 +268,7 @@
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
             <a href="https://paystack.com/buy/boost-your-business-profit"
-              >Download book now</a
+              >I want to read it now</a
             >
           </button>
         </div>
@@ -452,7 +452,7 @@
             class="bg-scale-green py-2 rounded-lg px-5 focus:outline-none text-white xl:text-2xl"
           >
             <a href="https://paystack.com/buy/boost-your-business-profit"
-              >I want to read the book
+              >I want to get it now
             </a>
           </button>
         </div>
