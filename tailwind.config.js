@@ -25,6 +25,9 @@ module.exports = {
         "100": "30rem",
         "200": "40rem",
       },
+      zIndex: {
+        "-10": "-10",
+      },
     },
   },
   variants: {

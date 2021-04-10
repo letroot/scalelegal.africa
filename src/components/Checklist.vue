@@ -9,18 +9,13 @@
           <h1
             class="xl:leading-tight font-medium text-xs sm:text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
           >
-            The Most <br />
-            <span class="font-semibold">
-              Important <br />
-              Checklist
-            </span>
-            <br />
-            to keep your <br />
-            business legally <br />
-            <span class="font-semibold">
-              Secure & increase <br />
-              your profitability
-            </span>
+            <p class="mb-2">
+              <span class="text-sm lg:text-lg font-normal"
+                >The Most Important Checklist</span
+              >
+              <br />
+            </p>
+            to keep your business legally Secure and increase your profitability
           </h1>
 
           <router-link to="/checklist/upsell">
@@ -31,8 +26,8 @@
             </button>
           </router-link>
         </div>
-        <div class="w-6/12">
-          <img src="../assets/img/checklist.png" alt="" />
+        <div class="w-6/12 relative">
+          <img src="../assets/img/checklist-hero.png" alt="" class="z-20" />
         </div>
       </div>
 
