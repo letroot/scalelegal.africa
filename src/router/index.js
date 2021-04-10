@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "@/components/Home.vue";
 import MaxProfit from "@/components/MaxProfit.vue";
 import Checklist from "@/components/Checklist.vue";
+import ThankYou from "@/components/ThankYou.vue";
 
 Vue.use(VueRouter);
 
@@ -32,6 +33,14 @@ export default new VueRouter({
       path: "/checklist",
       name: "checklist",
       component: Checklist,
+      meta: {
+        title: "SLA Checklist",
+      },
+    },
+    {
+      path: "/checklist/upsell",
+      name: "checklist/upsell",
+      component: ThankYou,
       meta: {
         title: "SLA Checklist",
       },

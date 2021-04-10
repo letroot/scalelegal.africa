@@ -3,11 +3,11 @@
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex flex-col sm:flex-row justify-between"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex justify-between"
       >
-        <div class="sm:w-6/12">
+        <div class="w-7/12 sm:w-6/12">
           <h1
-            class="font-medium text-3xl sm:text-4xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-7xl uppercase libre"
+            class="font-medium text-base sm:text-4xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-7xl uppercase libre"
           >
             The One Book <br />
             that Every <br />
@@ -19,17 +19,17 @@
 
           <a href="https://paystack.com/buy/max-profit">
             <button
-              class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-12 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-4 sm:px-6 mt-5 sm:mt-12 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
               I WANT TO BUY IT NOW
             </button>
           </a>
         </div>
-        <div class="sm:w-5/12 mt-10 sm:mt-0">
+        <div class="w-5/12">
           <img
             src="../assets/img/star.svg"
             alt=""
-            class="absolute xl:w-28 w-20"
+            class="absolute xl:w-28 sm:w-20 w-8"
           />
           <img src="../assets/img/book-cover.png" alt="" />
         </div>

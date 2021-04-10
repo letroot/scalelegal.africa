@@ -2,9 +2,9 @@
   <div>
     <div class="modal">
       <div
-        class="fixed bg-white top-1/4 right-1/2 -mr-80 flex flex-col shadow-xl"
+        class="fixed bg-white top-1/4 right-1/2 -mr-40 sm:-mr-80 flex flex-col shadow-xl"
       >
-        <section class="relative w-200 flex items-center">
+        <section class="relative w-80 sm:w-200 flex items-center">
           <div class="w-4/12">
             <img src="../assets/img/book-cover.png" alt="" class="ml-2" />
           </div>

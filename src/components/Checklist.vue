@@ -3,11 +3,11 @@
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex flex-col sm:flex-row justify-between"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex justify-between"
       >
-        <div class="sm:w-6/12">
+        <div class="w-6/12 sm:w-6/12">
           <h1
-            class="xl:leading-tight font-medium text-2xl sm:text-3xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+            class="xl:leading-tight font-medium text-xs sm:text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
           >
             The Most <br />
             <span class="font-semibold">
@@ -23,21 +23,15 @@
             </span>
           </h1>
 
-          <a
-            href="https://drive.google.com/uc?export=download&id=1aE6Vy4h5PQwZ78h64RroCte3MYjylbSE"
-          >
+          <router-link to="/checklist/upsell">
             <button
-              class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-12 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-              @click="showmodal"
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-12 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
               DOWNLOAD FOR FREE
             </button>
-          </a>
-          <div class="">
-            <modal v-show="isModalVisible" @close="closeModal" />
-          </div>
+          </router-link>
         </div>
-        <div class="sm:w-5/12 mt-10 sm:mt-0">
+        <div class="w-6/12">
           <img src="../assets/img/checklist.png" alt="" />
         </div>
       </div>
@@ -90,19 +84,13 @@
           </span>
         </p>
         <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
-          <a
-            href="https://drive.google.com/uc?export=download&id=1aE6Vy4h5PQwZ78h64RroCte3MYjylbSE"
-          >
+          <router-link to="/checklist/upsell">
             <button
-              class="bg-scale-green py-4 rounded-lg px-6  focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-              @click="showmodal"
+              class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
             >
               GET EBOOK NOW
             </button>
-          </a>
-          <div class="">
-            <modal v-show="isModalVisible" @close="closeModal" />
-          </div>
+          </router-link>
         </div>
       </div>
 
@@ -201,19 +189,13 @@
             need may arise.
           </p>
           <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
-            <a
-              href="https://drive.google.com/uc?export=download&id=1aE6Vy4h5PQwZ78h64RroCte3MYjylbSE"
-            >
+            <router-link to="/checklist/upsell">
               <button
                 class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-                @click="showmodal"
               >
                 DOWNLOAD IT NOW
               </button>
-            </a>
-            <div class="">
-              <modal v-show="isModalVisible" @close="closeModal" />
-            </div>
+            </router-link>
           </div>
         </div>
       </div>
@@ -252,19 +234,13 @@
             owners in Nigeria.
           </p>
           <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
-            <a
-              href="https://drive.google.com/uc?export=download&id=1aE6Vy4h5PQwZ78h64RroCte3MYjylbSE"
-            >
+            <router-link to="/checklist/upsell">
               <button
                 class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-                @click="showmodal"
               >
                 DOWNLOAD IT NOW
               </button>
-            </a>
-            <div class="">
-              <modal v-show="isModalVisible" @close="closeModal" />
-            </div>
+            </router-link>
           </div>
         </div>
       </div>
@@ -353,19 +329,11 @@
           <span class="font-semibold">for FREE</span>
         </p>
         <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
-          <a
-            href="https://drive.google.com/uc?export=download&id=1aE6Vy4h5PQwZ78h64RroCte3MYjylbSE"
+          <button
+            class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
           >
-            <button
-              class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-              @click="showmodal"
-            >
-              DOWNLOAD IT NOW
-            </button>
-          </a>
-          <div class="">
-            <modal v-show="isModalVisible" @close="closeModal" />
-          </div>
+            DOWNLOAD IT NOW
+          </button>
         </div>
       </div>
     </div>
@@ -373,12 +341,10 @@
 </template>
 
 <script>
-import Modal from "./Modal.vue";
 import Header from "./Header.vue";
 export default {
   name: "Home",
   components: {
-    Modal,
     Header,
   },
   data() {
@@ -395,12 +361,6 @@ export default {
       var top = element.offsetTop;
 
       window.scrollTo(0, top);
-    },
-    showmodal() {
-      this.isModalVisible = true;
-    },
-    closeModal() {
-      this.isModalVisible = false;
     },
   },
 };
