@@ -6,7 +6,13 @@
       class="flex justify-between items-center sm:w-4/12 lg:w-5/12 xl:w-6/12"
     >
       <div class="w-6/12 sm:w-full">
-        <img src="../assets/img/logo.svg" alt="logo" class="sm:h-12 xl:h-16" />
+        <router-link to="/">
+          <img
+            src="../assets/img/logo.svg"
+            alt="logo"
+            class="sm:h-12 xl:h-16"
+          />
+        </router-link>
       </div>
       <button class="focus:outline-none sm:hidden" @click="toggle">
         <img

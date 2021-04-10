@@ -79,7 +79,7 @@
     <div
       class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-52 lg:px-20 px-10 sm:px-16"
     >
-      <div class=" flex flex-col sm:flex-row justify-center sm:items-end">
+      <div class="flex flex-col sm:flex-row justify-center sm:items-end">
         <div class="sm:w-6/12 mt-10 sm:mt-0">
           <img src="../assets/img/checklist.png" alt="" />
         </div>
@@ -93,11 +93,13 @@
             term business <br />
             security & growth
           </h1>
-          <button
-            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-          >
-            DOWNLOAD FOR FREE
-          </button>
+          <router-link to="/checklist">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+            >
+              DOWNLOAD FOR FREE
+            </button>
+          </router-link>
         </div>
       </div>
 
@@ -120,11 +122,13 @@
             <br />
             than it is now?
           </h1>
-          <button
-            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-          >
-            I WANT TO BUY IT NOW
-          </button>
+          <router-link to="/maxprofit">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+            >
+              I WANT TO BUY IT NOW
+            </button>
+          </router-link>
         </div>
       </div>
     </div>

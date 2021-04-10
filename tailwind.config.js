@@ -15,6 +15,7 @@ module.exports = {
         "footer-bg": "#014165",
         "built-with": "#c6cbc9",
         "your-business": "#014165",
+        modal: "#FFFDED",
       },
       fontFamily: {
         circular: ["Circular Std"],
@@ -22,6 +23,7 @@ module.exports = {
       },
       spacing: {
         "100": "30rem",
+        "200": "40rem",
       },
     },
   },

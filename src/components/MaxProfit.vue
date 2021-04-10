@@ -17,11 +17,13 @@
             Immediately!
           </h1>
 
-          <button
-            class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-12 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-          >
-            I WANT TO BUY IT NOW
-          </button>
+          <a href="https://paystack.com/buy/max-profit">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-12 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+            >
+              I WANT TO BUY IT NOW
+            </button>
+          </a>
         </div>
         <div class="sm:w-5/12 mt-10 sm:mt-0">
           <img
@@ -53,13 +55,9 @@
       >
         <button
           class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
-          @click="showmodal"
         >
           GET EBOOK NOW
         </button>
-        <div class="">
-          <modal v-show="isModalVisible" @close="closeModal" />
-        </div>
       </div>
       <!-- END OF CTA BUTTONS -->
 
@@ -84,9 +82,7 @@
             <button
               class="bg-scale-green py-4 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
             >
-              <a href="https://paystack.com/buy/boost-your-business-profit"
-                >GET EBOOK NOW</a
-              >
+              <a href="https://paystack.com/buy/max-profit">GET EBOOK NOW</a>
             </button>
           </div>
         </div>
@@ -158,9 +154,7 @@
         <button
           class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
         >
-          <a href="https://paystack.com/buy/boost-your-business-profit"
-            >DOWNLOAD IT NOW</a
-          >
+          <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
         </button>
       </div>
 
@@ -351,10 +345,85 @@
           <button
             class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
           >
-            <a href="https://paystack.com/buy/boost-your-business-profit"
+            <a href="https://paystack.com/buy/max-profit"
               >I WANT TO GET IT NOW</a
             >
           </button>
+        </div>
+      </div>
+
+      <div class="py-20 xl:py-24 px-8 sm:px-12 lg:px-24 xl:px-52">
+        <p
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
+        >
+          Don't just take our word for it,
+          <span class="font-semibold"
+            >hear from other <br class="hidden sm:block" />
+            business owners</span
+          >
+          who have benefitted a whole <br class="hidden sm:block" />
+          lot from this book.
+        </p>
+      </div>
+
+      <div
+        class="px-10 lg:px-0 flex justify-center flex-wrap xl:space-x-16 lg:space-x-10"
+      >
+        <div
+          class="sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre"
+        >
+          <img src="../assets/img/red500.svg" alt="" class="w-14" />
+          <p class="mt-5 text-sm lg:text-xs xl:text-base">
+            Praesent sapien massa, convallis a pellentesque nec, egestas non
+            nisi. Proin eget tortor risus. Vivamus magna justo, lacinia eget
+            consectetur sed, convallis at tellus.
+          </p>
+          <div class="flex items-center space-x-3 mt-5">
+            <div
+              class="border-2 border-profile-border w-9 sm:w-12 h-9 sm:h-12 rounded-full"
+            ></div>
+            <p class="text-sm xl:text-base">
+              Ose Iyoke, <span class="font-semibold">Cofounder</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 sm:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre sm:ml-14"
+        >
+          <img src="../assets/img/tiedywears.svg" alt="" class="w-28" />
+          <p class="mt-5 text-sm lg:text-xs xl:text-base">
+            Praesent sapien massa, convallis a pellentesque nec, egestas non
+            nisi. Proin eget tortor risus. Vivamus magna justo, lacinia eget
+            consectetur sed, convallis at tellus.
+          </p>
+          <div class="flex items-center space-x-3 mt-5">
+            <div
+              class="border-2 border-profile-border w-9 sm:w-12 h-9 sm:h-12 rounded-full"
+            ></div>
+            <p class="text-sm xl:text-base">
+              Dolapo Suleiman, <span class="font-semibold">CEO</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 lg:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre"
+        >
+          <img src="../assets/img/cheapmedia2.svg" alt="" class="w-36" />
+          <p class="mt-7 text-sm lg:text-xs xl:text-base">
+            Praesent sapien massa, convallis a pellentesque nec, egestas non
+            nisi. Proin eget tortor risus. Vivamus magna justo, lacinia eget
+            consectetur sed, convallis at tellus.
+          </p>
+          <div class="flex items-center space-x-3 mt-5">
+            <div
+              class="border-2 border-profile-border w-9 sm:w-12 h-9 sm:h-12 rounded-full"
+            ></div>
+            <p class="text-sm xl:text-base">
+              Oladayo O, <span class="font-semibold">COO</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -362,19 +431,13 @@
 </template>
 
 <script>
-import Modal from "./Modal.vue";
 import Header from "./Header.vue";
 export default {
   name: "Home",
   components: {
-    Modal,
     Header,
   },
-  data() {
-    return {
-      isModalVisible: false,
-    };
-  },
+
   metaInfo: {
     title: "Publications :: ScaleLegal Africa",
   },
@@ -384,12 +447,6 @@ export default {
       var top = element.offsetTop;
 
       window.scrollTo(0, top);
-    },
-    showmodal() {
-      this.isModalVisible = true;
-    },
-    closeModal() {
-      this.isModalVisible = false;
     },
   },
 };
