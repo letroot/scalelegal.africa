@@ -258,18 +258,17 @@
         class="px-10 lg:px-0 flex justify-center flex-wrap xl:space-x-16 lg:space-x-10"
       >
         <div
-          class="sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre"
+          class="sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre flex flex-col justify-between"
         >
-          <img src="../assets/img/red500.svg" alt="" class="w-14" />
-          <p class="mt-5 text-sm lg:text-xs xl:text-base">
-            Praesent sapien massa, convallis a pellentesque nec, egestas non
-            nisi. Proin eget tortor risus. Vivamus magna justo, lacinia eget
-            consectetur sed, convallis at tellus.
-          </p>
+          <div>
+            <img src="../assets/img/red500.svg" alt="" class="w-14" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              I highly recommend the ScaleLegal team. We had made some initial
+              mistakes when we started out but they were able to spot it and
+              help us avert some serious losses down the line. Kudos.
+            </p>
+          </div>
           <div class="flex items-center space-x-3 mt-5">
-            <div
-              class="border-2 border-profile-border w-9 sm:w-12 h-9 sm:h-12 rounded-full"
-            ></div>
             <p class="text-sm xl:text-base">
               Ose Iyoke, <span class="font-semibold">Cofounder</span>
             </p>
@@ -277,18 +276,18 @@
         </div>
 
         <div
-          class="mt-10 sm:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre sm:ml-14"
+          class="mt-10 sm:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre sm:ml-14 flex flex-col justify-between"
         >
-          <img src="../assets/img/tiedywears.svg" alt="" class="w-28" />
-          <p class="mt-5 text-sm lg:text-xs xl:text-base">
-            Praesent sapien massa, convallis a pellentesque nec, egestas non
-            nisi. Proin eget tortor risus. Vivamus magna justo, lacinia eget
-            consectetur sed, convallis at tellus.
-          </p>
+          <div>
+            <img src="../assets/img/tiedywears.svg" alt="" class="w-28" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              I first got the checklist before the book and all I can say is
+              scales fell off. Don't delay getting these book, I could have
+              averted some foreseeable troubles that I now know I won't make
+              again.
+            </p>
+          </div>
           <div class="flex items-center space-x-3 mt-5">
-            <div
-              class="border-2 border-profile-border w-9 sm:w-12 h-9 sm:h-12 rounded-full"
-            ></div>
             <p class="text-sm xl:text-base">
               Dolapo Suleiman, <span class="font-semibold">CEO</span>
             </p>
@@ -296,20 +295,53 @@
         </div>
 
         <div
-          class="mt-10 lg:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre"
+          class="mt-10 lg:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre flex flex-col justify-between"
         >
-          <img src="../assets/img/cheapmedia2.svg" alt="" class="w-36" />
-          <p class="mt-7 text-sm lg:text-xs xl:text-base">
-            Praesent sapien massa, convallis a pellentesque nec, egestas non
-            nisi. Proin eget tortor risus. Vivamus magna justo, lacinia eget
-            consectetur sed, convallis at tellus.
-          </p>
-          <div class="flex items-center space-x-3 mt-5">
-            <div
-              class="border-2 border-profile-border w-9 sm:w-12 h-9 sm:h-12 rounded-full"
-            ></div>
+          <div>
+            <img src="../assets/img/cheapmedia2.svg" alt="" class="w-36" />
+            <p class="mt-10 text-sm lg:text-xs xl:text-base italic">
+              The most intelligent lawyers I yet to meet. You always want to run
+              your business through them anytime.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3">
             <p class="text-sm xl:text-base">
               Oladayo O, <span class="font-semibold">COO</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre sm:ml-14 flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/smileplug.svg" alt="" class="w-36" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              They came highly recommended and they didn't disappoint at all. If
+              it;s about startups and business in Nigeria, you need ScaleLegal.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3 mt-5">
+            <p class="text-sm xl:text-base">
+              Mary A, <span class="font-semibold">CEO</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/rapidpay.svg" alt="" class="w-36" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              The checklist saved my business big time. I had to read the book
+              twice to ensure I didn't miss anything. I will always look forward
+              to any content from your team.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3 mt-5">
+            <p class="text-sm xl:text-base">
+              Paul Akubo, <span class="font-semibold">CEO</span>
             </p>
           </div>
         </div>

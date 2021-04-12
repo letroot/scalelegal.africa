@@ -20,7 +20,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
 
 .libre {
   font-family: "Libre Franklin", sans-serif;

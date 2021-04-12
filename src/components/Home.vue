@@ -70,7 +70,7 @@
         Our Knowledge
       </h1>
       <p class="mt-5 sm:mt-8 inter-font sm:text-xl lg:text-2xl xl:text-3xl">
-        Secure and scale your business with a <br class="hidden sm:block" />
+        Secure and scale your business with our <br class="hidden sm:block" />
         trusted and result-oriented legal <br class="hidden sm:block" />
         information packs.
       </p>
