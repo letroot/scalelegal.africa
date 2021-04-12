@@ -5,12 +5,12 @@
       <div
         class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex justify-between"
       >
-        <div class="w-6/12 sm:w-6/12">
+        <div class="w-5/12 sm:w-6/12">
           <h1
             class="xl:leading-tight font-medium text-xs sm:text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
           >
             <p class="mb-2">
-              <span class="text-sm lg:text-lg font-normal"
+              <span class="sm:text-sm lg:text-lg font-normal"
                 >The Most Important Checklist</span
               >
               <br />
@@ -26,8 +26,8 @@
             </button>
           </router-link>
         </div>
-        <div class="w-6/12 relative">
-          <img src="../assets/img/checklist-hero.png" alt="" class="z-20" />
+        <div class="w-7/12 sm:w-6/12 relative">
+          <img src="../assets/img/checklist-hero.png" alt="" class="z-10" />
         </div>
       </div>
 

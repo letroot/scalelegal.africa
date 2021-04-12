@@ -3,11 +3,11 @@
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex justify-between"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex justify-between space-x-2"
       >
-        <div class="w-7/12 sm:w-6/12">
+        <div class="w-5/12 sm:w-6/12">
           <h1
-            class="font-medium text-base sm:text-4xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-7xl uppercase libre"
+            class="font-medium text-sm sm:text-4xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-7xl uppercase libre"
           >
             The One Book <br />
             that Every <br />
@@ -25,7 +25,7 @@
             </button>
           </a>
         </div>
-        <div class="w-5/12">
+        <div class="w-7/12 sm:w-6/12">
           <img
             src="../assets/img/star.svg"
             alt=""
