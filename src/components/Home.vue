@@ -84,13 +84,13 @@
     <div
       class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-52 lg:px-20 px-10 sm:px-16"
     >
-      <div class="flex flex-col sm:flex-row justify-center sm:items-end">
+      <div class="flex flex-col sm:flex-row justify-center sm:items-end xl:items-center">
         <div class="sm:w-6/12 mt-10 sm:mt-0">
           <img src="../assets/img/checklist.png" alt="" />
         </div>
         <div class="sm:w-6/12 lg:mb-24 mb-16">
           <h1
-            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl libre sm:w-10/12"
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-6xl libre sm:w-10/12"
           >
             Get a FREE Checklist that ensures your business is legally compliant
             for growth
@@ -106,14 +106,14 @@
       </div>
 
       <div
-        class="flex flex-col sm:flex-row justify-center sm:items-end sm:mt-5"
+        class="flex flex-col sm:flex-row justify-center sm:items-end sm:mt-5 xl:items-center"
       >
         <div class="sm:w-6/12 mt-10 sm:mt-0">
           <img src="../assets/img/book-cover.png" alt="" />
         </div>
         <div class="sm:w-6/12 lg:mb-24 mb-16">
           <h1
-            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl libre sm:w-10/12"
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-6xl libre sm:w-10/12"
           >
             The Definitive Guide to building a maximum profit business that is
             legally compliant
