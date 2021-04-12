@@ -3,7 +3,7 @@
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex justify-between"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex items-center justify-between"
       >
         <div class="w-5/12 sm:w-6/12">
           <h1
@@ -20,7 +20,7 @@
 
           <router-link to="/checklist/upsell">
             <button
-              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-20 lg:mt-36 xl:mt-48 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-6 lg:mt-16 xl:mt-20 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
               DOWNLOAD FOR FREE
             </button>

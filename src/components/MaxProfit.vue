@@ -3,7 +3,7 @@
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex justify-between space-x-2"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex items-center justify-between space-x-2"
       >
         <div class="w-5/12 sm:w-6/12">
           <h1
@@ -19,7 +19,7 @@
 
           <a href="https://paystack.com/buy/max-profit">
             <button
-              class="bg-scale-green py-2 sm:py-4 rounded-lg px-4 sm:px-6 mt-5 sm:mt-12 lg:mt-32 xl:mt-44 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-4 sm:px-6 mt-5 sm:mt-6 lg:mt-16 xl:mt-20 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
               I WANT TO BUY IT NOW
             </button>
