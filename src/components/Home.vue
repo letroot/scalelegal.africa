@@ -72,7 +72,7 @@
       <h1
         class="text-3xl lg:text-5xl xl:text-6xl libre font-light mt-2 sm:w-8/12"
       >
-        Designed to Secure your Business and Grow your Profilt
+        Designed to Secure your Business and Grow your Profit
       </h1>
       <p class="mt-5 sm:mt-8 inter-font sm:text-xl lg:text-2xl xl:text-3xl">
         Secure and scale your business with our <br class="hidden sm:block" />

@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/components/Home.vue";
 import MaxProfit from "@/components/MaxProfit.vue";
+import MaxProfitUpsell from "@/components/MaxProfitUpsell.vue";
 import Checklist from "@/components/Checklist.vue";
 import ThankYou from "@/components/ThankYou.vue";
 
@@ -41,6 +42,14 @@ export default new VueRouter({
       path: "/checklist/upsell",
       name: "checklist/upsell",
       component: ThankYou,
+      meta: {
+        title: "SLA Checklist",
+      },
+    },
+    {
+      path: "/maxprofit-upsell",
+      name: "maxprofit-upsell",
+      component: MaxProfitUpsell,
       meta: {
         title: "SLA Checklist",
       },

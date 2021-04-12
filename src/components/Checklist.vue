@@ -18,7 +18,7 @@
             to keep your business legally Secure and increase your profitability
           </h1>
 
-          <router-link to="/checklist/upsell">
+          <router-link to="/maxprofit-upsell">
             <button
               class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-6 lg:mt-16 xl:mt-20 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
@@ -79,7 +79,7 @@
           </span>
         </p>
         <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
-          <router-link to="/checklist/upsell">
+          <router-link to="/maxprofit-upsell">
             <button
               class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
             >
@@ -184,7 +184,7 @@
             need may arise.
           </p>
           <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
-            <router-link to="/checklist/upsell">
+            <router-link to="/maxprofit-upsell">
               <button
                 class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
               >
@@ -229,7 +229,7 @@
             owners in Nigeria.
           </p>
           <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
-            <router-link to="/checklist/upsell">
+            <router-link to="/maxprofit-upsell">
               <button
                 class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
               >
