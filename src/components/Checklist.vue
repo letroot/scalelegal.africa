@@ -20,7 +20,7 @@
 
           <router-link to="/checklist/upsell">
             <button
-              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-12 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-20 lg:mt-36 xl:mt-48 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
               DOWNLOAD FOR FREE
             </button>

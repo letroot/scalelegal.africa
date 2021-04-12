@@ -19,7 +19,7 @@
 
           <a href="https://paystack.com/buy/max-profit">
             <button
-              class="bg-scale-green py-2 sm:py-4 rounded-lg px-4 sm:px-6 mt-5 sm:mt-12 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-4 sm:px-6 mt-5 sm:mt-12 lg:mt-32 xl:mt-44 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
             >
               I WANT TO BUY IT NOW
             </button>
@@ -31,7 +31,7 @@
             alt=""
             class="absolute xl:w-28 sm:w-20 w-8"
           />
-          <img src="../assets/img/book-cover.png" alt="" />
+          <img src="../assets/img/max-profit.png" alt="" class="" />
         </div>
       </div>
 
