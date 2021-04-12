@@ -54,7 +54,7 @@
           >Blog</a
         >
         <a
-          href="https://blog.scalelegal.africa/"
+          href="https://scalelegal.africa/about"
           class="sm:text-xs xl:text-base xl:leading-none text-nav-text sm:text-white mt-4 sm:mt-0"
           >About</a
         >
@@ -66,8 +66,13 @@
     <div
       class="px-10 sm:px-20 lg:px-28 xl:px-36 py-16 sm:py-24 lg:py-32 xl:py-44 bg-nav-text text-white"
     >
-      <h1 class="text-3xl lg:text-5xl xl:text-6xl libre font-light">
-        Our Knowledge
+      <p class="font-light libre uppercase lg:text-xl xl:text-2xl">
+        Get Our Books
+      </p>
+      <h1
+        class="text-3xl lg:text-5xl xl:text-6xl libre font-light mt-2 sm:w-8/12"
+      >
+        Designed to Secure your Business and Grow your Profilt
       </h1>
       <p class="mt-5 sm:mt-8 inter-font sm:text-xl lg:text-2xl xl:text-3xl">
         Secure and scale your business with our <br class="hidden sm:block" />
@@ -85,13 +90,10 @@
         </div>
         <div class="sm:w-6/12 lg:mb-24 mb-16">
           <h1
-            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl libre sm:w-10/12"
           >
-            Ensure that <br />
-            your business can <br />
-            guarantee long <br />
-            term business <br />
-            security & growth
+            Get a FREE Checklist that ensures your business is legally compliant
+            for growth
           </h1>
           <router-link to="/checklist">
             <button
@@ -111,16 +113,10 @@
         </div>
         <div class="sm:w-6/12 lg:mb-24 mb-16">
           <h1
-            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl libre sm:w-10/12"
           >
-            Want to make <br />
-            your Business <br />
-            <span class="font-bold"
-              >more <br />
-              Profitable</span
-            >
-            <br />
-            than it is now?
+            The Definitive Guide to building a maximum profit business that is
+            legally compliant
           </h1>
           <router-link to="/maxprofit">
             <button

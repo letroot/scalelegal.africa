@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header2 />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
         class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex items-center justify-between"
@@ -368,11 +368,11 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
+import Header2 from "./Header2.vue";
 export default {
   name: "Home",
   components: {
-    Header,
+    Header2,
   },
   data() {
     return {

@@ -3,18 +3,15 @@
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex items-center justify-between space-x-2"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-6 sm:px-16 flex items-center justify-between space-x-2"
       >
         <div class="w-5/12 sm:w-6/12">
           <h1
-            class="font-medium text-sm sm:text-4xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-7xl uppercase libre"
+            class="font-medium text-sm sm:text-3xl text-nav-text lg:text-5xl lg:tracking-tight xl:text-6xl uppercase libre"
           >
-            The One Book <br />
-            that Every <br />
-            Nigerian <br />
-            Business <br />
-            Owner needs <br />
-            Immediately!
+            <span class="font-semibold">build a maximum profit business</span>
+            that is legally compliant with just
+            <span class="font-semibold">10 simple action points</span>
           </h1>
 
           <a href="https://paystack.com/buy/max-profit">
@@ -37,21 +34,19 @@
 
       <div class="px-8 sm:px-12 lg:px-24 xl:px-52">
         <p
-          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl sm:w-9/12 mx-auto"
         >
-          Important both to those new in business or those who have been in
-          business, as it contains direct action points that promise to deliver
-          immediate tangible results in <br />
-          <span class="font-semibold">
-            securing and growing your business.
-          </span>
+          Get
+          <span class="font-semibold">guaranteed tangible results</span> point
+          whether you are about to start business, new to it or already been in
+          it for a while.
         </p>
       </div>
 
       <!-- START OF CTA BUTTONS -->
 
       <div
-        class="mx:auto sm:mt-16 xl:mt-20 text-center sm:text-center flex justify-center"
+        class="mx:auto sm:mt-8 lg:mt-16 xl:mt-20 text-center sm:text-center flex justify-center"
       >
         <button
           class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
@@ -64,7 +59,7 @@
       <div class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex px-10">
         <div class="sm:w-7/12">
           <p
-            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text libre"
+            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-nav-text libre"
           >
             With the many challenges faced in business, one area a business
             owner cannot afford to be ignorant is the legal aspect.
@@ -91,38 +86,107 @@
         </div>
       </div>
 
-      <div class="py-14 px-8 sm:px-12 lg:px-24 xl:px-52">
+      <div class="py-14 px-8 sm:px-12 lg:px-24 xl:px-52 mt-10 lg:mt-20">
         <p
-          class="text-center text-nav-text font-medium libre text sm:text-2xl lg:text-3xl xl:text-4xl"
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
-          In this book, the legal aspect of your business has
-          <br class="hidden sm:block" />
-          been explained in such a way that you will uncover
-          <br class="hidden sm:block" />
-          the legal steps that make certain businesses more <br />
-          profitable than others.
+          This book, the
+          <span class="font-semibold"
+            >Legal Guide to a Maximum Profit Business</span
+          >, resolves the question, doubts, issues and problems commonly faced
+          at different cycles of one's business.
         </p>
       </div>
 
       <div
         class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex justify-between px-10"
       >
-        <div class="sm:w-6/12">
+        <div class="sm:w-6/12 flex flex-col justify-between">
           <p
-            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text libre"
+            class="text-center sm:text-left lg:text-2xl xl:text-3xl sm:w-11/12 sm:mt-8 lg:mt-10 text-nav-text libre"
           >
-            Many business owners shy away from the Law thinking it is just
-            expensive and adds nothing to their business, but this is not true
-            at all.
-            <br />
-            <br />
-            The provisions of the Law are meant to give your business certain
-            benefits. You will only miss out of this benefit due to ignorance of
-            what they are and how to take advantage of them.
+            It prepares the business owner ahead of the challenges that all
+            businesses are bound to face now and in the coming days without
+            simple concise and direct answers to otherwise difficult problems.
           </p>
+          <div class="text-center sm:text-left">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
+            >
+              <a href="https://paystack.com/buy/max-profit">GET EBOOK NOW</a>
+            </button>
+          </div>
         </div>
         <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:w-5/12">
           <img src="../assets/img/lawyer.svg" alt="lawyer" />
+        </div>
+      </div>
+
+      <div
+        ref="bookcovers"
+        class="lg:px-24 xl:px-36 sm:px-12 sm:flex sm:py-10 px-10 mt-10 lg:mt-20"
+      >
+        <div class="">
+          <h1
+            class="text-center font-medium sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text libre"
+          >
+            Areas covered in this easy to read book:
+          </h1>
+          <div
+            class="sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-nav-text sm:leading-tight libre"
+          >
+            <div class="flex leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">Business structure</p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">Contracts and Agreement</p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">Taxation</p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">Share structure</p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">Trademark</p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <img
+                src="../assets/img/bullet.svg"
+                alt="bullet"
+                class="mt-1 h-2 sm:h-3"
+              />
+              <p class="ml-4">Intellectual Property</p>
+            </div>
+            <div class="flex mt-6 leading-none">
+              <p class="">and more...</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -134,221 +198,20 @@
         </div>
         <div class="sm:w-6/12">
           <p
-            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text libre"
+            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-nav-text libre"
           >
-            This book clearly explains the different aspects of the law and then
-            the benefits that you can gain from them through appropriate steps
-            which eventually end up in more profit for you as a business.
+            This book is just 27 pages and easy to read and reference based on
+            the specific area of need that you may have as a business owner.
+            There are action points that can be easily acted on immediately as
+            you read to see tangible results in your business.
             <br />
             <br />
-            There should be no room of guesswork or unnecessary mistakes in this
-            aspect of your business, since it can be very costly.
-            <br />
-            <br />
-            This is why we have made this book very affordable for all who seek
-            one thing only: <span class="font-bold">RESULTS</span>.
+            To ensure this material and the bonuses in it are only available to
+            serious minded business owners who are committed to building
+            business we can work with for several years, we are putting a price
+            of <span class="font-medium">NGN 1,000</span> to deter those who are
+            simply interested in freebies.
           </p>
-        </div>
-      </div>
-      <div class="mt-8 lg:mt-0 flex justify-center">
-        <button
-          class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
-        >
-          <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
-        </button>
-      </div>
-
-      <div class="py-20 xl:py-24 px-8 sm:px-12 lg:px-24 xl:px-52">
-        <p
-          class="text-center text-nav-text font-medium libre text sm:text-2xl lg:text-3xl xl:text-4xl"
-        >
-          Set your business on a more secure, more
-          <br class="hidden sm:block" />
-          profitable and more successful path now.
-        </p>
-      </div>
-
-      <div
-        ref="bookcovers"
-        class="lg:px-24 xl:px-36 sm:px-12 sm:flex sm:py-10 px-10"
-      >
-        <div class="sm:w-8/12">
-          <h1
-            class="text-center font-medium sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text libre"
-          >
-            What this Book Covers
-          </h1>
-          <div
-            class="sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight libre"
-          >
-            <div class="flex leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                The Choosing the most profitable legal structure specific to
-                your business.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Mastering share ownership and structuring to give your business
-                financing and hiring advantages.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Getting financing for your business whilst protecting your
-                interest.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Handling taxes to ensure business growth and profit.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Contracts that are necessary to protect and scale your business.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                The role of trademarks in preserving and increasing your
-                business’ profit.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Securing your business from or during potential conflicts and
-                court cases.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-14 xl:mt-20 sm:px-14 lg:px-24 xl:px-36 px-10">
-        <h2
-          class="text-center text-nav-text archivo-font text-xl sm:text-2xl lg:text-3xl xl:text-4xl sm:w-9/12 sm:mx-auto"
-        >
-          More Reasons Why You Should Read this
-        </h2>
-        <div
-          class="sm:mt-8 mt-5 text-center libre text-body-text sm:w-9/12 sm:mx-auto"
-        >
-          <p class="sm:text-base text-sm xl:text-xl">
-            Our books are not written just to give information. They
-            <br class="hidden sm:block" />
-            are designed to be practical and very result-oriented.
-            <br />
-            <br />
-            Here are the results we are certain you will get:
-          </p>
-        </div>
-        <div class="flex flex-col sm:flex-row mt-8 xl:mt-20 sm:mt-12">
-          <div class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8">
-            <img
-              src="../assets/img/growth.svg"
-              alt="growth"
-              class="sm:h-32 xl:h-48 h-48"
-            />
-            <h2
-              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
-            >
-              More Profit
-            </h2>
-            <p
-              class="text-body-text text-center mt-3 leading-tight text-xs lg:text-sm inter-font"
-            >
-              Understanding the legal steps in this book gives you advantages
-              which others are unaware of or unable to utilise in maximising
-              profit
-            </p>
-          </div>
-          <div
-            class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8 mt-10 sm:mt-0"
-          >
-            <img
-              src="../assets/img/growth.svg"
-              alt="growth"
-              class="sm:h-32 h-48 xl:h-48"
-            />
-            <h2
-              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
-            >
-              Fewer Losses
-            </h2>
-            <p
-              class="text-body-text text-center mt-3 leading-tight text-xs lg:text-sm inter-font"
-            >
-              Costly mistakes and terrible losses, which may sometimes be
-              irreversible, have been made due ignorance of simple processes
-              that should have even made the business more money.
-            </p>
-          </div>
-          <div
-            class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8 mt-10 sm:mt-0"
-          >
-            <img
-              src="../assets/img/growth.svg"
-              alt="growth"
-              class="sm:h-32 h-48 xl:h-48"
-            />
-            <h2
-              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
-            >
-              More Strategic
-            </h2>
-            <p
-              class="text-body-text text-center mt-3 leading-tight text-xs lg:text-sm inter-font"
-            >
-              This book takes into account the different stages of growth of
-              your business and allow you to plan into the next phase in a legal
-              and secure and scalable manner
-            </p>
-          </div>
-        </div>
-        <div class="mt-8 lg:mt-12 flex justify-center">
-          <button
-            class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
-          >
-            <a href="https://paystack.com/buy/max-profit"
-              >I WANT TO GET IT NOW</a
-            >
-          </button>
         </div>
       </div>
 
@@ -356,13 +219,75 @@
         <p
           class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
-          Don't just take our word for it,
-          <span class="font-semibold"
-            >hear from other <br class="hidden sm:block" />
-            business owners</span
+          For the serious minded who are ready to build solid and long lasting
+          business, buying this book will give you the added privilege of
+          <span class="font-semibold">
+            one free legal consultation session
+          </span>
+          accessible with the email used to make this purchase.
+        </p>
+        <div class="flex justify-center mt-10">
+          <button
+            class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
           >
-          who have benefitted a whole <br class="hidden sm:block" />
-          lot from this book.
+            <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 py-10 mt-10">
+        <p
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
+        >
+          Our team of entrepreneurially minded and experienced lawyers, headed
+          by <span class="font-semibold">Olusegun Oyesanya</span> and
+          <span class="font-semibold">Akinwunmi Akinbile</span>, have devoted
+          several years to attending to the legal issues and challenges of
+          entrepreneurs in Nigeria. <br />
+          <br />
+          And have come to know how best to give direction to businesses that
+          seek to last as well as thrive in Nigeria.
+        </p>
+      </div>
+
+      <div
+        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
+      >
+        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:mx-0 sm:w-5/12">
+          <img src="../assets/img/chapter2.png" alt="chapter5" />
+        </div>
+        <div class="sm:w-6/12">
+          <p
+            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-nav-text libre"
+          >
+            Out of this experience and concern was born this NGN 1000 ebook
+            <span class="font-semibold"
+              >“Legal Guide for a Maximum Profit Business”</span
+            >
+            and its complimentary
+            <span class="font-semibold"
+              >“The Maximum Profit Legal Checklist”</span
+            >, which are now considered necessary handbooks for all business
+            owners in Nigeria. Don't just take our word for it, hear from other
+            business owners who have benefitted a whole lot from this book.
+          </p>
+          <div class="flex justify-center sm:justify-start mt-8 xl:mt-28">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
+            >
+              <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-20 xl:py-24 px-8 sm:px-12 lg:px-24 xl:px-52">
+        <p
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl sm:w-9/12 mx-auto"
+        >
+          Don't just take our word for it,
+          <span class="font-semibold">hear from other business owners</span>
+          who have benefitted a whole lot from this book.
         </p>
       </div>
 
@@ -457,6 +382,25 @@
             </p>
           </div>
         </div>
+      </div>
+
+      <div
+        class="py-20 xl:py-24 px-8 sm:px-12 lg:px-24 xl:px-52 mt-10 xl:mt-16"
+      >
+        <p
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl sm:w-9/12 mx-auto"
+        >
+          Download the ebook now and take the guesswork out of the legal part of
+          your business
+          <span class="font-semibold">for just NGN 1,000</span>
+        </p>
+      <div class="flex justify-center mt-10">
+        <button
+          class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
+        >
+          <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
+        </button>
+      </div>
       </div>
     </div>
   </div>
