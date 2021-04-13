@@ -28,16 +28,10 @@
               Your download should begin shortly...
             </p>
             <p class="text-xs sm:text-sm lg:text-lg mt-7 font-medium">
-              Do you want to learn how to make your business more profitable,
-              investible and scalable? <br />
-              <br />
-              Then we think you should buy the ScaleLegal
-              <span class="font-semibold">
-                Legal Guide for a Maximum Profit Business
-              </span>
-              where you can learn all you need to build a maximum profit
-              business that is legally compliant with just 10 simple action
-              points
+              Before you go, we think you should consider getting this
+              complimentary book. It give you step by step action points on how
+              to ensure your business is fully legally compliant for the growth
+              and maximum profit it deserves.
             </p>
           </div>
         </div>
