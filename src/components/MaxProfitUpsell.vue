@@ -29,9 +29,9 @@
             </p>
             <p class="text-xs sm:text-sm lg:text-lg mt-7 font-medium">
               Before you go, we think you should consider getting this
-              complimentary book. It give you step by step action points on how
-              to ensure your business is fully legally compliant for the growth
-              and maximum profit it deserves.
+              complimentary book. It will give you step by step action points on
+              how to ensure your business is fully legally compliant for the
+              growth and maximum profit it deserves.
             </p>
           </div>
         </div>
