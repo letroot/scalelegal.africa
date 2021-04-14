@@ -1,36 +1,33 @@
 <template>
   <div>
-    <Header />
+    <Header2 />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-10 sm:px-16 flex flex-col sm:flex-row justify-between"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex items-center justify-between"
       >
-        <div class="sm:w-6/12">
+        <div class="w-5/12 sm:w-6/12">
           <h1
-            class="xl:leading-tight font-medium text-2xl sm:text-3xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl  uppercase libre"
+            class="xl:leading-tight font-medium text-xs sm:text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
           >
-            The Most <br />
-            <span class="font-semibold">
-              Important <br />
-              Checklist
-            </span>
-            <br />
-            to keep your <br />
-            business legally <br />
-            <span class="font-semibold">
-              Secure & increase <br />
-              your profitability
-            </span>
+            <p class="mb-2">
+              <span class="sm:text-sm lg:text-lg font-normal"
+                >The Most Important Checklist</span
+              >
+              <br />
+            </p>
+            to keep your business legally Secure and increase your profitability
           </h1>
 
-          <button
-            class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-12 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-          >
-            DOWNLOAD FOR FREE
-          </button>
+          <router-link to="/maxprofit-upsell">
+            <button
+              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-6 lg:mt-16 xl:mt-20 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+            >
+              DOWNLOAD FOR FREE
+            </button>
+          </router-link>
         </div>
-        <div class="sm:w-5/12 mt-10 sm:mt-0">
-          <img src="../assets/img/checklist.png" alt="" />
+        <div class="w-7/12 sm:w-6/12 relative">
+          <img src="../assets/img/checklist-hero.png" alt="" class="z-10" />
         </div>
       </div>
 
@@ -43,10 +40,6 @@
           doubts that they are aware and unaware of, and that have the potential
           to make or mar the business’ growth and profit.
         </p>
-      </div>
-
-      <div class="">
-        <modal v-show="isModalVisible" @close="closeModal" />
       </div>
 
       <div
@@ -74,7 +67,7 @@
         </div>
       </div>
 
-      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 mt-28">
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 mt-14 sm:mt-28">
         <p
           class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
@@ -86,13 +79,13 @@
           </span>
         </p>
         <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
-          <button
-            class="bg-scale-green py-4 rounded-lg px-5  focus:outline-none text-white lg:text-base xl:text-xl inter-font"
-          >
-            <a href="https://paystack.com/buy/boost-your-business-profit"
-              >GET EBOOK NOW</a
+          <router-link to="/maxprofit-upsell">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
             >
-          </button>
+              GET EBOOK NOW
+            </button>
+          </router-link>
         </div>
       </div>
 
@@ -100,14 +93,14 @@
         ref="bookcovers"
         class="lg:px-24 xl:px-36 sm:px-12 sm:flex sm:py-16 px-10 xl:py-36 py-12 items-center relative"
       >
-        <div class="sm:w-8/12 ">
+        <div class="sm:w-8/12">
           <h1
             class="text-center font-medium sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text libre"
           >
             The different categories covered in this checklist include:
           </h1>
           <div
-            class="sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight  libre"
+            class="sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight libre"
           >
             <div class="flex leading-none">
               <img
@@ -115,9 +108,7 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">
-                Business structure
-              </p>
+              <p class="ml-4">Business structure</p>
             </div>
             <div class="flex mt-6 leading-none">
               <img
@@ -125,9 +116,7 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">
-                Contracts and Agreement
-              </p>
+              <p class="ml-4">Contracts and Agreement</p>
             </div>
             <div class="flex mt-6 leading-none">
               <img
@@ -135,9 +124,7 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">
-                Taxation
-              </p>
+              <p class="ml-4">Taxation</p>
             </div>
             <div class="flex mt-6 leading-none">
               <img
@@ -145,9 +132,7 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">
-                Share structure
-              </p>
+              <p class="ml-4">Share structure</p>
             </div>
             <div class="flex mt-6 leading-none">
               <img
@@ -155,9 +140,7 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">
-                Trademark
-              </p>
+              <p class="ml-4">Trademark</p>
             </div>
             <div class="flex mt-6 leading-none">
               <img
@@ -165,14 +148,10 @@
                 alt="bullet"
                 class="mt-1 h-2 sm:h-3"
               />
-              <p class="ml-4">
-                Intellectual Property
-              </p>
+              <p class="ml-4">Intellectual Property</p>
             </div>
             <div class="flex mt-6 leading-none">
-              <p class="">
-                and more...
-              </p>
+              <p class="">and more...</p>
             </div>
           </div>
         </div>
@@ -187,297 +166,200 @@
         </div>
       </div>
 
-      <div class="sm:px-12 lg:px-24 xl:px-36 sm:flex px-10">
-        <div class="sm:w-7/12">
+      <div
+        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
+      >
+        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:mx-0 sm:w-6/12">
+          <img src="../assets/img/checklist2.png" alt="checklist" />
+        </div>
+        <div class="sm:w-5/12">
           <p
             class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text libre"
           >
-            With the many challenges faced in business, one area a business
-            owner cannot afford to be ignorant is the legal aspect.
+            The checklist covers only 2 pages of the book, such that you can
+            apply it in <span class="font-semibold">under 5 minutes</span>.
             <br />
             <br />
-            It can make the business grounded unexpectedly and for reasons that
-            could easily have been resolved earlier.
-            <br />
-            <br />
-            It could also mean that the business owner is making less money than
-            should be made due to ignorance of certain benefits the business can
-            access by the Law.
+            The Checklist is also reusable on a monthly or yearly basis as the
+            need may arise.
           </p>
-          <div class="sm:mt-10 lg:mt-16 xl:mt-20 text-center sm:text-left">
-            <button
-              class="bg-scale-green py-4 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
-            >
-              <a href="https://paystack.com/buy/boost-your-business-profit"
-                >GET EBOOK NOW</a
+          <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
+            <router-link to="/maxprofit-upsell">
+              <button
+                class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
               >
-            </button>
+                DOWNLOAD IT NOW
+              </button>
+            </router-link>
           </div>
-        </div>
-        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:w-5/12">
-          <img src="../assets/img/chapter7.png" alt="book" />
         </div>
       </div>
 
-      <div class="py-14 px-8 sm:px-12 lg:px-24 xl:px-52">
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 py-10">
         <p
-          class="text-center text-nav-text font-medium libre text sm:text-2xl lg:text-3xl xl:text-4xl"
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
-          In this book, the legal aspect of your business has
-          <br class="hidden sm:block" />
-          been explained in such a way that you will uncover
-          <br class="hidden sm:block" />
-          the legal steps that make certain businesses more <br />
-          profitable than others.
+          Our team of entrepreneurially minded and experienced lawyers, headed
+          by <span class="font-semibold">Olusegun Oyesanya</span> and
+          <span class="font-semibold">Akinwunmi Akinbile</span>, have devoted
+          several years to attending to the legal issues and challenges of
+          entrepreneurs in Nigeria. <br />
+          <br />
+          And have come to know how best to give direction to businesses that
+          seek to last as well as thrive in Nigeria.
         </p>
       </div>
 
       <div
-        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex justify-between px-10"
+        class="sm:mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
       >
-        <div class="sm:w-6/12">
+        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:mx-0 sm:w-6/12">
+          <img src="../assets/img/checklist3.png" alt="checklist" />
+        </div>
+        <div class="sm:w-5/12">
           <p
             class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text libre"
           >
-            Many business owners shy away from the Law thinking it is just
-            expensive and adds nothing to their business, but this is not true
-            at all.
-            <br />
-            <br />
-            The provisions of the Law are meant to give your business certain
-            benefits. You will only miss out of this benefit due to ignorance of
-            what they are and how to take advantage of them.
+            Out of this experience and concern was born the
+            <span class="font-semibold">Maximum Profit Legal Checklist</span>
+            and its complementary ₦1,000 ebook:
+            <span class="font-semibold">
+              “Legal Guide for a Maximum Profit Business'' </span
+            >, which are now considered necessary handbooks for all business
+            owners in Nigeria.
           </p>
+          <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
+            <router-link to="/maxprofit-upsell">
+              <button
+                class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+              >
+                DOWNLOAD IT NOW
+              </button>
+            </router-link>
+          </div>
         </div>
-        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:w-5/12">
-          <img src="../assets/img/lawyer.svg" alt="lawyer" />
-        </div>
-      </div>
-
-      <div
-        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
-      >
-        <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:mx-0 sm:w-5/12">
-          <img src="../assets/img/chapter5.png" alt="chapter5" />
-        </div>
-        <div class="sm:w-6/12">
-          <p
-            class="text-center sm:text-left lg:text-xl xl:text-2xl sm:w-11/12 sm:mt-8 lg:mt-10 text-body-text libre"
-          >
-            This book clearly explains the different aspects of the law and then
-            the benefits that you can gain from them through appropriate steps
-            which eventually end up in more profit for you as a business.
-            <br />
-            <br />
-            There should be no room of guesswork or unnecessary mistakes in this
-            aspect of your business, since it can be very costly.
-            <br />
-            <br />
-            This is why we have made this book very affordable for all who seek
-            one thing only: <span class="font-bold">RESULTS</span>.
-          </p>
-        </div>
-      </div>
-      <div class="mt-8 lg:mt-0 flex justify-center">
-        <button
-          class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
-        >
-          <a href="https://paystack.com/buy/boost-your-business-profit"
-            >DOWNLOAD IT NOW</a
-          >
-        </button>
       </div>
 
       <div class="py-20 xl:py-24 px-8 sm:px-12 lg:px-24 xl:px-52">
         <p
-          class="text-center text-nav-text font-medium libre text sm:text-2xl lg:text-3xl xl:text-4xl"
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
-          Set your business on a more secure, more
-          <br class="hidden sm:block" />
-          profitable and more successful path now.
+          Don't just take our word for it,
+          <span class="font-semibold"
+            >hear from other <br class="hidden sm:block" />
+            business owners</span
+          >
+          who have benefitted a whole <br class="hidden sm:block" />
+          lot from this book.
         </p>
       </div>
 
       <div
-        ref="bookcovers"
-        class="lg:px-24 xl:px-36 sm:px-12 sm:flex sm:py-10 px-10"
+        class="px-10 lg:px-0 flex justify-center flex-wrap xl:space-x-16 lg:space-x-10"
       >
-        <div class="sm:w-8/12">
-          <h1
-            class="text-center font-medium sm:text-left text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-nav-text libre"
-          >
-            What this Book Covers
-          </h1>
-          <div
-            class="sm:text-base lg:text-xl xl:text-2xl sm:w-11/12 mt-6 sm:mt-8 xl:mt-16 text-body-text sm:leading-tight libre"
-          >
-            <div class="flex leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                The Choosing the most profitable legal structure specific to
-                your business.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Mastering share ownership and structuring to give your business
-                financing and hiring advantages.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Getting financing for your business whilst protecting your
-                interest.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Handling taxes to ensure business growth and profit.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Contracts that are necessary to protect and scale your business.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                The role of trademarks in preserving and increasing your
-                business’ profit.
-              </p>
-            </div>
-            <div class="flex mt-6 leading-none">
-              <img
-                src="../assets/img/bullet.svg"
-                alt="bullet"
-                class="mt-1 h-2 sm:h-3"
-              />
-              <p class="ml-4">
-                Securing your business from or during potential conflicts and
-                court cases.
-              </p>
-            </div>
+        <div
+          class="sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/red500.svg" alt="" class="w-14" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              I highly recommend the ScaleLegal team. We had made some initial
+              mistakes when we started out but they were able to spot it and
+              help us avert some serious losses down the line. Kudos.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3 mt-5">
+            <p class="text-sm xl:text-base">
+              Ose Iyoke, <span class="font-semibold">Cofounder</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 sm:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre sm:ml-14 flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/tiedywears.svg" alt="" class="w-28" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              I first got the checklist before the book and all I can say is
+              scales fell off. Don't delay getting these book, I could have
+              averted some foreseeable troubles that I now know I won't make
+              again.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3 mt-5">
+            <p class="text-sm xl:text-base">
+              Dolapo Suleiman, <span class="font-semibold">CEO</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 lg:mt-0 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/cheapmedia2.svg" alt="" class="w-36" />
+            <p class="mt-10 text-sm lg:text-xs xl:text-base italic">
+              The most intelligent lawyers I yet to meet. You always want to run
+              your business through them anytime.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3">
+            <p class="text-sm xl:text-base">
+              Oladayo O, <span class="font-semibold">COO</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre sm:ml-14 flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/smileplug.svg" alt="" class="w-36" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              They came highly recommended and they didn't disappoint at all. If
+              it;s about startups and business in Nigeria, you need ScaleLegal.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3 mt-5">
+            <p class="text-sm xl:text-base">
+              Mary A, <span class="font-semibold">CEO</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 sm:w-5/12 lg:w-3/12 shadow-xl rounded-xl px-10 sm:px-6 lg:px-5 py-8 libre flex flex-col justify-between"
+        >
+          <div>
+            <img src="../assets/img/rapidpay.svg" alt="" class="w-36" />
+            <p class="mt-5 text-sm lg:text-xs xl:text-base italic">
+              The checklist saved my business big time. I had to read the book
+              twice to ensure I didn't miss anything. I will always look forward
+              to any content from your team.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3 mt-5">
+            <p class="text-sm xl:text-base">
+              Paul Akubo, <span class="font-semibold">CEO</span>
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="mt-14 xl:mt-20 sm:px-14 lg:px-24 xl:px-36 px-10">
-        <h2
-          class="text-center text-nav-text archivo-font text-xl sm:text-2xl lg:text-3xl xl:text-4xl sm:w-9/12 sm:mx-auto"
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 mt-28">
+        <p
+          class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
-          More Reasons Why You Should Read this
-        </h2>
-        <div
-          class="sm:mt-8 mt-5 text-center libre text-body-text sm:w-9/12 sm:mx-auto"
-        >
-          <p class="sm:text-base text-sm xl:text-xl">
-            Our books are not written just to give information. They
-            <br class="hidden sm:block" />
-            are designed to be practical and very result-oriented.
-            <br />
-            <br />
-            Here are the results we are certain you will get:
-          </p>
-        </div>
-        <div class="flex flex-col sm:flex-row mt-8 xl:mt-20 sm:mt-12">
-          <div class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8">
-            <img
-              src="../assets/img/growth.svg"
-              alt="growth"
-              class="sm:h-32 xl:h-48 h-48"
-            />
-            <h2
-              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
-            >
-              More Profit
-            </h2>
-            <p
-              class="text-body-text text-center mt-3 leading-tight text-xs lg:text-sm inter-font"
-            >
-              Understanding the legal steps in this book gives you advantages
-              which others are unaware of or unable to utilise in maximising
-              profit
-            </p>
-          </div>
-          <div
-            class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8 mt-10 sm:mt-0"
-          >
-            <img
-              src="../assets/img/growth.svg"
-              alt="growth"
-              class="sm:h-32 h-48 xl:h-48"
-            />
-            <h2
-              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
-            >
-              Fewer Losses
-            </h2>
-            <p
-              class="text-body-text text-center mt-3 leading-tight text-xs lg:text-sm inter-font"
-            >
-              Costly mistakes and terrible losses, which may sometimes be
-              irreversible, have been made due ignorance of simple processes
-              that should have even made the business more money.
-            </p>
-          </div>
-          <div
-            class="sm:w-1/3 flex flex-col px-3 lg:px-6 xl:px-8 mt-10 sm:mt-0"
-          >
-            <img
-              src="../assets/img/growth.svg"
-              alt="growth"
-              class="sm:h-32 h-48 xl:h-48"
-            />
-            <h2
-              class="text-lg text-nav-text sm:text-xl xl:text-3xl xl:mt-5 text-center"
-            >
-              More Strategic
-            </h2>
-            <p
-              class="text-body-text text-center mt-3 leading-tight text-xs lg:text-sm inter-font"
-            >
-              This book takes into account the different stages of growth of
-              your business and allow you to plan into the next phase in a legal
-              and secure and scalable manner
-            </p>
-          </div>
-        </div>
-        <div class="mt-8 lg:mt-12 flex justify-center">
+          Download the ebook now and take the guesswork out of the legal part of
+          your business
+          <span class="font-semibold">for FREE</span>
+        </p>
+        <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
           <button
-            class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
+            class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
           >
-            <a href="https://paystack.com/buy/boost-your-business-profit"
-              >I WANT TO GET IT NOW</a
-            >
+            DOWNLOAD IT NOW
           </button>
         </div>
       </div>
@@ -486,13 +368,11 @@
 </template>
 
 <script>
-import Modal from "./Modal.vue";
-import Header from "./Header.vue";
+import Header2 from "./Header2.vue";
 export default {
   name: "Home",
   components: {
-    Modal,
-    Header,
+    Header2,
   },
   data() {
     return {
@@ -508,12 +388,6 @@ export default {
       var top = element.offsetTop;
 
       window.scrollTo(0, top);
-    },
-    showmodal() {
-      this.isModalVisible = true;
-    },
-    closeModal() {
-      this.isModalVisible = false;
     },
   },
 };

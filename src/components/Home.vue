@@ -54,7 +54,7 @@
           >Blog</a
         >
         <a
-          href="https://blog.scalelegal.africa/"
+          href="https://scalelegal.africa/about"
           class="sm:text-xs xl:text-base xl:leading-none text-nav-text sm:text-white mt-4 sm:mt-0"
           >About</a
         >
@@ -66,12 +66,17 @@
     <div
       class="px-10 sm:px-20 lg:px-28 xl:px-36 py-16 sm:py-24 lg:py-32 xl:py-44 bg-nav-text text-white"
     >
-      <h1 class="text-3xl lg:text-5xl xl:text-6xl libre font-light">
-        Our Knowledge
+      <p class="font-light libre uppercase lg:text-xl xl:text-2xl">
+        Get Our Books
+      </p>
+      <h1
+        class="text-3xl lg:text-5xl xl:text-6xl libre font-light mt-2 sm:w-8/12"
+      >
+        Designed to Secure your Business and Grow your Profit
       </h1>
       <p class="mt-5 sm:mt-8 inter-font sm:text-xl lg:text-2xl xl:text-3xl">
-        Secure and scale your business with a <br />
-        trusted and result-oriented legal <br />
+        Secure and scale your business with our <br class="hidden sm:block" />
+        trusted and result-oriented legal <br class="hidden sm:block" />
         information packs.
       </p>
     </div>
@@ -79,52 +84,47 @@
     <div
       class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-52 lg:px-20 px-10 sm:px-16"
     >
-      <div class=" flex flex-col sm:flex-row justify-center sm:items-end">
+      <div class="flex flex-col sm:flex-row justify-center sm:items-end xl:items-center">
         <div class="sm:w-6/12 mt-10 sm:mt-0">
           <img src="../assets/img/checklist.png" alt="" />
         </div>
         <div class="sm:w-6/12 lg:mb-24 mb-16">
           <h1
-            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-6xl libre sm:w-10/12"
           >
-            Ensure that <br />
-            your business can <br />
-            guarantee long <br />
-            term business <br />
-            security & growth
+            Get a FREE Checklist that ensures your business is legally compliant
+            for growth
           </h1>
-          <button
-            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-          >
-            DOWNLOAD FOR FREE
-          </button>
+          <router-link to="/checklist">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+            >
+              DOWNLOAD FOR FREE
+            </button>
+          </router-link>
         </div>
       </div>
 
       <div
-        class="flex flex-col sm:flex-row justify-center sm:items-end sm:mt-5"
+        class="flex flex-col sm:flex-row justify-center sm:items-end sm:mt-5 xl:items-center"
       >
         <div class="sm:w-6/12 mt-10 sm:mt-0">
           <img src="../assets/img/book-cover.png" alt="" />
         </div>
         <div class="sm:w-6/12 lg:mb-24 mb-16">
           <h1
-            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
+            class="font-medium text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-6xl libre sm:w-10/12"
           >
-            Want to make <br />
-            your Business <br />
-            <span class="font-bold"
-              >more <br />
-              Profitable</span
-            >
-            <br />
-            than it is now?
+            The Definitive Guide to building a maximum profit business that is
+            legally compliant
           </h1>
-          <button
-            class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-          >
-            I WANT TO BUY IT NOW
-          </button>
+          <router-link to="/maxprofit">
+            <button
+              class="bg-scale-green py-4 rounded-lg px-6 mt-8 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+            >
+              I WANT TO BUY IT NOW
+            </button>
+          </router-link>
         </div>
       </div>
     </div>

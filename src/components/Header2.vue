@@ -6,7 +6,13 @@
       class="flex justify-between items-center sm:w-4/12 lg:w-5/12 xl:w-6/12"
     >
       <div class="w-6/12 sm:w-full">
-        <img src="../assets/img/logo.svg" alt="logo" class="sm:h-12 xl:h-16" />
+        <router-link to="/">
+          <img
+            src="../assets/img/logo.svg"
+            alt="logo"
+            class="sm:h-12 xl:h-16"
+          />
+        </router-link>
       </div>
       <button class="focus:outline-none sm:hidden" @click="toggle">
         <img
@@ -20,27 +26,38 @@
     </div>
 
     <div
-      class="sm:w-8/12 lg:w-7/12 xl:w-7/12 sm:flex sm:flex-row sm:justify-between sm:items-center p-4 sm:p-0 flex flex-col text-right"
+      class="w-11/12 bg-white absolute sm:relative sm:w-8/12 lg:w-7/12 xl:w-7/12 sm:flex sm:flex-row sm:justify-between sm:items-center p-4 sm:p-0 flex flex-col text-right border sm:border-0 border-nav-text z-20"
       :class="{ hidden: !isopen, flex: isopen }"
     >
-      <a href="#" class="sm:text-xs xl:text-base xl:leading-none text-nav-text"
+      <a
+        href="https://scalelegal.africa/services"
+        class="sm:text-xs xl:text-base xl:leading-none text-nav-text"
         >Our Services</a
       >
       <a
-        href="#"
+        href="https://scalelegal.africa/expertise"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         >Expertise</a
       >
       <a
-        href="#"
+        href="https://scalelegal.africa/team"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         >The Team</a
       >
       <a
-        href="#"
+        href="https://blog.scalelegal.africa/"
         class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
         >Blog</a
       >
+      <router-link
+        to="/checklist/upsell"
+        class="sm:text-xs xl:text-base xl:leading-none text-nav-text mt-4 sm:mt-0"
+        ><button
+          class="border border-nav-text rounded-xl py-2 sm:py-3 px-3 focus:outline-none"
+        >
+          Download book
+        </button>
+      </router-link>
     </div>
   </div>
 </template>

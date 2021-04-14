@@ -2,6 +2,41 @@
   <div>
     <Header />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
+      <div class="sm:px-10 xl:px-56 mt-12 xl:mt-16" :class="{ hidden: closed }">
+        <div
+          class="bg-client-bg px-6 sm:px-10 py-10 sm:rounded-xl shadow-xl flex flex-col sm:flex-row justify-around items-center relative"
+        >
+          <img
+            src="../assets/img/close.svg"
+            alt=""
+            class="absolute right-10 top-10 lg:h-6"
+            @click="close"
+          />
+          <div class="sm:w-5/12 w-7/12">
+            <img src="../assets/img/stack.png" alt="" class="" />
+          </div>
+          <div
+            class="text-white inter-font w-11/12 sm:w-6/12 mt-5 sm:mt-0 text-center sm:text-left"
+          >
+            <h1
+              class="font-medium text-sm sm:text-base lg:text-2xl xl:text-3xl"
+            >
+              Thank you for downloading <br />
+              <span class="font-semibold">The Maximum Profit Checklist</span>
+            </h1>
+            <p class="italic mt-4 text-xs lg:text-base">
+              Your download should begin shortly...
+            </p>
+            <p class="text-xs sm:text-sm lg:text-lg mt-7 font-medium">
+              Before you go, we think you should consider getting this
+              complimentary book. It will give you step by step action points on
+              how to ensure your business is fully legally compliant for the
+              growth and maximum profit it deserves.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div
         class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-6 sm:px-16 flex items-center justify-between space-x-2"
       >
@@ -415,9 +450,13 @@ export default {
   components: {
     Header,
   },
-
   metaInfo: {
     title: "Publications :: ScaleLegal Africa",
+  },
+  data() {
+    return {
+      closed: false,
+    };
   },
   methods: {
     scrollMeTo(refName) {
@@ -426,6 +465,13 @@ export default {
 
       window.scrollTo(0, top);
     },
+    close() {
+      this.closed = true;
+    },
+  },
+  mounted() {
+    window.location.href =
+      "https://drive.google.com/uc?export=download&id=1aE6Vy4h5PQwZ78h64RroCte3MYjylbSE";
   },
 };
 </script>
