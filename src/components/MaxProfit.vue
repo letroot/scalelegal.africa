@@ -52,7 +52,7 @@
           <button
             class="bg-scale-green py-4 rounded-lg px-6 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
           >
-            GET EBOOK NOW
+            BUY EBOOK NOW
           </button>
         </a>
       </div>
@@ -79,7 +79,7 @@
             <button
               class="bg-scale-green py-4 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
             >
-              <a href="https://paystack.com/buy/max-profit">GET EBOOK NOW</a>
+              <a href="https://paystack.com/buy/max-profit">BUY EBOOK NOW</a>
             </button>
           </div>
         </div>
@@ -115,7 +115,7 @@
             <button
               class="bg-scale-green py-4 rounded-lg px-5 mt-8 sm:mt-0 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
             >
-              <a href="https://paystack.com/buy/max-profit">GET EBOOK NOW</a>
+              <a href="https://paystack.com/buy/max-profit">BUY EBOOK NOW</a>
             </button>
           </div>
         </div>
@@ -232,7 +232,7 @@
           <button
             class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
           >
-            <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
+            <a href="https://paystack.com/buy/max-profit">BUY EBOOK NOW</a>
           </button>
         </div>
       </div>
@@ -277,7 +277,7 @@
             <button
               class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
             >
-              <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
+              <a href="https://paystack.com/buy/max-profit">BUY EBOOK NOW</a>
             </button>
           </div>
         </div>
@@ -400,7 +400,7 @@
           <button
             class="bg-scale-green py-4 rounded-lg px-5 focus:outline-none text-white lg:text-base xl:text-xl inter-font"
           >
-            <a href="https://paystack.com/buy/max-profit">DOWNLOAD IT NOW</a>
+            <a href="https://paystack.com/buy/max-profit">BUY EBOOK NOW</a>
           </button>
         </div>
       </div>
