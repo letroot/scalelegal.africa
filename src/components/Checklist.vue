@@ -3,14 +3,14 @@
     <Header2 />
     <div class="xl:max-w-screen-2xl xl:mx-auto">
       <div
-        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 px-8 sm:px-16 flex items-center justify-between"
+        class="py-14 sm:py-20 lg:py-16 xl:py-32 xl:px-28 lg:px-20 pl-4  sm:px-16 flex items-center justify-between"
       >
         <div class="w-5/12 sm:w-6/12">
           <h1
             class="xl:leading-tight font-medium text-xs sm:text-2xl text-nav-text lg:text-4xl lg:tracking-tight xl:text-5xl uppercase libre"
           >
             <p class="mb-2">
-              <span class="sm:text-sm lg:text-lg font-normal"
+              <span class="sm:text-sm lg:text-lg font-light sm:font-normal"
                 >The Most Important Checklist</span
               >
               <br />
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="px-8 sm:px-12 lg:px-24 xl:px-52">
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 xl:pb-16 xl:pt-0 lg:py-12 mt-5 sm:mt-0">
         <p
           class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
@@ -45,7 +45,7 @@
       </div>
 
       <div
-        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex justify-between px-10"
+        class="mt-16 sm:mt-20 sm:px-12 lg:px-24 xl:px-36 xl:pb-16 sm:flex justify-between px-10"
       >
         <div class="sm:w-6/12">
           <p
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 mt-14 sm:mt-28">
+      <div class=" px-8 sm:px-12 lg:px-24 xl:px-52 mt-16 sm:mt-28 xl:pb-10 xl:pt-0 lg:py-12">
         <p
           class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
@@ -80,20 +80,22 @@
             ensures its profitability in the long run.
           </span>
         </p>
-        <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
-          <router-link to="/maxprofit-upsell">
-            <button
-              class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-            >
-              GET EBOOK NOW
-            </button>
-          </router-link>
+        <div class="lg:mt-10 xl:mt-12 mt-5 flex justify-center">
+          <button
+            class="bg-scale-green py-3 sm:py-4 rounded-lg px-4 sm:px-6 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+            @click="openmodal"
+          >
+            GET EBOOK NOW
+          </button>
+          <div class="">
+            <modal v-if="isModalVisible" @close="closeModal" />
+          </div>
         </div>
       </div>
 
       <div
         ref="bookcovers"
-        class="lg:px-24 xl:px-36 sm:px-12 sm:flex sm:py-16 px-10 xl:py-36 py-12 items-center relative"
+        class="lg:px-24 xl:px-36 sm:px-12 sm:flex sm:py-16 px-10 xl:py-36 py-12 items-center relative mt-10 sm:mt-10 lg:mt-0"
       >
         <div class="sm:w-8/12">
           <h1
@@ -169,7 +171,7 @@
       </div>
 
       <div
-        class="mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
+        class="mt-16 sm:mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10 xl:pb-16"
       >
         <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:mx-0 sm:w-6/12">
           <img src="../assets/img/checklist2.png" alt="checklist" />
@@ -185,19 +187,23 @@
             The Checklist is also reusable on a monthly or yearly basis as the
             need may arise.
           </p>
-          <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
-            <router-link to="/maxprofit-upsell">
-              <button
-                class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-              >
-                DOWNLOAD IT NOW
-              </button>
-            </router-link>
+          <div
+            class="mt-5 lg:mt-8 xl:mt-10 flex justify-center sm:justify-start"
+          >
+            <button
+              class="bg-scale-green py-3 sm:py-4 rounded-lg px-4 sm:px-6 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+              @click="openmodal"
+            >
+              DOWNLOAD IT NOW
+            </button>
+            <div class="">
+              <modal v-if="isModalVisible" @close="closeModal" />
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 py-10">
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 py-10 xl:pb-16 xl:pt-0 lg:py-20 mt-10 sm:mt-8 lg:mt-0">
         <p
           class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
@@ -213,7 +219,7 @@
       </div>
 
       <div
-        class="sm:mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
+        class="mt-10 sm:mt-20 sm:px-12 lg:px-24 xl:px-36 sm:flex sm:justify-between px-10"
       >
         <div class="mt-8 mr-7 sm:mr-0 sm:mt-0 w-9/12 mx-auto sm:mx-0 sm:w-6/12">
           <img src="../assets/img/checklist3.png" alt="checklist" />
@@ -230,14 +236,18 @@
             >, which are now considered necessary handbooks for all business
             owners in Nigeria.
           </p>
-          <div class="mt-8 sm:mt-16 flex justify-center sm:justify-start">
-            <router-link to="/maxprofit-upsell">
-              <button
-                class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
-              >
-                DOWNLOAD IT NOW
-              </button>
-            </router-link>
+          <div
+            class="mt-5 lg:mt-8 xl:mt-12 flex justify-center sm:justify-start"
+          >
+            <button
+              class="bg-scale-green py-3 sm:py-4 rounded-lg px-4 sm:px-6 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+              @click="openmodal"
+            >
+              DOWNLOAD IT NOW
+            </button>
+            <div class="">
+              <modal v-if="isModalVisible" @close="closeModal" />
+            </div>
           </div>
         </div>
       </div>
@@ -349,7 +359,7 @@
         </div>
       </div>
 
-      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 mt-28">
+      <div class="px-8 sm:px-12 lg:px-24 xl:px-52 mt-28 xl:mt-36">
         <p
           class="text-center text-nav-text libre text sm:text-2xl lg:text-3xl xl:text-4xl"
         >
@@ -357,12 +367,16 @@
           your business
           <span class="font-semibold">for FREE</span>
         </p>
-        <div class="sm:mt-10 lg:mt-16 xl:mt-20 mt-8 flex justify-center">
+        <div class="mt-5 lg:mt-8 xl:mt-10 flex justify-center">
           <button
-            class="bg-scale-green py-4 rounded-lg px-6 focus:outline-none text-white text-sm lg:text-base xl:text-xl inter-font"
+            class="bg-scale-green py-3 sm:py-4 rounded-lg px-4 sm:px-6 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+            @click="openmodal"
           >
             DOWNLOAD IT NOW
           </button>
+          <div class="">
+            <modal v-if="isModalVisible" @close="closeModal" />
+          </div>
         </div>
       </div>
     </div>

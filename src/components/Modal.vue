@@ -5,10 +5,10 @@
         class="fixed bg-white top-1/4 right-1/2 -mr-40 sm:-mr-80 flex flex-col shadow-xl"
       >
         <section class="relative w-80 sm:w-200 flex items-center">
-          <div class="w-4/12">
+          <div class="w-4/12 hidden sm:block">
             <img src="../assets/img/checklist.png" alt="" class="ml-2" />
           </div>
-          <div class="w-8/12 bg-modal py-12 px-7">
+          <div class="sm:w-8/12 bg-modal py-12 px-7">
             <slot name="body">
               <a href="#" @click="close" class="absolute right-7 top-7"
                 ><img src="../assets/img/close.svg" alt=""
