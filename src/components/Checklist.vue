@@ -18,13 +18,15 @@
             to keep your business legally Secure and increase your profitability
           </h1>
 
-          <router-link to="/maxprofit-upsell">
-            <button
-              class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-6 lg:mt-16 xl:mt-20 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
-            >
-              DOWNLOAD FOR FREE
-            </button>
-          </router-link>
+          <button
+            class="bg-scale-green py-2 sm:py-4 rounded-lg px-3 sm:px-6 mt-5 sm:mt-6 lg:mt-16 xl:mt-20 focus:outline-none text-white text-xs lg:text-base xl:text-xl inter-font"
+            @click="openmodal"
+          >
+            DOWNLOAD FOR FREE
+          </button>
+          <div class="">
+            <modal v-if="isModalVisible" @close="closeModal" />
+          </div>
         </div>
         <div class="w-7/12 sm:w-6/12 relative">
           <img src="../assets/img/checklist-hero.png" alt="" class="z-10" />
@@ -368,11 +370,13 @@
 </template>
 
 <script>
+import Modal from "./Modal";
 import Header2 from "./Header2.vue";
 export default {
   name: "Home",
   components: {
     Header2,
+    Modal,
   },
   data() {
     return {
@@ -388,6 +392,12 @@ export default {
       var top = element.offsetTop;
 
       window.scrollTo(0, top);
+    },
+    openmodal() {
+      this.isModalVisible = true;
+    },
+    closeModal() {
+      this.isModalVisible = false;
     },
   },
 };

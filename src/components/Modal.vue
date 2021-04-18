@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="modal">
+    <div class="modal z-30">
       <div
         class="fixed bg-white top-1/4 right-1/2 -mr-40 sm:-mr-80 flex flex-col shadow-xl"
       >
         <section class="relative w-80 sm:w-200 flex items-center">
           <div class="w-4/12">
-            <img src="../assets/img/book-cover.png" alt="" class="ml-2" />
+            <img src="../assets/img/checklist.png" alt="" class="ml-2" />
           </div>
           <div class="w-8/12 bg-modal py-12 px-7">
             <slot name="body">
@@ -16,33 +16,31 @@
               <h2
                 class="mt-6 font-medium text-2xl leading-none text-nav-text libre"
               >
-                Make your Business More Profitable Now!
+                Keep your business legally Secure and increase your
+                profitability
               </h2>
               <p
                 class="mt-4 text-body-text text-xs leading-tight font-light inter-font"
               >
                 <span class="font-semibold"
-                  >Your download should begin shortly.</span
+                  >Subscribe to our mailing list to get more offers before your
+                  download begins</span
                 >
-                <br />
-                <br />
-                Do you want to learn how to make your business more profitable,
-                investible and scalable? Then we think you should buy the
-                ScaleLegal
-                <span class="font-semibold"
-                  >Legal Guide for a Maximum Profit Business</span
-                >
-                where you can learn all you need to make your ... in just 28
-                pages.
-                <br />
-                <br />
-                It costs less than a movie ticket.
               </p>
-              <router-link to="/maxprofit">
+              <div class="mt-4">
+                <input
+                  type="email"
+                  class="px-3 py-3 w-9/12 border border-nav-text text-sm text-body-text"
+                  placeholder="Type your email here"
+                  v-model="email"
+                />
+              </div>
+              <router-link to="/maxprofit-upsell">
                 <button
-                  class="bg-scale-green py-4 rounded-lg px-6 mt-5 focus:outline-none text-white text-sm inter-font"
+                  class="bg-scale-green py-2 rounded-lg px-6 mt-5 focus:outline-none text-white text-sm inter-font"
+                  @click="subscribe"
                 >
-                  GET EBOOK NOW
+                  SUBSCRIBE
                 </button>
               </router-link>
             </slot>
@@ -54,14 +52,29 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: "modal",
   data() {
-    return {};
+    return {
+      email: "",
+    };
   },
   methods: {
     close() {
       this.$emit("close");
+    },
+    subscribe() {
+      axios
+        .post("https://dry-tor-07182.herokuapp.com/cart-checkout", {
+          scalegalemail: this.email,
+        })
+        .then(() => {
+          console.log("sent");
+        })
+        .catch((error) => {
+          console.log("error: " + error);
+        });
     },
   },
 };
@@ -81,7 +94,6 @@ export default {
 
 .modal {
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
