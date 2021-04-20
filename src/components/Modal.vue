@@ -16,16 +16,19 @@
               <h2
                 class="mt-6 font-medium text-2xl leading-none text-nav-text libre"
               >
-                Keep your business legally Secure and increase your
-                profitability
+                Thank you for your interest in the Maximum Profit Legal
+                Checklist.
               </h2>
               <p
                 class="mt-4 text-body-text text-xs leading-tight font-light inter-font"
               >
                 <span class="font-semibold"
-                  >Subscribe to our mailing list to get more offers before your
-                  download begins</span
-                >
+                  >Kindly fill in your email to receive this free gift.
+                </span>
+                <br />
+                <br />
+                We promise not to share your email details with any one and you
+                can unsubscribe whenever you wish.
               </p>
               <div class="mt-4">
                 <input
