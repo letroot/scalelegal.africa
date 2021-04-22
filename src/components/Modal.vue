@@ -69,7 +69,7 @@ export default {
     },
     subscribe() {
       axios
-        .post("https://dry-tor-07182.herokuapp.com/cart-checkout", {
+        .post("https://quiet-scrubland-18032.herokuapp.com/sla-subscribe", {
           scalegalemail: this.email,
         })
         .then(() => {
