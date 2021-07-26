@@ -388,7 +388,6 @@ svg:not(:root) {
   font-size: 1.4em;
   line-height: 104.69%;
   padding-bottom: 1em;
-  border-bottom: 0.5px solid white;
 }
 
 #team-details {
@@ -709,9 +708,9 @@ svg:not(:root) {
     width: 100%;
   }
   #hero-button {
-    font-size: 9px;
+    font-size: 15px;
     border-radius: 8px;
-    height: 30px;
+    height: 43px;
     width: 140px;
     margin-bottom: 6px;
   }
@@ -723,8 +722,8 @@ svg:not(:root) {
   .team-content {
     width: 100%;
   }
-  .team-details {
-    font-size: 13px;
+  #team-details {
+    text-align: center;
   }
   #team-title {
     font-size: 21px;
@@ -843,7 +842,7 @@ svg:not(:root) {
     margin-top: 100px;
   }
   .landing {
-    height: 465px;
+    height: 320px;
   }
 }
 
