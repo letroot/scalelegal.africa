@@ -98,7 +98,6 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   color: #191c1d;
-  background-color: #abafae;
 }
 
 .landing {
@@ -397,7 +396,6 @@ svg:not(:root) {
   font-weight: 300;
   font-size: 20px;
   line-height: 23px;
-  padding-top: 0.6em;
 }
 
 .card {
@@ -656,7 +654,7 @@ svg:not(:root) {
 
 @media (max-width: 510px) {
   .rect {
-    padding: 70px 30px 70px 30px !important;
+    padding: 50px 30px 70px 30px !important;
   }
   #footer {
     padding: 80px 30px 50px 30px !important;
@@ -724,7 +722,7 @@ svg:not(:root) {
   }
   #team-details {
     text-align: center;
-    font-size: 18px;
+    font-size: 19px;
   }
   #team-title {
     font-size: 21px;
