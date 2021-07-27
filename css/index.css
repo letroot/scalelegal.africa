@@ -368,7 +368,7 @@ svg:not(:root) {
 .rect {
   display: flex;
   flex-direction: row;
-  background-color: #191c1d;
+  background-color: white;
   padding: 120px;
   flex-wrap: wrap !important;
   justify-content: space-between;
@@ -391,11 +391,11 @@ svg:not(:root) {
 }
 
 #team-details {
-  color: white;
+  color: #0a4c86;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 23px;
   padding-top: 0.6em;
 }
@@ -724,6 +724,7 @@ svg:not(:root) {
   }
   #team-details {
     text-align: center;
+    font-size: 18px;
   }
   #team-title {
     font-size: 21px;
