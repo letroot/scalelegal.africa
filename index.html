@@ -36,22 +36,25 @@
               </a>
             </div>
             <nav class="topnav" id="nav-main">
-              <a
+              <!-- <a
                 href="javascript:void(0);"
                 class="nav-icon"
                 onclick="dropDown()"
               >
                 <img src="assets/menu-bars.png" alt="menu" id="menu-bars" />
-              </a>
-              <a href="https://scalelegal.africa/about" class="has-mega">About</a>
+              </a> -->
+              <a href="https://scalelegal.africa/about" class="has-mega"></a>
 
-              <a href="https://scalelegal.africa/services" class="has-mega">Our Services</a>
+              <a href="https://scalelegal.africa/services" class="has-mega"></a>
 
-              <a href="https://scalelegal.africa/expertise" class="has-mega">Experience</a>
+              <a
+                href="https://scalelegal.africa/expertise"
+                class="has-mega"
+              ></a>
 
-              <a href="https://scalelegal.africa/team" class="has-mega">The Team</a>
+              <a href="https://scalelegal.africa/team" class="has-mega"></a>
 
-              <a href="https://blog.scalelegal.africa" class="has-mega">Blog</a>
+              <a href="https://blog.scalelegal.africa" class="has-mega"></a>
             </nav>
           </div>
           <!--
@@ -95,22 +98,25 @@
           by sending a message to us through the contact button below
           <br />
           <br />
-          
-          <div class="inputs">
-            <input type="text" name="" id="firstname" placeholder="Firstname*">
-            <input type="email" name="" id="email" placeholder="Email*">
-          </div>
-          <br>
-          <a href=""
-            ><button id="hero-button"">
+
+          <form class="inputs">
+            <input
+              type="text"
+              name=""
+              id="firstname"
+              placeholder="Firstname*"
+            />
+            <input type="email" name="" id="email" placeholder="Email*" />
+            <br />
+            <button id="hero-button" type="submit">
               TALK TO US
-            </button></a
-          >
+            </button>
+          </form>
         </div>
       </div>
     </div>
 
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
       function dropfunction(id, arrow, id2) {
         var y = window.matchMedia("(max-width: 700px)");
@@ -139,16 +145,31 @@
         }
       }
 
-      // window.onclick = function(event) {
-      //     if (!event.target.id.includes('arrow')) {
-      //         document.getElementById('my-dropdown').classList.remove("show");
-      //         document.getElementById('arrow').classList.remove("rotate");
+      function post(user) {
+        axios
+          .post(
+            "https://quiet-scrubland-18032.herokuapp.com/sla-subscribe",
+            user
+          )
+          .then((response) => {
+            const addedUser = response.data;
+            console.log(`POST: user is added`, addedUser);
+            window.location.href = "https://wa.me/2348089062718";
+          })
+          .catch((error) => console.error(error));
+      }
 
-      //         document.getElementById('my-dropdown-1').classList.remove("show");
-      //         document.getElementById('arrow-1').classList.remove("rotate");
-      //     }
+      const form = document.querySelector("form");
 
-      // };
+      const formEvent = form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const firstname = document.querySelector("#firstname").value;
+        const email = document.querySelector("#email").value;
+
+        const user = { firstname, email };
+        post(user);
+      });
     </script>
   </body>
 </html>
