@@ -117,13 +117,9 @@
           <br />
 
           <form class="inputs">
-            <input
-              type="text"
-              name=""
-              id="firstname"
-              placeholder="Firstname*"
-            />
-            <input type="email" name="" id="email" placeholder="Email*" />
+            <input type="text" id="firstname" placeholder="Firstname*" />
+            <input type="email" id="email" placeholder="Email*" />
+            <input type="text" id="business" placeholder="Name of Business*" />
             <br />
             <button id="hero-button" type="submit">
               TALK TO US
@@ -183,8 +179,9 @@
 
         const firstname = document.querySelector("#firstname").value;
         const email = document.querySelector("#email").value;
+        const business = document.querySelector("#business").value;
 
-        const user = { firstname, email };
+        const user = { firstname, email, business };
         post(user);
       });
     </script>
