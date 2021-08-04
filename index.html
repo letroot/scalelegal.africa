@@ -121,7 +121,13 @@
               type="text"
               name=""
               id="firstname"
-              placeholder="Firstname*"
+              placeholder="First name*"
+            />
+            <input
+              type="text"
+              name=""
+              id="businessname"
+              placeholder="Business name*"
             />
             <input type="email" name="" id="email" placeholder="Email*" />
             <br />
@@ -183,8 +189,9 @@
 
         const firstname = document.querySelector("#firstname").value;
         const email = document.querySelector("#email").value;
-
-        const user = { firstname, email };
+        const business_name = document.querySelector("#businessname").value;
+        
+        const user = { firstname, email, business_name };
         post(user);
       });
     </script>
